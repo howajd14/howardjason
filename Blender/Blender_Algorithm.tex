@@ -1,0 +1,21 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+
+\begin{document}
+In a previous paper the notion of the master set $\{ \Sigma_i, e_i \}_\Omega $ of the $\Omega$ total configurations and energies was put forth. The master set refers actual configurations to the set. In practice to calculate the density of energy states $G(E_j)$ this may require randomly sampling the configurations space.  In a previous work it was shown that a properly scaled histogram of a sampled set $\{ \Sigma_s, e_s \}_\mathcal{S}$ converges to the exact density of states $G(E_j)$ as the the number of samples $\mathcal{S}$ goes to infinity. The problem with this method is that if $\Omega$ is large, which it is for many problems,  then the computationally effort to achieve convergence is not feasible.  This work tackles this issue produce an algorithm that is highly parallel (as is the computation of a random set) but also incorporates importance sampling such as in the Wang and Landau method.
+
+The ``Blender" algorithm proposed in this work  is given as follows. \\
+\begin{equation}
+\begin{split}
+&1.\hspace{0.125cm} G(E_j)^i ,\hspace{0.15cm}  \{\Sigma_{s}\}_{\mathcal{S}}^i\\
+&2. \hspace{0.125cm}\{\Sigma_{s}\}_{\mathcal{S}}^i \rightarrow  \{\Sigma_{s}^{'}\}_{\mathcal{S}}^i\\
+&3. \hspace{0.125cm}G(E_j)^{Ii} = G(E_j)^i + \mathcal{H}(E_j, \{e_{s}^{'}\}_{\mathcal{S}}^i) \\
+&4. \hspace{0.125cm}\{\Sigma_{s}^{'}\}_{\mathcal{S}}^i \rightarrow \{\Sigma_{s}\}_{\mathcal{S}}^{i+1}, \hspace{0.15cm} P(1, G(e_s)^{Ii}/G(e_s^{'})^{Ii})\\
+&5. \hspace{0.125cm}else  \hspace{0.15cm} \{\Sigma_{s}\}_{\mathcal{S}}^i \rightarrow \{\Sigma_{s}\}_{\mathcal{S}}^{i+1}\\
+&6. \hspace{0.125cm} G(E_j)^{i+1} = G(E_j)^{i} + C_o\mathcal{H}(E_j, \{e_s\}_{\mathcal{S}}^{i+1})\frac{G(e_s)^{Ii}}{\sum_j G(E_j)^{Ii} }
+\end{split}
+\end{equation}
+
+\end{document}
