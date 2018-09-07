@@ -1,0 +1,29 @@
+#include "../classes/Wave_Function.hpp"
+
+
+using namespace std; 
+
+int main()
+{
+int size = 10; 
+psi  mypsi(size,1,1,1); 
+
+for(int x=1; x<=size; x++)
+{
+	 mypsi.set_psi(x,1,1,x*x,x*x) ; 
+}
+for(int x=1; x<=size; x++)
+{
+	cout << "\n" << mypsi.get_psiR(x,1,1) << "\t" << mypsi.get_psiI(x,1,1); 
+}
+mypsi.normalize(); 
+for(int x=1; x<=size; x++)
+{
+	cout << "\n" << mypsi.get_psiR(x,1,1) << "\t" << mypsi.get_psiI(x,1,1); 
+}
+
+cout << "\n\n" << mypsi.get_totEn(1,1) << "\n\n" ; 
+
+
+return 0; 
+}
