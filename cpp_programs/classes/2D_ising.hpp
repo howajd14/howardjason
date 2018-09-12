@@ -17,6 +17,12 @@ class ising2d
 	        int index = (x-1)*a_s + y; 
 		return a_rep[index-1]; 	
 	}
+	int get_M()
+	{
+		int M =0; 
+		for(int x=1; x<=a_s*a_s; x++){M= M+a_rep[x-1];}
+		return M; 
+	}
 	double get_en(double J)
 	{
 		double E =0; 

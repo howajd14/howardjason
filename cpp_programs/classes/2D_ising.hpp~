@@ -17,6 +17,12 @@ class ising2d
 	        int index = (x-1)*a_s + y; 
 		return a_rep[index-1]; 	
 	}
+	int get_M()
+	{
+		int M =0; 
+		for(int x=1; x<=a_s; x++){M= M+a_rep[x-1];}
+		return M; 
+	}
 	double get_en(double J)
 	{
 		double E =0; 
@@ -53,14 +59,14 @@ a_s=1;
 
 ising2d::ising2d(int n)
 {
-for(int x=1; x<=n; x++)
-{
-	for(int y=1; y<=n; y++)
+	for(int x=1; x<=n; x++)
 	{
-		a_rep.push_back(0); 
+		for(int y=1; y<=n; y++)
+		{
+			a_rep.push_back(0); 
+		}
 	}
-}
-a_s = n; 
+	a_s = n; 
 }
 ising2d::~ising2d()
 {}
