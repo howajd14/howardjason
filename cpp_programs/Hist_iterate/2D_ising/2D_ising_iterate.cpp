@@ -6,11 +6,13 @@ using namespace std;
 
 int main()
 {
-  int S = 1e3; 
-  int its = 1e5;
-  double J= -0.005; 
-  int  n = 6; 
-  double omega = 2; for(int x=1; x<=(n*n)-1; x++){omega=omega*2;} cout << "\n" << omega << "\n"; 
+  int S = 1; 
+  int its = 2e6;
+  double J= -0.001; 
+  int  n = 16; 
+   double omega = 2; for(int x=1; x<=(n*n)-1; x++){omega=omega*2;} cout << "\n" << omega << "\n"; 
+ 
+  //double Osub = 1e250; 
   vector<ising2d>  is_a; for(int x=1; x<=S; x++){is_a.push_back(ising2d(n)); }
   srand(time(NULL)); 
   vector<double> ens; 
@@ -28,7 +30,7 @@ int main()
 	double E=0; 
 	for(int y=1; y<=n-1; y++)
 	{
-          E = is_a[x-1].get_en(J); 
+          E = (1.0/2.0)*is_a[x-1].get_en(J); 
 	}
 	ens.push_back(E); 
   }
@@ -52,7 +54,7 @@ for(int x=1; x<=its; x++)
 		double E1=0; 
 		
 		
-		  E1 = n_a[y-1].get_en(J); 
+		  E1 = (1.0/2.0)*n_a[y-1].get_en(J); 
 		
 	       ensp.push_back(E1); 
  	       
@@ -88,7 +90,7 @@ for(int x=1; x<=its; x++)
 		Hp.set_count(kk,omega*Hp.get_count(kk)*GEI.get_count(wb)/GEI.get_sum()); 
 	}
 	GE.combine(Hp); 
-         double sumtemp = GE.get_sum(); 
+        double sumtemp = GE.get_sum(); 
 	for(unsigned int kk=1; kk<=GE.num_bins(); kk++)
 	{
 		if(GE.get_count(kk)*omega/sumtemp < 1.0){GE.set_count(kk,sumtemp/omega);}
@@ -97,9 +99,9 @@ for(int x=1; x<=its; x++)
 double Nf = (omega/GE.get_sum()); 
 for(unsigned int x=1; x<=GE.num_bins(); x++) 
 {
-	GE.set_count(x,GE.get_count(x)*Nf); 
+	GE.set_count(x,log(GE.get_count(x)*Nf)); 
 }
 
-GE.make_file("fileHist"); 
+GE.make_file("fileHist.dat"); 
 return 0; 
 }

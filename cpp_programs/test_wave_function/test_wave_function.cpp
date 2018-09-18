@@ -11,10 +11,10 @@ int size = 1000;
 double H=1; double V=0; 
 double pt = 0.001; 
 psi  psiI(size,1,1,1); 
-int its = 10000; 
+int its = 1; 
 srand(time(NULL)); 
 double T = 1e-8; 
-double A =2.25; 
+double A =sqrt(2.0/size); 
 //double a =0.6; double b=.5; 
 double pi = 3.14159; 
 //vector<double> Ap; vector<double> Bp; 
@@ -24,14 +24,19 @@ for(int x=1; x<=size; x++)
 {
 	if(x==1){psiI.set_psi(x,1,1,0,0);}
 	if(x==size){psiI.set_psi(x,1,1,0,0);}
-	if(x!=1&&x!=size){psiI.set_psi(x,1,1,sin(A*pi*(x-1)/((size-1)*1.0)),0); }
+	if(x!=1&&x!=size){psiI.set_psi(x,1,1,A*sin(pi*(x-1)/((size-1)*1.0)),0); }
 }
+cout << "\n\n" << psiI.get_totEn(H,V); 
+for(int x=1; x<=10000; x++)
+{
 psiI.normalize();
+}
+cout << "\n\n" << psiI.get_totEn(H,V) << "\n\n";
 for(int x=1; x<=its; x++)
 {
 	
 	double Ap = A +  pt*((rand()%9+8)-12);
-	psi  psiIp(size,1,1,1); for(int ii=2; ii<=size-1; ii++){psiIp.set_psi(ii,1,1,sin(Ap*pi*(ii-1)/((size-1)*1.0)),0);}
+	psi  psiIp(size,1,1,1); for(int ii=2; ii<=size-1; ii++){psiIp.set_psi(ii,1,1,Ap*sin(pi*(ii-1)/((size-1)*1.0)),0);}
 	psiIp.normalize();
 	double EI = psiI.get_totEn(H,V); double EIp = psiIp.get_totEn(H,V); 
 	if(x%1000==0){cout << "\n" << EI<<"\t" << A  ;}
@@ -42,7 +47,7 @@ for(int x=1; x<=its; x++)
 		A = Ap; 
 		for(int xi=2; xi<=size-1; xi++)
 		{
-			psiI.set_psi(xi,1,1,sin(Ap*pi*(xi-1)/((size-1)*1.0)),0); 
+			psiI.set_psi(xi,1,1,Ap*sin(pi*(xi-1)/((size-1)*1.0)),0); 
 		}
 		
 	}

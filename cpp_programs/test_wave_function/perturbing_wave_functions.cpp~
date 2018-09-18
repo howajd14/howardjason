@@ -2,27 +2,27 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <math.h>
 using namespace std; 
 
 int main()
 {
-int size = 100; 
+int size = 1000; 
 double H=1; double V=0; 
-double pt = 0.0001;
-int S = 10;  
+double pt = 0.00001;
+int S = 1;  
 psi  psiI(size,1,1,1); 
 psi zeropsi(size,1,1,1); 
 vector<psi>  eps; for(int x=1; x<=S; x++){eps.push_back(psiI);}
-int its = 200000; 
+int its = 1e7; 
 srand(time(NULL)); 
-double T = 1e-5; 
+double T = 2e-9; 
+double pi = 3.14159; 
 for(int x=1; x<=size; x++)
 {
 
 	if(x==1){psiI.set_psi(x,1,1,0,0);}
 	if(x==size){psiI.set_psi(x,1,1,0,0);}
-	if(x!=1&&x!=size){psiI.set_psi(x,1,1,1,0); }
+	if(x!=1&&x!=size){psiI.set_psi(x,1,1,sin(10.25*pi*(x-1)/((size-1)*1.0)),0); }
 }
 psi psiIp(size,1,1,1);psiIp.equals(psiI);
 psi monitor(size,1,1,1); monitor.equals(psiI); 
@@ -34,8 +34,15 @@ for(int x=1; x<=its; x++)
 	 {
 		eps[ii-1].equals(zeropsi); 
 		int  pl = rand()%(size - 2) + 2; 
+		double enh = 1.0*(rand()%10); 
 		int  pm = (rand()%2 +1)*2  -3; 
-		eps[ii-1].set_psi(pl,1,1, pm*pt,0);
+		
+		eps[ii-1].set_psi(pl,1,1, pm*pt*enh,0);
+		if(pl>2&&pl<size-2)
+		{
+			eps[ii-1].set_psi(pl-1,1,1, pm*pt/2*enh,0);
+			eps[ii-1].set_psi(pl+1,1,1, pm*pt/2*enh,0);
+		}
 	 }
 	// psiI.normalize(); 
 	 psiIp.equals(psiI); 
@@ -45,7 +52,7 @@ for(int x=1; x<=its; x++)
 		
 	 }
 	 psiIp.normalize(); 
-	if(x%100==0){monitor.equals(psiI);monitor.normalize();cout << "\n" << monitor.get_totEn(H,V); }
+	if(x%1000==0){monitor.equals(psiI); monitor.normalize(); cout << "\n" <<  monitor.get_totEn(H,V); }
 	for(int ii =1; ii<=S; ii++)
 	{
 		double delEn =0; 
@@ -58,14 +65,17 @@ for(int x=1; x<=its; x++)
 		
 		
 		double p = (rand()%RAND_MAX +1)/(1.0*RAND_MAX);
+		//if(x%1000==0&&ii==1){cout << "\n" << exp(-delEn/T) << "\t" << delEn; }
 		if(p < exp(-delEn/T))
-		{//if(x%1000){cout << "\n" << exp(-delEn/T) << "\t" << delEn; }
+		{
 			eps[ii-1].add_psi(eps[ii-1]); 
 			psiI.add_psi(eps[ii-1]); 
 			
 		}
 		
 	}
+	//psiI.smooth(); 
+	psiI.normalize();
 
 
 }

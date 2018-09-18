@@ -21,6 +21,39 @@ class hist
 			}
 			outfile.make_file(filename); 
 		}
+		void make_file(string filename, int val)
+		{
+			if(val ==0)
+			{
+			file outfile; 
+			for(unsigned int x=1; x<=cents.size(); x++)
+			{
+				stringstream ss; string outline; string holder; 
+				ss << x; ss >> outline; ss.clear(); ss.str(""); 
+				ss << GE[x-1]; ss >> holder; outline = outline + "\t" + holder; 
+				outfile.add_line(outline);  
+			}
+			outfile.make_file(filename); 
+			}
+		
+		}
+		void make_file(string filename, double val)
+		{
+			if(val >0)
+			{
+			file outfile; 
+			for(unsigned int x=1; x<=cents.size(); x++)
+			{
+				stringstream ss; string outline; string holder; 
+				ss << cents[x-1]/(val*1.0); ss >> outline; ss.clear(); ss.str(""); 
+				ss << GE[x-1]; ss >> holder; outline = outline + "\t" + holder; 
+				outfile.add_line(outline);  
+			}
+			outfile.make_file(filename); 
+			}
+		
+		}
+		
 		void combine(const hist & H); 
 		void set_count(int x,double val){GE[x-1]=val;}
 		unsigned int num_bins() const {return cents.size();}
