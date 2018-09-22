@@ -1,0 +1,148 @@
+#!/bin/tcsh
+#
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=44
+#SBATCH --cpus-per-task=1
+#SBATCH --account="natalieGrp"
+#SBATCH --output="JOB-%j.o"
+#SBATCH --error="JOB-%j.e"
+#SBATCH --mail-user=howajd14@wfu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --job-name="LiClOH-phonons"
+#SBATCH --time=0-24:00:00
+#SBATCH --constraint="tengig"
+#SBATCH --mem=220gb
+#SBATCH --partition=small
+umask 022
+# Note: SLURM has no batch input for cputime, excluding.
+#
+echo 'hostname' `/bin/hostname`
+echo 'job directory' `pwd`
+#
+setenv TMPDIR /scratch/$SLURM_JOBID
+echo 'Reset TMPDIR for this job to ' $TMPDIR
+
+source /etc/profile.d/modules.csh
+module load openmpi/1.6-intel
+
+set PW=/home/natalie/EL6/publiccode/PWscf/espresso-6.1/qe-6.1/bin/pw.x
+
+
+#NOTE:SLURM defaults to running jobs in the directory where submitted;
+#NOTE:Consider --workdir directive instead; and check functionality!
+cd ${SLURM_SUBMIT_DIR}
+
+cat > LiClOH.in << EOF
+&CONTROL
+  calculation = "scf",
+  pseudo_dir  = '/deac/natalieGrp/wfurc9/howajd14/psuedo',
+  verbosity   = "high",
+  outdir      = '$TMPDIR',
+ prefix = 'LiClOH',
+  restart_mode = 'from_scratch',
+  nstep = 300,
+  dt = 20,
+  forc_conv_thr = 1.0D-5,
+  etot_conv_thr = 1.0D-6,
+  tstress = .true.,
+  tprnfor = .true.,
+/
+&SYSTEM
+  ibrav       = 1,
+	 celldm(1)=      14.336,
+
+         
+  nat         = 40,
+  ntyp        = 4,
+  nosym       =.FALSE.,
+  ecutwfc     = 64.D0,
+/
+&ELECTRONS
+  conv_thr    = 1.D-8,
+  electron_maxstep = 200,
+  mixing_beta=0.4,
+/
+&IONS
+/
+&CELL
+  cell_dynamics='bfgs',
+  wmass = 1.0,
+  press = 0.0,
+/
+ATOMIC_SPECIES
+Li  6.941    Li.LDA-PW-paw.UPF
+Cl  35.453      Cl_ks.LDA-PW-paw.UPF
+O   15.9994     O.LDA-PW-paw.UPF
+H   1.00794     H.LDA-PW-paw.UPF
+ATOMIC_POSITIONS {crystal}
+Cl       0.250299860   0.259898651   0.259598444
+Cl       0.750301951   0.248087827   0.247803064
+Cl       0.250335153   0.740260376   0.239948580
+Cl       0.250341162   0.240270490   0.739941674
+Cl       0.750297198   0.752023733   0.251753429
+Cl       0.750312627   0.252025436   0.751721911
+Cl       0.250311690   0.759910563   0.759610698
+Cl       0.750279500   0.748068997   0.747785999
+O       -0.005179577   0.000578495   0.010524870
+O        0.505770733   0.010828824   0.000303298
+O       -0.005152683   0.499516481  -0.010989644
+O       -0.005153096  -0.000482779   0.489020518
+O        0.505796712   0.489307002  -0.000755380
+O        0.505782374  -0.010690176   0.499242445
+O       -0.005165290   0.500588381   0.510538245
+O        0.505775521   0.510804116   0.500310665
+Li       0.434746042   0.750057564   0.499803537
+Li       0.539226890   0.000044261   0.249771084
+Li       0.470752942   0.500088499   0.249775575
+Li       0.029885451   0.250045320   0.499830675
+Li       0.539238918   0.500014610   0.749769768
+Li       0.750324094   0.529314607   0.029032462
+Li       0.750302001   0.470771748   0.470540728
+Li       0.750292477  -0.029246838  -0.029475594
+Li      -0.038651492   0.750046515   0.499756876
+Li       0.750314963   0.029320147   0.529020111
+Li       0.029909487   0.750042491  -0.000191962
+Li       0.470759186   0.000101586   0.749766944
+Li       0.434725179   0.250074588  -0.000207696
+Li       0.065885862   0.000085729   0.249771436
+Li       0.065909346   0.500081193   0.749770527
+Li      -0.038651797   0.250042373  -0.000240894
+H        0.082530281   0.012160108  -0.084135366
+H        0.418014310  -0.083788599   0.011889083
+H        0.082582623   0.487878509   0.083640961
+H        0.082600062  -0.012133145   0.583633661
+H        0.418091890   0.583969205  -0.012365091
+H        0.418056649   0.083951354   0.487624780
+H        0.082554300   0.512164866   0.415885874
+H        0.418039113   0.416169050   0.511908183
+K_POINTS AUTOMATIC
+2 2 2 1 1 1
+EOF
+
+mpirun $PW -in  LiClOH.in  >  LiClOH.out
+
+set PH=/home/natalie/EL6/publiccode/PWscf/espresso-6.1/qe-6.1/bin/ph.x
+
+
+cat > LiClOH.phG.in << EOF
+phonons
+
+&inputph
+outdir = '$TMPDIR',
+prefix = 'LiClOH',
+epsil = .true.,
+ldisp = .true.,
+fildyn = 'dyn.G',
+tr2_ph = 1.0d-14,
+start_q=1,
+last_q=2,
+nq1 = 2, 
+nq2 =2, 
+nq3 = 2,
+/
+
+EOF
+mpirun $PH -in LiClOH.phG.in > LiClOH.phG.out 
+
+ls $TMPDIR
+'rm' $TMPDIR/*

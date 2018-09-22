@@ -1,0 +1,128 @@
+#!/bin/tcsh
+#
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=1
+#SBATCH --account="natalieGrp"
+#SBATCH --output="JOB-%j.o"
+#SBATCH --error="JOB-%j.e"
+#SBATCH --mail-user=howajd14@wfu.edu
+#SBATCH --mail-type=NONE
+#SBATCH --job-name="LiClOH"
+#SBATCH --time=0-24:00:00
+#SBATCH --mem=10gb
+#SBATCH --partition=small
+umask 022
+# Note: SLURM has no batch input for cputime, excluding.
+#
+echo 'hostname' `/bin/hostname`
+echo 'job directory' `pwd`
+#
+setenv TMPDIR /scratch/$SLURM_JOBID
+echo 'Reset TMPDIR for this job to ' $TMPDIR
+
+
+source /etc/profile.d/modules.csh
+module load openmpi/2.1.0-intel-2018
+
+set PW=/home/natalie/EL6/publiccode/PWscf/newcluster/2.1.0/qe-6.2.1/bin/pw.x
+
+#NOTE:SLURM defaults to running jobs in the directory where submitted;
+#NOTE:Consider --workdir directive instead; and check functionality!
+cd ${SLURM_SUBMIT_DIR}
+
+cat > LiClOH.in << EOF
+&CONTROL
+  calculation = "relax",
+  pseudo_dir  = '/deac/natalieGrp/wfurc9/howajd14/psuedo',
+  verbosity   = "high",
+  outdir      = "$TMPDIR/",
+  restart_mode = 'from_scratch',
+  nstep = 1000,
+  dt = 20,
+  forc_conv_thr = 1.0D-5,
+  etot_conv_thr = 1.0D-6,
+  tstress = .true.,
+  tprnfor = .true.,
+/
+&SYSTEM
+  ibrav       = 1,
+	celldm(1)=           14.336
+         
+
+         
+  nat         = 40,
+  ntyp        = 4,
+  nosym       =.FALSE.,
+  ecutwfc     = 45.D0,
+  use_all_frac = .TRUE.,
+  occupations = "smearing",
+  smearing    = "gaussian",
+  degauss     = 0.001D0,
+/
+&ELECTRONS
+  conv_thr    = 1.D-8,
+  electron_maxstep = 200,
+  mixing_beta=0.5,
+/
+&IONS
+/
+&CELL
+  cell_dynamics='bfgs',
+  wmass = 1.0,
+  press = 0.0,
+/
+ATOMIC_SPECIES
+Li  6.941    Li.LDA-PW-paw.UPF
+Cl  35.453      Cl_ks.LDA-PW-paw.UPF
+O   15.9994     O.LDA-PW-paw.UPF
+H   1.00794     H.LDA-PW-paw.UPF
+ATOMIC_POSITIONS {crystal}
+Cl	0.226039	0.225691	0.236238
+Cl	0.766843	0.226534	0.229345
+Cl	0.231303	0.764696	0.22587
+Cl	0.246025	0.265428	0.759663
+Cl	0.766267	0.756517	0.223368
+Cl	0.74913	0.238847	0.750414
+Cl	0.268329	0.744131	0.768155
+Cl	0.752832	0.746414	0.746639
+O	0.00254736	-0.00141742	-0.0316895
+O	0.490122	-0.00646663	-0.0198077
+O	0.00711153	0.498454	-0.0129911
+O	0.00261973	0.00272272	0.5029
+O	0.492639	0.497216	-0.000897338
+O	0.496137	-0.0167773	0.514474
+O	0.00207747	0.493947	0.505138
+O	0.499482	0.470753	0.507609
+Li	0.25	0.5	0
+Li	0	0.5	0.75
+Li	0.25	0	0
+Li	0.75	0	0.5
+Li	0	0.25	0.5
+Li	0	0.25	0
+Li	0.25	0.5	0.5
+Li	0.5	0	0.75
+Li	0	0	0.25
+Li	0	0.75	0
+Li	0.5	0.25	0
+Li	0.75	0	0
+Li	0.5	0.5	0.75
+Li	0.75	0.5	0.5
+Li	0.25	0	0.5
+Li	0.5	0.75	0
+H	-0.00999662	0.00760018	-0.160524
+H	0.414191	-0.0873392	-0.0900688
+H	-0.0883767	0.505163	0.0738818
+H	-0.0123907	-0.106592	0.570608
+H	0.571145	0.502444	0.101851
+H	0.496682	-0.122723	0.440688
+H	0.000409674	0.576067	0.404576
+H	0.498884	0.348268	0.466291
+K_POINTS AUTOMATIC
+1 1 1 1 1 1
+EOF
+
+mpirun $PW -in  LiClOH.in  >  LiClOH.out
+ls $TMPDIR
+'rm' $TMPDIR/*
+

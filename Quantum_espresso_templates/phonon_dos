@@ -1,0 +1,81 @@
+#!/bin/tcsh
+#
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=1
+#SBATCH --account="natalieGrp"
+#SBATCH --output="JOB-%j.o"
+#SBATCH --error="JOB-%j.e"
+#SBATCH --mail-user=howajd14@wfu.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --job-name="LiClOH-phonons"
+#SBATCH --time=0-4:00:00
+#SBATCH --mem=10gb
+#SBATCH --partition=small
+umask 022
+# Note: SLURM has no batch input for cputime, excluding.
+#
+echo 'hostname' `/bin/hostname`
+echo 'job directory' `pwd`
+#
+setenv TMPDIR /scratch/$SLURM_JOBID
+echo 'Reset TMPDIR for this job to ' $TMPDIR
+
+source /etc/profile.d/modules.csh
+module load openmpi/1.6-intel
+
+set PW=/home/natalie/EL6/publiccode/PWscf/espresso-6.1/qe-6.1/bin/dynmat.x
+
+cat > LiClOH.dynmat.in << EOF
+
+dynmat_phonons
+
+&input
+
+fildyn = 'dyn.G1',
+asr = 'simple',
+q(1)=0.d0, q(2) = 1.d0, q(3) = 0.d0
+/
+EOF
+mpirun $PW -in LiClOH.dynmat.in > LiClOH.dynmat.out
+
+
+set PW=/home/natalie/EL6/publiccode/PWscf/espresso-6.1/qe-6.1/bin/q2r.x
+
+
+cat > LiClOH.a2r.in << EOF
+
+q2r_phonons
+
+&input
+
+fildyn = 'dyn.G',
+zasr = 'crystal',
+flfrc = 'LiClOH.444.fc'
+/
+EOF
+mpirun $PW -in LiClOH.a2r.in > LiClOH.a2r.out
+
+
+set PW=/home/natalie/EL6/publiccode/PWscf/espresso-6.1/qe-6.1/bin/matdyn.x
+
+
+cat > LiClOH.matdyn.in << EOF
+
+matdyn_phonons
+
+&input
+asr = 'crystal',
+flfrc = 'LiClOH.444.fc',
+flfrq = 'LiClOH.dos.freq',
+dos = .true.,
+fldos = 'LiClOH.dos',
+deltaE = 0.01d0,
+nk1 = 5, nk2 = 5, nk3 = 5,
+/
+EOF
+mpirun $PW -in LiClOH.matdyn.in > LiClOH.matdyn.out
+
+ls $TMPDIR
+'rm' $TMPDIR/*
+
