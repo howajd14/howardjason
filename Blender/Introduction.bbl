@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{landau_MC_simulations}
+David~P. Landau and Kurt Binder.
+\newblock {\em A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics}.
+\newblock Cambridge University Press, fourth edition edition, 2015.
+
+\bibitem{WL_phys_rev_lett}
+Fugao Wang and D.~P. Landau.
+\newblock Efficient, multiple-range random walk algorithm to calculate the
+  density of states.
+\newblock {\em Phys. Rev. Lett.}, 86:2050--2053, Mar 2001.
+
+\end{thebibliography}

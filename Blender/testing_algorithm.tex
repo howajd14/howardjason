@@ -14,9 +14,13 @@ e_i = -J\sum_{k,l =1}^n \sigma^i_{k,l}
 Where $e_i$ denotes the i'th energy of the set  $\{\Sigma_i, e_i \}_{\Omega} $ configurations and energies. The configurations and energies of the 2-d Ising model are inherently defined by the lattice site spin variables $\sigma^i_{k,l}$ and coupling constant $J$. In this work $J=1$. Several tests of the algorithm will be performed. A test of the convergence properties with respect to the number of samples $\mathcal{S}$. A test of the convergence properties in terms of the size of the system determined by $n$. These test will utilize comparisons to the exact results. Also a qualitative understanding of the convergence as a function of time will be presented. 
 The first test is a test to show the convergence of the algorithm in terms of the number of samples $\mathcal{S}$ and the number of iterations of the algorithm. To test the accuracy of the simulations the results will be compared to the exact result (insert reference later). The accuracy of the simulation will be determined by, 
 \begin{equation}
-err(I,o)  = \frac{1}{\Pi} \sum_{j=1}^{\Pi}\frac{|G_{ex}(E_j) - G_{bl}(E_j,I,o)|}{G_{ex}}\; . 
+\epsilon(I,o)  = \frac{1}{\Pi} \sum_{j=1}^{\Pi}\frac{|\ln(G_{ex}(E_j))- \ln(G_{bl}(E_j,I,o))|}{\ln(G_{ex}(E_j))}\; . 
 \end{equation}
 
 Where $G_{ex}(E_j)$ is the exact density of states, $G_{bl}(E_j,I,o)$ is the density of states at iteration number $I$ from initial conditions and trajectory $o$.
-To test the convergence in terms of number of samples $\mathcal{S}$ and number of iterations $I$ for $n=12$.  The simulations where done until $err(I,o)$ was less then 0.5$\%$, the corresponding number of iterations was recorded, this was then repeated for multiple simulations. The average value of $I$ that produced an err less then 0.5$\%$ was then calculated. 
+To test the convergence in terms of number of samples $\mathcal{S}$ and number of iterations $I$ for $n=12$.  The simulations where done until iteration average,
+\begin{equation}
+\mathcal{E} \equiv \langle \hspace{0.1cm} \epsilon(I,o)\hspace{0.1cm}\rangle_{I} = \frac{1}{I}\int_{0}^{I}\epsilon(I^{'},o)dI^{'} \;,
+\end{equation}
+ was less then 1$\%$, the corresponding number of iterations was recorded, this was then repeated for multiple simulations. The average value of $I$ that produced an $\mathcal{E}$ less then 1$\%$ was then calculated to give, $\langle \hspace{0.1cm}  I(\mathcal{E} < 0.01) \hspace{0.1cm}\rangle_{o}$. It is noted that the error is only well defined when all of the possible energies have been located. 
 \end{document}

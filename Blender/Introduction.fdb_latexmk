@@ -1,7 +1,23 @@
 # Fdb version 3
-["pdflatex"] 1536330579 "Introduction.tex" "Introduction.pdf" "Introduction" 1537029134
+["bibtex Introduction"] 1537709745 "Introduction.aux" "Introduction.bbl" "Introduction" 1537709976
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
+  "Bib.bib" 1537708987 2836 2d27228affaa9eb9d3b9ada39fba8d33 ""
+  "Introduction.aux" 1537709976 165 867b178bd62ed3ea63af160040a85c27 ""
+  "Introduction.bcf" 0 -1 0 ""
+  (generated)
+  "Introduction.bbl"
+  "Introduction.blg"
+["pdflatex"] 1537709976 "Introduction.tex" "Introduction.pdf" "Introduction" 1537709976
   "/etc/texmf/web2c/texmf.cnf" 1445356679 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -33,9 +49,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1445359451 127758 2c8a4499080148ca8c5956dd2e628608 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1445359222 722336 720d33975c48e17a822412a5893b18e3 ""
-  "Introduction.aux" 1536330579 8 a94a2480d3289e625eea47cd1b285758 ""
-  "Introduction.tex" 1537029134 907 0e70d7f0a406028742eba09bfbf1e2fd ""
+  "Introduction.aux" 1537709976 165 867b178bd62ed3ea63af160040a85c27 ""
+  "Introduction.bbl" 1537709745 469 fc8722e86382eb84bb38612cfa1303bf "bibtex Introduction"
+  "Introduction.tex" 1537709975 1714 bf5b04333711cf8b189d5299637ee255 ""
   (generated)
-  "Introduction.log"
   "Introduction.aux"
   "Introduction.pdf"
+  "Introduction.log"

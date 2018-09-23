@@ -6,7 +6,7 @@
 \begin{document}
 In a previous paper the notion of the master set $\{ \Sigma_i, e_i \}_\Omega $ of the $\Omega$ total configurations and energies was put forth. The master set refers to the actual configurations of the defined system. In practice to calculate the density of energy states $G(E_j)$  may be possible through randomly sampling the configurations space.  In a previous work it was shown that a properly scaled histogram of a sampled set $\{ \Sigma_s, e_s \}_\mathcal{S}$ converges to the exact density of states $G(E_j)$ as the the number of samples $\mathcal{S}$ goes to infinity. The problem with this method is that if $\Omega$ is large, which it is for many problems,  then the computationally effort to achieve convergence is not feasible.  This work tackles this issue produce an algorithm that is highly parallel (as is the computation of a random set) but also incorporates importance sampling such as in the Wang and Landau method.
 
-The ``Blender" algorithm proposed in this work  is given as follows. \\
+The ``B$_{L}$ENDER" algorithm proposed in this work  is given as follows. \\
 \begin{equation}
 \begin{split}
 &1.\hspace{0.125cm} G(E_j)^i ,\hspace{0.15cm}  \{\Sigma_{s},e_s\}_{\mathcal{S}}^i\\

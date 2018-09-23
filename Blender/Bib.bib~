@@ -21,7 +21,7 @@ eprint = {
 }
 
 %Wang and Landau's article in physical review letters
-@article{WL_phys_rev_lett,
+@article{PhysRevLett,
   title = {Efficient, Multiple-Range Random Walk Algorithm to Calculate the Density of States},
   author = {Wang, Fugao and Landau, D. P.},
   journal = {Phys. Rev. Lett.},
@@ -63,7 +63,7 @@ eprint = {
 }
 
 %Monte Carlo simulations book
-@book{landau_MC_simulations,
+@book{landau,
   author={David P. Landau and Kurt Binder},
   title={A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics},
   edition={Fourth Edition},
@@ -95,3 +95,4 @@ package maintained at the webpage
 	year = {1994},
 	doi = {10.1016/S0081-1947(08)60639-6},
 	pages = {33--176}}
+
