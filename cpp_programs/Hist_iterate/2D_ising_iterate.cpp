@@ -90,10 +90,11 @@ for(int x=1; x<=its; x++)
 	for(unsigned int kk=1; kk<=Hp.num_bins(); kk++)
 	{
 		int  wb =  GEI.get_bin(Hp.get_en(kk)); 
-		Hp.set_count(kk,omega*Hp.get_count(kk)*GEI.get_count(wb)/GEI.get_sum()); 
+		Hp.set_count(kk,Hp.get_count(kk)*GEI.get_count(wb)/GEI.get_sum()); 
 	}
 	GE.combine(Hp); 
 }
+
 double Nf = (omega/GE.get_sum()); 
 for(unsigned int x=1; x<=GE.num_bins(); x++) 
 {
