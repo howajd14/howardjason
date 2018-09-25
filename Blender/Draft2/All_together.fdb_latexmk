@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex All_together"] 1537819955 "All_together.aux" "All_together.bbl" "All_together" 1537820194
+["bibtex All_together"] 1537909858 "All_together.aux" "All_together.bbl" "All_together" 1537909859
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "All_together.aux" 1537820194 417 21750e18c8692c1dec612501fb26d312 ""
+  "All_together.aux" 1537909858 606 c58d3f2e1ed3c9f226fb6eeb07179531 ""
   "All_together.bcf" 0 -1 0 ""
   "Bib.bib" 1537819953 4643 e7cd362cf1fc6fab4365f630105038b2 ""
   (generated)
-  "All_together.bbl"
   "All_together.blg"
+  "All_together.bbl"
 ["latex"] 1537817691 "All_together.tex" "All_together.dvi" "All_together" 1537817692
   "/etc/texmf/web2c/texmf.cnf" 1445356679 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -36,9 +36,9 @@
   "All_together.tex" 1537817685 8633 86247d9a21883d51e2cea9b96cfcbc24 ""
   (generated)
   "All_together.dvi"
-  "All_together.aux"
   "All_together.log"
-["pdflatex"] 1537820194 "All_together.tex" "All_together.pdf" "All_together" 1537820194
+  "All_together.aux"
+["pdflatex"] 1537909858 "All_together.tex" "All_together.pdf" "All_together" 1537909859
   "/etc/texmf/web2c/texmf.cnf" 1445356679 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -87,10 +87,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1445359451 127758 2c8a4499080148ca8c5956dd2e628608 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1445359222 722336 720d33975c48e17a822412a5893b18e3 ""
-  "All_together.aux" 1537820194 417 21750e18c8692c1dec612501fb26d312 ""
-  "All_together.bbl" 1537819955 1229 ecb740310e6d4b0cb6d9250ec70774a6 "bibtex All_together"
-  "All_together.tex" 1537820191 8975 ce103d5f1896054595c37ecc22ed8fe8 ""
+  "All_together.aux" 1537909858 606 c58d3f2e1ed3c9f226fb6eeb07179531 ""
+  "All_together.bbl" 1537909858 1229 ecb740310e6d4b0cb6d9250ec70774a6 "bibtex All_together"
+  "All_together.tex" 1537909857 9292 c83cd79c53a20215ef83b5a272c41ccb ""
+  "its_for_err.png" 1537907696 7432 cea25289a7aa39ff3b6ad247760dbd04 ""
   (generated)
-  "All_together.aux"
   "All_together.pdf"
+  "All_together.aux"
   "All_together.log"

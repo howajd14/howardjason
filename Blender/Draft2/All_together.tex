@@ -20,8 +20,8 @@ The ``B$_{L}$ENDER" algorithm proposed in this work  is given as follows. It is 
 &1.\hspace{0.125cm} H(E_j)^i ,\hspace{0.15cm}  \{\Sigma_{s},e_s\}_{\mathcal{S}}^i\\
 &2. \hspace{0.125cm}\{\Sigma_{s},e_s\}_{\mathcal{S}}^i \rightarrow  \{\Sigma_{s}^{'},e_s^{'}\}_{\mathcal{S}}^i\\
 &3. \hspace{0.125cm}H(E_j)^{Ii} = H(E_j)^i + \mathcal{H}(E_j, \{e_{s}^{'}\}_{\mathcal{S}}^i) \\
-&4. \hspace{0.125cm}\{\Sigma_{s}^{'}\}_{\mathcal{S}}^i \rightarrow \{\Sigma_{s}\}_{\mathcal{S}}^{i+1}, \hspace{0.15cm} P(1, H(e_s)^{Ii}/H(e_s^{'})^{Ii})\\
-& \hspace{0.125cm}else  \hspace{0.15cm} \{\Sigma_{s}\}_{\mathcal{S}}^i \rightarrow \{\Sigma_{s}\}_{\mathcal{S}}^{i+1}\\
+&4. \hspace{0.125cm} \Sigma_{s}^{i'} \rightarrow \Sigma_{s}^{i+1}, \hspace{0.15cm} P(1, H(e_s)^{Ii}/H(e_s^{'})^{Ii})\\
+& \hspace{0.125cm}else  \hspace{0.15cm} \Sigma_{s}^i \rightarrow \Sigma_{s}^{i+1}\\
 &5. \hspace{0.125cm} H(E_j)^{i+1} = H(E_j)^{i} + C_o\mathcal{H}(E_j, \{e_s\}_{\mathcal{S}}^{i+1})\frac{H(E_j)^{Ii}}{\sum_j H(E_j)^{Ii} }\\
 %&6. \hspace{0.125cm} N = \sum_j G(E_j)^{i+1} \hspace{0.125cm}\\
 %& if \hspace{0.125cm} G(E_j)^{i+1}\frac{\Omega}{N}  < 1, \hspace{0.125cm}  G(E_j)^{i+1} = G(E_j)^{i+1} \frac{N}{\Omega}
@@ -58,7 +58,13 @@ To test the convergence in terms of number of samples $\mathcal{S}$ and number o
  \mathcal{I}(\mathcal{E}=c) \equiv \langle \hspace{0.1cm}  I(\mathcal{E} = c) \hspace{0.1cm}\rangle_{o} \;.
  \end{equation}
  It is noted that the error is only well defined when all of the possible
- energies have been located. 
+ energies have been located. In Fig \ref{its_to_err}(a)  it is shown how the number of iterations needed to achieve $\mathcal{E}=1\%$ scales with the number of samples for a 12$\times$12 system, for visual purposes the x-axis is on a natural log scale. Another interesting scaling property is the number of iterations necessary to find all of the energies in the system, this is shown in Fig \ref{its_to_err}(b). 
+\begin{figure}
+(a)\\
+\includegraphics[width=8cm]{its_for_err.png}
+\caption{\label{its_to_err} (a) average number of iterations($\mathcal{I}$) necessary to achieve $\mathcal{E}=1\%$ and (b) average number of iterations($\mathcal{I}$) necessary
+to find all of the energies. Each for a for a 12X12 system. }
+\end{figure}
 
  
 \bibliography{Bib}
