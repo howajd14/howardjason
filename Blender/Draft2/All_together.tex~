@@ -58,7 +58,13 @@ To test the convergence in terms of number of samples $\mathcal{S}$ and number o
  \mathcal{I}(\mathcal{E}=c) \equiv \langle \hspace{0.1cm}  I(\mathcal{E} = c) \hspace{0.1cm}\rangle_{o} \;.
  \end{equation}
  It is noted that the error is only well defined when all of the possible
- energies have been located. 
+ energies have been located. In Fig \ref{its_to_err}(a)  it is shown how the number of iterations needed to achieve $\mathcal{E}=1\%$ scales with the number of samples for a 12$\times$12 system, for visual purposes the x-axis is on a natural log scale. Another interesting scaling property is the number of iterations necessary to find all of the energies in the system, this is shown in Fig \ref{its_to_err}(b). 
+\begin{figure}
+(a)\\
+\includegraphics[width=8cm]{its_for_err.png}
+\caption{\label{its_to_err} (a) average number of iterations($\mathcal{I}$) necessary to achieve $\mathcal{E}=1\%$ and (b) average number of iterations($\mathcal{I}$) necessary
+to find all of the energies. Each for a for a 12X12 system. }
+\end{figure}
 
  
 \bibliography{Bib}

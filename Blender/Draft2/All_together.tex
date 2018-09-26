@@ -51,22 +51,45 @@ The first test is a test to show the convergence of the algorithm in terms of th
 Where $G_{ex}(E_j)$ is the exact density of states, $G_{bl}(E_j,I,o)$ is the density of states at iteration number $I$ from initial conditions and trajectory $o$.
 To test the convergence in terms of number of samples $\mathcal{S}$ and number of iterations $I$ for $n=12$.  The simulations where done until iteration average,
 \begin{equation}
-\mathcal{E} \equiv \langle \hspace{0.1cm} \epsilon(I,o)\hspace{0.1cm}\rangle_{I} = \frac{1}{I}\int_{0}^{I}\epsilon(I^{'},o)dI^{'} \;,
+\mathcal{E}(I) \equiv \langle \hspace{0.1cm} \epsilon(I,o)\hspace{0.1cm}\rangle_{I^{'}} = \frac{1}{I}\int_{0}^{I}\epsilon(I^{'},o)dI^{'} \;,
 \end{equation}
  was less then 1$\%$, the corresponding number of iterations was recorded, this was then repeated for multiple simulations. The average value of $I$ over initial configurations and trajectories that produced a specific  value of $\mathcal{E}=c$ equal  was then calculated to give, 
 \begin{equation}
  \mathcal{I}(\mathcal{E}=c) \equiv \langle \hspace{0.1cm}  I(\mathcal{E} = c) \hspace{0.1cm}\rangle_{o} \;.
  \end{equation}
  It is noted that the error is only well defined when all of the possible
- energies have been located. In Fig \ref{its_to_err}(a)  it is shown how the number of iterations needed to achieve $\mathcal{E}=1\%$ scales with the number of samples for a 12$\times$12 system, for visual purposes the x-axis is on a natural log scale. Another interesting scaling property is the number of iterations necessary to find all of the energies in the system, this is shown in Fig \ref{its_to_err}(b). 
-\begin{figure}
+ energies have been located. Correspondingly we can define an $\mathcal{I}(\mathcal{E}\hspace{0.1cm} != \infty )$ such that what is meant is the average iterations to find all of the energies. In Fig \ref{its_to_err}(a)  it is shown how the number of iterations needed to achieve $\mathcal{E}=1\%$ scales with the number of samples for a 12$\times$12 system, for visual purposes the x-axis is on a natural log scale. Another interesting scaling property is the number of iterations necessary to find all of the energies in the system, this is shown in Fig \ref{its_to_err}(b). 
+\begin{figure}[h!]
 (a)\\
-\includegraphics[width=8cm]{its_for_err.png}
+\includegraphics[width=8cm]{its_for_err.png}\\
+(b)\\
+\includegraphics[width=8cm]{its_to_find.png}\\
 \caption{\label{its_to_err} (a) average number of iterations($\mathcal{I}$) necessary to achieve $\mathcal{E}=1\%$ and (b) average number of iterations($\mathcal{I}$) necessary
 to find all of the energies. Each for a for a 12X12 system. }
 \end{figure}
 
- 
+Is is hypothesized that the average iterations $\mathcal{I}$ in both Fig \ref{its_to_err} (a) and (b) are of the exponential form, 
+\begin{equation}
+\mathcal{I} (\mathcal{S}) \hspace{0.125cm} = \hspace{0.125cm}
+ \mathcal{I}_o ( 1 \hspace{0.05cm} - \hspace{0.05cm} Ce^{-  \frac{\lambda}{\mathcal{S}-1}   } ) ;.
+\end{equation}
+ Where $C$ and $\lambda$ are to be determined constants and $\mathcal{I}_o$ is $\mathcal{I}(\mathcal{S}=1)$. This equation implies, 
+ \begin{equation}
+ (\mathcal{S}-1)\ln(-\mathcal{I}+ \mathcal{I}_{o}) = (\mathcal{S}-1)\ln(\mathcal{I}_o C) - \lambda \;.
+ \label{ln_op}
+ \end{equation}
+ is linear. In Fig  plots using the mathematical operation of the left hand side of Eq \ref{ln_op} on the data from Fig \ref{its_to_err} (a) and (b) for $\mathcal{S}>1$ are shown. 
+\begin{figure}[h!]
+\includegraphics[width=8cm]{Tfrm_both.png}
+\caption{ $(\mathcal{S}-1 )\ln(-\mathcal{I} + \mathcal{I}_o ) $ for the average iterations to reach  $1\%$ error (black circles) and for the average iterations to find all of the energies (red squares). \label{log_val} }
+\end{figure}
+
+  Another aspect of the algorithm to consider is the scaling of the number of average number of iterations $\mathcal{I}(\mathcal{E}=c)$ and $\mathcal{I}(\mathcal{E}!=\infty)$ as a function of system size. In Fig \ref{its_vs_logomega}  the average number of iterations is shown vs the log of the number of configurations $\Omega$. 
+\begin{figure}[h!]
+\includegraphics[width=8cm]{its_vs_logomega.png}
+\caption{\label{its_vs_logomega}Average number of iterations to reach $\mathcal{E}=1\%$ vs  $\ln(\Omega)$. }
+\end{figure}
+  
 \bibliography{Bib}
 \bibliographystyle{unsrt}
 
