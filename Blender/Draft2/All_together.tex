@@ -72,13 +72,14 @@ Is is hypothesized that the average iterations $\mathcal{I}$ in both Fig \ref{it
 \begin{equation}
 \mathcal{I} (\mathcal{S}) \hspace{0.125cm} = \hspace{0.125cm}
  \mathcal{I}_o ( 1 \hspace{0.05cm} - \hspace{0.05cm} Ce^{-  \frac{\lambda}{\mathcal{S}-1}   } ) ;.
+ \label{exp_form}
 \end{equation}
  Where $C$ and $\lambda$ are to be determined constants and $\mathcal{I}_o$ is $\mathcal{I}(\mathcal{S}=1)$. This equation implies, 
  \begin{equation}
  (\mathcal{S}-1)\ln(-\mathcal{I}+ \mathcal{I}_{o}) = (\mathcal{S}-1)\ln(\mathcal{I}_o C) - \lambda \;.
  \label{ln_op}
  \end{equation}
- is linear. In Fig  plots using the mathematical operation of the left hand side of Eq \ref{ln_op} on the data from Fig \ref{its_to_err} (a) and (b) for $\mathcal{S}>1$ are shown. 
+ is linear. In Fig  plots using the mathematical operation of the left hand side of Eq \ref{ln_op} on the data from Fig \ref{its_to_err} (a) and (b) for $\mathcal{S}>1$ are shown. These plots demonstrate that Eq \ref{exp_form} is a good approximation to the scaling. So although it appears the scaling in terms of number of iterations(Wall Time) to achieve a certain accuracy is limited by the exponential decay there is a linear regime where the speed up is approximately proportional to the number of samples. It is hypothesized that this scaling behavior will be of the same form given by Eq \ref{exp_form} for different system sizes but will different values for the characteristic constants $C$ and $\lambda$. 
 \begin{figure}[h!]
 \includegraphics[width=8cm]{Tfrm_both.png}
 \caption{ $(\mathcal{S}-1 )\ln(-\mathcal{I} + \mathcal{I}_o ) $ for the average iterations to reach  $1\%$ error (black circles) and for the average iterations to find all of the energies (red squares). \label{log_val} }
@@ -87,9 +88,16 @@ Is is hypothesized that the average iterations $\mathcal{I}$ in both Fig \ref{it
   Another aspect of the algorithm to consider is the scaling of the number of average number of iterations $\mathcal{I}(\mathcal{E}=c)$ and $\mathcal{I}(\mathcal{E}!=\infty)$ as a function of system size. In Fig \ref{its_vs_logomega}  the average number of iterations is shown vs the log of the number of configurations $\Omega$. 
 \begin{figure}[h!]
 \includegraphics[width=8cm]{its_vs_logomega.png}
-\caption{\label{its_vs_logomega}Average number of iterations to reach $\mathcal{E}=1\%$ vs  $\ln(\Omega)$. }
+\caption{\label{its_vs_logomega}Average number of iterations to reach $\mathcal{E}=1\%$ vs  $\ln(\Omega)$ for $\mathcal{S}=1$. Going from left to right each point corresponds to N= 8, 10 ,12 , and 18 respectively for the N$\times$N models.  }
 \end{figure}
-  
+In Fig \ref{its_vs_logomega} it appears that the number of iterations to reach $\mathcal{E}=1\%$ scales linearly with $\ln(\Omega)$. Considering $\Omega=2^{N^2}$ for the 2d Ising model and that  one Monte Carlo time step defined as $MC \equiv  \frac{I}{N^2 -1}$ ($N^2-1$ is the number of energies $E_j$) the number of $MC$ for this algorithm appears to be a constant given by the slope of Fig \ref{its_vs_logomega}. Overall the tests of the algorithm are encouraging for its use and demonstrate it is a viable method for accurate calculation of the energy density of states. From this many important thermodynamic properties can be determined but it may be considered a draw back that ensemble averages of a general order parameter $a_i \equiv a(\Sigma_i)$. Altough not implemented in this work it may be possible to acheive this considering the following equation, 
+\begin{equation}
+\begin{split}
+&\langle a \rangle = \sum_i^{\Omega}a_i \frac{ e^{- \frac{e_i}{K_bT}  }}{Z} = \\
+&\sum_j^{\Pi}<a_i>_{j}G(E_j)\frac{e^{-\frac{E_J}{K_bT} }}{Z} \; . 
+\end{split} 
+\end{equation}
+Where $<a_i>_{j}$ is the average of $a_i$ over all configurations with energy $E_j$. So if a running average of the visited values was made during the simulation then it may be possible to approximate ensemble averaged order parameters over the entire temperature range.  
 \bibliography{Bib}
 \bibliographystyle{unsrt}
 
