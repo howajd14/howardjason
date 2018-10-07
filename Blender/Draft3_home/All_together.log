@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  6 OCT 2018 17:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  7 OCT 2018 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,6 +210,9 @@ Overfull \hbox (12.26025pt too wide) in paragraph at lines 29--29
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./All_together.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1371) in paragraph at lines 9--13
 []\OT1/cmr/m/n/10 Fugao Wang and D. P. Lan-dau.  Ef-fi-cient,
  []
@@ -231,7 +234,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 25--29
 Here is how much of TeX's memory you used:
  2146 strings out of 495028
  28771 string characters out of 6181496
- 97570 words of memory out of 5000000
+ 98570 words of memory out of 5000000
  5351 multiletter control sequences out of 15000+600000
  5045 words of font info for 19 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -247,7 +250,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 -dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb>
-Output written on All_together.pdf (3 pages, 134722 bytes).
+Output written on All_together.pdf (3 pages, 136338 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
