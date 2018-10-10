@@ -1,0 +1,99 @@
+%% ****** Start of file apstemplate.tex ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.1r of REVTeX, August 2010
+%%
+%%
+%%   Copyright (c) 2001, 2009, 2010 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+%\documentclass[aps,prb,preprint,superscriptaddress,showkeys,endfloats]{revtex4-1}
+%\documentclass[aps,prb,preprint,superscriptaddress,showkeys]{revtex4-1}
+\documentclass[aps,prb,reprint,superscriptaddress,showkeys]{revtex4-1}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{verbatim}
+\newcolumntype{d}{D{.}{.}{-1}}
+
+
+
+
+
+\begin{document}
+
+%\input{shortcuts}
+%\newcommand{\jh}[0]{/home/howajd14/Git_Hub/MMDocuments/JDH/Li2OHCl_Br_Li2OHFCl_phase_paper}
+%\newcommand{\nh}[0]{/home/howajd14/Git_Hub/MMDocuments/Manuscripts/Partition/Nataliesideas/updatedfigures}
+\newcommand{\jh}[0]{/home/natalie/GIT/MMDocuments/JDH/Li2OHCl_Br_Li2OHFCl_phase_paper}
+\newcommand{\nh}[0]{/home/natalie/GIT/MMDocuments/Manuscripts/Partition/Nataliesideas/updatedfigures}
+
+%\title{Fully parallel methods for calculation of partition functions for systems with known number of states with application to crystalline Li$_2$OHCl and Li$_2$OHBr}
+\title{First principles estimation of  partition functions representing
+ disordered lattices such as the cubic phases of Li$_2$OHCl and
+Li$_2$OHBr}
+
+\author{Jason Howard}
+\affiliation{Department of Physics, Wake Forest University, Winston-Salem,
+NC 27109-7507 USA}
+\author{N. A. W. Holzwarth}
+\email[email:]{natalie@wfu.edu}
+\affiliation{Department of Physics, Wake Forest University, Winston-Salem,
+NC 27109-7507 USA}
+
+\date{\today}
+
+%\begin{abstract}
+%\input{abstract}
+%\end{abstract}
+
+\maketitle
+\input{Introduction}
+%\input{Methods}
+\input{crystal}
+\input{testres}
+\input{LiOHCl}
+\input{DFTres}
+\input{conclusions}
+\input{appendix}
+
+
+
+\begin{acknowledgments}
+ This work  was supported by NSF grant DMR-1507942.  
+Computations were performed
+on the Wake Forest University DEAC cluster, a centrally managed resource
+with support provided in part by the University. 
+We would like to thank Dr. Zachary Hood  from the Electrochemical
+Materials Laboratory at MIT for introducing us to these interesting
+materials and
+for his continued consultation.  We would also like to thank Dr. Kanchan
+Sarkar from the Materials Science and Engineering and Earth and 
+Environmental Sciences at Columbia University for providing an atomic dataset
+for Cl used in this study.
+\end{acknowledgments}
+
+
+
+
+\newcommand{\bibdir}{./}
+%% Create the reference section using BibTeX
+\bibliography{Li2OHCl_Br}
+
+
+\end{document}
