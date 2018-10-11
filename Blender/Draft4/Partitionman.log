@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  10 OCT 2018 14:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.20)  10 OCT 2018 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,13 +353,13 @@ Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¼ in font cmr9!
 ) [4] (./Partitionman.aux) ) 
 Here is how much of TeX's memory you used:
- 4243 strings out of 495028
- 56621 string characters out of 6181496
+ 4242 strings out of 495028
+ 56612 string characters out of 6181496
  145686 words of memory out of 5000000
- 7400 multiletter control sequences out of 15000+600000
+ 7399 multiletter control sequences out of 15000+600000
  9293 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,17n,25p,2176b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,17n,25p,2175b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
@@ -377,7 +377,7 @@ cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Partitionman.pdf (4 pages, 224867 bytes).
+Output written on Partitionman.pdf (4 pages, 224877 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
