@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Tue Oct  9 15:41:09 2018"
+@timestamp def "Fri Oct 12 13:11:17 2018"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -212,7 +212,7 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 1.0
-@    yaxis  label "log\s10\N( I )"
+@    yaxis  label "log\s10\N(< I >\so\N )"
 @    yaxis  label layout para
 @    yaxis  label place spec
 @    yaxis  label place 0.000000, 0.130000
@@ -329,14 +329,14 @@
 @    s0 errorbar riser linestyle 1
 @    s0 errorbar riser clip off
 @    s0 errorbar riser clip length 0.100000
-@    s0 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft4/its_vs_S.dat"
+@    s0 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft5/its_vs_S.dat"
 @    s0 legend  ""
 @target G0.S0
 @type xydy
-0 6.09093 0.0739612
-1 5.41267 0.11672
-2 5.09028 0.124548
-3 4.5602 0.0480934
-4 4.39242 0.0243813
-5 4.32868 0.0150023
+0 6.09093 0.032121
+1 5.41267 0.0506907
+2 5.09028 0.0540906
+3 4.5602 0.0208867
+4 4.39242 0.0105887
+5 4.32868 0.0065154
 &
