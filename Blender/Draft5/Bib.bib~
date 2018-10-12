@@ -153,3 +153,79 @@ title = {Generic, Hierarchical Framework for Massively Parallel Wang-Landau Samp
 volume = {110},
 booktitle = {Physical review letters}
 }
+
+
+%Zachs reference 
+@article{Hood,
+author = {Hood, Zachary D. and Wang, Hui and Samuthira Pandian, Amaresh and Keum, Jong Kahk and Liang, Chengdu},
+title = {Li2OHCl Crystalline Electrolyte for Stable Metallic Lithium Anodes},
+journal = {Journal of the American Chemical Society},
+volume = {138},
+number = {6},
+pages = {1768-1771},
+year = {2016},
+moddoi = {10.1021/jacs.5b11851},
+modnote ={PMID: 26794604},
+modURL = { http://dx.doi.org/10.1021/jacs.5b11851 },
+modeprint = { http://dx.doi.org/10.1021/jacs.5b11851 } }
+
+%schwerings reference
+@article {Schwering,
+author = {Schwering, Georg and H\"{o}nnerscheid, Andreas and van 
+W\"{u}llen, Leo and Jansen, Martin},
+title = {High Lithium Ionic Conductivity in the Lithium Halide Hydrates Li3-n(OHn)Cl (0.83≤n≤2) and Li3-n(OHn)Br (1≤n≤2) at Ambient Temperatures},
+journal = {ChemPhysChem},
+volume = {4},
+number = {4},
+publisher = {WILEY-VCH Verlag},
+issn = {1439-7641},
+url = {http://dx.doi.org/10.1002/cphc.200390060},
+doi = {10.1002/cphc.200390060},
+pages = {343--348},
+keywords = {halides, hydrates, ionic conductivity, lithium, NMR spectroscopy},
+year = {2003},
+}
+
+%our reference 
+@article{Holzwarth_group,
+  title = {Fundamental aspects of the structural and electrolyte properties of ${\mathrm{Li}}_{2}\mathrm{OHCl}$ from simulations and experiment},
+  author = {Howard, Jason and Hood, Zachary D. and Holzwarth, N. A. W.},
+  journal = {Phys. Rev. Materials},
+  volume = {1},
+  issue = {7},
+  pages = {075406},
+  numpages = {13},
+  year = {2017},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevMaterials.1.075406},
+  url = {https://link.aps.org/doi/10.1103/PhysRevMaterials.1.075406}
+}
+
+%Songs paper (Borodin)
+﻿@article {Song_Borodin,
+author = {Song, Ah-Young and Xiao, Yiran and Turcheniuk, Kostiantyn and Upadhya, Punith and Ramanujapuram, Anirudh and Benson, Jim and Magasinski, Alexandre and Olguin, Marco and Meda, Lamartine and Borodin, Oleg and Yushin, Gleb},
+title = {Protons Enhance Conductivities in Lithium Halide Hydroxide/Lithium Oxyhalide Solid Electrolytes by Forming Rotating Hydroxy Groups},
+journal = {Advanced Energy Materials},
+issn = {1614-6840},
+url = {http://dx.doi.org/10.1002/aenm.201700971},
+doi = {10.1002/aenm.201700971},
+pages = {1700971--n/a},
+keywords = {antiperovskite, Li-ion conductivity, molecular dynamics simulations, solid state electrolyte, X-ray diffraction},
+note = {1700971},
+}
+
+%Goodenoughs reference 
+@article {Goodenough,
+author = {Li, Yutao and Zhou, Weidong and Xin, Sen and Li, Shuai and Zhu, Jinlong and Lü, Xujie and Cui, Zhiming and Jia, Quanxi and Zhou, Jianshi and Zhao, Yusheng and Goodenough, John B.},
+title = {Fluorine-Doped Antiperovskite Electrolyte for All-Solid-State Lithium-Ion Batteries},
+journal = {Angewandte Chemie International Edition},
+volume = {55},
+number = {34},
+issn = {1521-3773},
+url = {http://dx.doi.org/10.1002/anie.201604554},
+doi = {10.1002/anie.201604554},
+pages = {9965--9968},
+keywords = {all-solid-state battery, antiperovskite, lithium-ion battery, solid electrolyte},
+year = {2016},
+}

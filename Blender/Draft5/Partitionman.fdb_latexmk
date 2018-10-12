@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Partitionman"] 1539309427 "Partitionman.aux" "Partitionman.bbl" "Partitionman" 1539311811
+["bibtex Partitionman"] 1539363699 "Partitionman.aux" "Partitionman.bbl" "Partitionman" 1539367191
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Bib.bib" 1539308491 7714 344063c1bc222d17ceb8393189a5126e ""
-  "Partitionman.aux" 1539311811 2034 c768daf1511530f7fd58fc0d3972424b ""
+  "Bib.bib" 1539362679 8460 3291d9f65fd23129075d8709aa12e60e ""
+  "Partitionman.aux" 1539367190 2263 2b729b3c9b5cb6422c40d2aa43261e67 ""
   "Partitionman.bcf" 0 -1 0 ""
-  "PartitionmanNotes.bib" 1539311811 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "PartitionmanNotes.bib" 1539367190 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Partitionman.blg"
   "Partitionman.bbl"
-["pdflatex"] 1539311811 "Partitionman.tex" "Partitionman.pdf" "Partitionman" 1539311811
+["pdflatex"] 1539367190 "Partitionman.tex" "Partitionman.pdf" "Partitionman" 1539367191
   "/etc/texmf/web2c/texmf.cnf" 1445356679 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -89,13 +89,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1445359222 722336 720d33975c48e17a822412a5893b18e3 ""
   "M_vs_T_S10.png" 1539307827 7828 68ff2632d12589575c0e91676a4c7346 ""
   "M_vs_T_S100.png" 1539307827 7300 348f1dd5ad474a2ab0f8bd96331e61cb ""
-  "Partitionman.aux" 1539311811 2034 c768daf1511530f7fd58fc0d3972424b ""
-  "Partitionman.bbl" 1539309427 2888 961ca00f06fa2ffb1a30a313fc9188ad "bibtex Partitionman"
-  "Partitionman.tex" 1539311809 17134 e399d438ffdb8cc55c3a43bd60071eef ""
+  "Partitionman.aux" 1539367190 2263 2b729b3c9b5cb6422c40d2aa43261e67 ""
+  "Partitionman.bbl" 1539363699 3662 a98b21467a5f003bb8bdf4af89c04986 "bibtex Partitionman"
+  "Partitionman.tex" 1539367190 18246 55bcdad8fbfc049897354cb51d600dcf ""
   "its_to_find.png" 1539307827 6679 233d971d8a85e8d8f048223b1cd9bb90 ""
   "its_vs_S.png" 1539307827 7092 155959afd1a14f672aaf51735a4c8605 ""
   (generated)
-  "Partitionman.pdf"
   "Partitionman.log"
-  "PartitionmanNotes.bib"
   "Partitionman.aux"
+  "Partitionman.pdf"
+  "PartitionmanNotes.bib"

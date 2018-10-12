@@ -38,6 +38,12 @@ Ah-Young Song, Yiran Xiao, Kostiantyn Turcheniuk, Punith Upadhya, Anirudh
 \newblock {\em Advanced Energy Materials}, pages 1700971--n/a.
 \newblock 1700971.
 
+\bibitem{metropolis_equation_1953}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
+
 \bibitem{landau_MC_simulations}
 David~P. Landau and Kurt Binder.
 \newblock {\em A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics}.
@@ -64,6 +70,23 @@ Thomas Vogel, Ying~Wai Li, Thomas Wüst, and D~Landau.
 \newblock Generic, hierarchical framework for massively parallel wang-landau
   sampling.
 \newblock 110:210603, 05 2013.
+
+\bibitem{exact_statistical}
+R.J. Baxter.
+\newblock {\em Exactly Solved Models in Statistical Mechanics}.
+\newblock Elsevier, 2016.
+\newblock ISBN 978-0-12-083180-7.
+
+\bibitem{Onsager}
+Lars Onsager.
+\newblock Crystal statistics. i. a two-dimensional model with an order-disorder
+  transition.
+\newblock {\em Phys. Rev.}, 65:117--149, 1944.
+
+\bibitem{Ising}
+Barry~M. McCoy and Tai~Tsun Wu.
+\newblock {\em The {T}wo-{D}imensional {I}sing {M}odel}.
+\newblock Harvard University Press, 1973.
 
 \bibitem{Beale_2d_ising}
 Paul~D. Beale.
