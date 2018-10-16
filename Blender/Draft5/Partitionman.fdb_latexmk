@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex Partitionman"] 1539369555 "Partitionman.aux" "Partitionman.bbl" "Partitionman" 1539369558
+["bibtex Partitionman"] 1539723115 "Partitionman.aux" "Partitionman.bbl" "Partitionman" 1539723117
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
   "Bib.bib" 1539362679 8460 3291d9f65fd23129075d8709aa12e60e ""
-  "Partitionman.aux" 1539369555 2320 e34a27d73dd027d52d8cfe0b6ea681a7 ""
+  "Partitionman.aux" 1539723115 3177 5002e40f34e6be65bd60b4c926924340 ""
   "Partitionman.bcf" 0 -1 0 ""
-  "PartitionmanNotes.bib" 1539369555 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "PartitionmanNotes.bib" 1539723115 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Partitionman.bbl"
   "Partitionman.blg"
-["pdflatex"] 1539369555 "Partitionman.tex" "Partitionman.pdf" "Partitionman" 1539369558
+["pdflatex"] 1539723115 "Partitionman.tex" "Partitionman.pdf" "Partitionman" 1539723117
   "/etc/texmf/web2c/texmf.cnf" 1445356679 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -89,13 +89,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1445359222 722336 720d33975c48e17a822412a5893b18e3 ""
   "M_vs_T_S10.png" 1539307827 7828 68ff2632d12589575c0e91676a4c7346 ""
   "M_vs_T_S100.png" 1539307827 7300 348f1dd5ad474a2ab0f8bd96331e61cb ""
-  "Partitionman.aux" 1539369555 2320 e34a27d73dd027d52d8cfe0b6ea681a7 ""
-  "Partitionman.bbl" 1539369555 3662 a98b21467a5f003bb8bdf4af89c04986 "bibtex Partitionman"
-  "Partitionman.tex" 1539369553 18808 78cb916675ff86d45598d55193131cec ""
+  "Partitionman.aux" 1539723115 3177 5002e40f34e6be65bd60b4c926924340 ""
+  "Partitionman.bbl" 1539723115 3662 a98b21467a5f003bb8bdf4af89c04986 "bibtex Partitionman"
+  "Partitionman.tex" 1539723112 20095 990a01a621f96be1e0b6ef17910ddf33 ""
   "its_to_find.png" 1539368261 7094 4b667ee945025336f8aee7a44313e216 ""
   "its_vs_S.png" 1539368261 7238 081dc63d5422b1497341a3174ef74df3 ""
+  "long_time_error.png" 1539657818 7348 ba241b6366dd001287db96b765d94502 ""
+  "relative_errors.png" 1539656999 11257 d4b5041ac7f21e9882cd47585cdcf1dd ""
   (generated)
-  "PartitionmanNotes.bib"
-  "Partitionman.pdf"
-  "Partitionman.log"
   "Partitionman.aux"
+  "PartitionmanNotes.bib"
+  "Partitionman.log"
+  "Partitionman.pdf"

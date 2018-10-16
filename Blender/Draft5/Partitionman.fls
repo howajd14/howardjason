@@ -111,6 +111,12 @@ INPUT ./its_vs_S.png
 INPUT its_to_find.png
 INPUT ./its_to_find.png
 INPUT ./its_to_find.png
+INPUT long_time_error.png
+INPUT ./long_time_error.png
+INPUT ./long_time_error.png
+INPUT relative_errors.png
+INPUT ./relative_errors.png
+INPUT ./relative_errors.png
 INPUT M_vs_T_S10.png
 INPUT ./M_vs_T_S10.png
 INPUT ./M_vs_T_S10.png
