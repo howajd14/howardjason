@@ -1,0 +1,9 @@
+&projwfc
+    outdir='.',
+    prefix='FEC'
+    Emin=-8, Emax=8, 
+    ngauss=0,
+    degauss=0.02,
+    DeltaE=0.02,
+ /
+
