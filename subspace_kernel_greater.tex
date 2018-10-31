@@ -1,0 +1,44 @@
+\documentclass[onecolumn]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+
+\begin{document}
+To show that the fully disordered free energy,
+\begin{equation}
+F_{fd}(T) = \frac{1}{\Omega}\sum_{i=1}^{\Omega}e_i  -  k_B T \ln(\Omega) ; ,
+\end{equation}
+
+is greater than or equal to the Helmholtz free energy, 
+\begin{equation}
+F(T) = -k_B T \ln(Z) = -k_B T \ln(Z) = -k_B T \ln(\sum_{i=1}^{\Omega} e^{-\frac{e_i}{k_BT}}) \;,
+\end{equation}
+it is sufficient to show that,
+\begin{equation}
+ f(N,T) - F(T) \geq 0. 
+\end{equation}
+Where $f(N,T)$ is the subspace kernel function given by, 
+\begin{equation}
+f(N,T) = \frac{1}{N}\sum_{i=1}^{N}e_i  -  k_B T \ln(N) \;,
+\end{equation}
+where $N\leq \Omega$.  
+So the writing $f(N,T) - F(T) \geq 0$ explicitly gives,
+\begin{equation}
+\frac{1}{N}\sum_{i=1}^{N}e_i  +  k_B T [\ln(Z) -  \ln(N)] \geq 0  ;.
+\end{equation}
+Subtracting the  sum, dividing by $k_B T$ ,  then exponentiating, and then multiplying by $N$ gives, 
+\begin{equation}
+ Z = \sum_{i=1}^\Omega e^{-\frac{e_i}{k_B T}} \geq  N e^{-\frac{1}{k_B T N}\sum_{i=1}^{N}e_i} \;.
+\end{equation}
+
+With the set of energies is defined as begin ordered $\{e_i\}_{\Omega}\equiv e_1 \leq e_i \leq e_\Omega$ and the fact that all terms on the left side of the inequality are positive  it is sufficient to show that,
+\begin{equation}
+\sum_{i=1}^N e^{-\frac{e_i}{k_B T}} \geq  N e^{-\frac{1}{k_B T N}\sum_{i=1}^{N}e_i} \;,
+\end{equation}
+to prove that the subspace kernel function is greater than or equal to the exact Helmholtz free energy.  
+Mathmaticaly this is equivalent to proving, 
+\begin{equation}
+\sum_{i=1}^N e^{-x_i} \geq  N e^{-\frac{1}{N}\sum_{i=1}^{N}x_i} \;.
+\end{equation}
+Where $x_i$ comes from a set of real numbers  $\{x_i\}_N$. 
+\end{document}

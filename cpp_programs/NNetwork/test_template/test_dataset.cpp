@@ -11,7 +11,11 @@ int main()
    vector<NN>     myNN; 
    srand(time(NULL)); 
    int S = 1; for(int x=1; x<=S; x++){myNN.push_back(NN(1,6,1,52));} 
-  // cout << "\ngot here\n";
+   int tnhw=0; 
+for(int x=1; x<=myNN[0].get_nlyer(); x++)
+{
+	tnhw = tnhw + myNN[0].get_nnpl()*myNN[0].get_nhw(x); 
+}
    double del = 0.01;
    int num_its = 100000;  
    double val = 0.0001; 
@@ -59,88 +63,37 @@ hist GE(tempscores,bins);
 
 for(int x=1; x<=num_its; x++)
 {
-	if(x%100==0){cout << "\n" << x << "\t" << tempscores[0];} 
-	/*
-	if(x<10000){
-	if(x%1000==0)
-        {
-                max = tempscores[S-1];
-                bw =  floor(max/200);
-                for(int nnb =1; nnb <=nbins; nnb++){bins[nnb-1]=bw/2.0 + bw*(nnb-1);}
-                hist GEP(tempscores,bins);
-                GE = GEP;
-		for(int sk =1;sk<=S; sk++){ string cfilename = "CurrentNN"; stringstream ui; ui << sk; 
-		string cnnhold; ui >> cnnhold;  cfilename = cfilename + cnnhold; 
-		myNN[sk-1].make_NN(cfilename);
-	       	}	
-        }
-	}
-	
-	if(x>=10000&&x<1e5){
-        if(x%10000==0)
-        {
-                max = tempscores[S-1];
-                bw =  floor(max/200);
-                for(int nnb =1; nnb <=nbins; nnb++){bins[nnb-1]=bw/2.0 + bw*(nnb-1);}
-                hist GEP(tempscores,bins);
-                GE = GEP;
-                for(int sk =1;sk<=S; sk++){ string cfilename = "CurrentNN"; stringstream ui; ui << sk;
-                string cnnhold; ui >> cnnhold;  cfilename = cfilename + cnnhold;
-                myNN[sk-1].make_NN(cfilename);
-                }
-        }
-        }
-	if(x>=1e5){
-        if(x%100000==0)
-        {
-                max = tempscores[S-1];
-                bw =  floor(max/200);
-                for(int nnb =1; nnb <=nbins; nnb++){bins[nnb-1]=bw/2.0 + bw*(nnb-1);}
-                hist GEP(tempscores,bins);
-                GE = GEP;
-                for(int sk =1;sk<=S; sk++){ string cfilename = "CurrentNN"; stringstream ui; ui << sk;
-                string cnnhold; ui >> cnnhold;  cfilename = cfilename + cnnhold;
-                myNN[sk-1].make_NN(cfilename);
-                }
-        }
-        }
-	*/
+	if(x%1000==0){cout << "\n" << x << "\t" << tempscores[0];} 
+        
+
 
 	vector<NN>  nnP; for(int y=1; y<=S; y++){nnP.push_back(myNN[y-1]);}
 	vector<double> scoresP, tempscoresP; 
 	for(int y=1; y<=S; y++)
 	{
-		double rnmb = (rand()%(myNN[0].get_nnpl()*myNN[0].get_nhw(1) +  myNN[0].get_nnpl()) +1); 
+		double rnmb = (rand()%(tnhw  +  myNN[0].get_non()*myNN[0].get_now()) +1); 
 		
-		if(rnmb <=myNN[0].get_nnpl()*myNN[0].get_nhw(1))
+		if(rnmb <= tnhw)
 		{
+		int rly = rand()%myNN[0].get_nlyer()+1;
 		int rnn = rand()%myNN[0].get_nnpl()+1;
-		int rw  = rand()%myNN[0].get_nhw(1)+1;  
+		int rw  = rand()%myNN[0].get_nhw(rly)+1;  
 		int pm = (rand()%2+1)*2 -3;
 		double chng = nnP[y-1].get_hW(1,rnn,rw) + del*pm; 
-		//if(chng<=val*1 && chng >=-1*val)
-		//{
-			nnP[y-1].set_hW(1,rnn,chng,rw); 
-		//}
+			nnP[y-1].set_hW(rly,rnn,chng,rw); 
 		}
-		if(rnmb >myNN[0].get_nnpl()*myNN[0].get_nhw(1))
+		if(rnmb >  tnhw)
 		{
-		// int rnn = rand()%myNN[0].get_non()+1;
                 int rw  = rand()%myNN[0].get_now()+1;
                 int pm = (rand()%2+1)*2 -3;
                 double chng = nnP[y-1].get_oW(1,rw) + del*pm;
-                //if(chng<=val*1 && chng >=-1*val)
-                //{
-                        nnP[y-1].set_oW(1,chng,rw);
-                //}
-                //}
-
+                nnP[y-1].set_oW(1,chng,rw);
 		}
 		double scrh=0; 
 		for(int dd=1; dd<=myds.get_nsets(); dd++)
 		{
 		vector<double> out; nnP[y-1].get_O(out, myds , dd);
-		scrh = scrh +  xscore(out,myds,dd); //if(x%1000==0&&y==1){cout << "\n" << out[0] << "\t" << myds.get_od(dd, 1) << "\t" << xscore(out,myds,dd);} 
+		scrh = scrh +  xscore(out,myds,dd);  
 		} 
 		scoresP.push_back(scrh/(myds.get_nsets()*1.0)); 
 		tempscoresP.push_back(scoresP[y-1]); 
@@ -194,7 +147,7 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 	int x=1; 
 	double  diff = calc[x-1]-mydata.get_od(wds,x);
 	Sc = Sc+ diff*diff/(mydata.get_od(wds,x)*mydata.get_od(wds,x));
-	if( calc[x-1]*mydata.get_od(wds,x) < 0 ){Sc=Sc+100*Sc;}
+	if( calc[x-1]*mydata.get_od(wds,x) < 0 ){Sc=Sc+Sc;}
 	return Sc; 
 }
 

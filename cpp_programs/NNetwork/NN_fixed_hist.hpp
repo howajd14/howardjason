@@ -8,13 +8,17 @@ class  NN
 	NN( int nlayers, int nneruons_lyer, int nout_nuerons, int ninputs);
 	~NN(); 
 	void set_hW(int lyr, int n, double val, int nindex)
-	{int index = (lyr-1)*nly + n; hnuerons[index-1].set_W(nindex,val);}        
+	{int index = (lyr-1)*nnpl + n; hnuerons[index-1].set_W(nindex,val);}        
 	void set_oW(int n, double val, int nindex)
 	{onuerons[n-1].set_W(nindex,val);}
+	void set_onb(int index, int val){onuerons[index-1].set_nb(val);}
+	double get_onb(int index){return onuerons[index-1].get_nb(); }
+	void set_hnb(int lyr,int n, int val){int index = (lyr-1)*nnpl + n; hnuerons[index-1].set_nb(val);}
+        double get_hnb(int lyr, int n){int index = (lyr-1)*nnpl + n; return hnuerons[index-1].get_nb(); }
 	 void make_NN(string filename);
 	 void load_NN(string NNfilename); 
 	double get_hW(int lyr, int n, int nindex) 
-	{int index = (lyr-1)*nly + n; return hnuerons[index-1].get_W(nindex);}
+	{int index = (lyr-1)*nnpl + n; return hnuerons[index-1].get_W(nindex);}
         int   get_non() const {return non;}
 	int   get_nnpl()const {return nnpl;}
 	int  get_nhw(int wl){int index = 1 + (wl-1)*get_nnpl(); return hnuerons[index-1].get_nw();}
@@ -53,6 +57,7 @@ NN::NN(int nlayers, int nnuerons_lyer, int nout_nuerons, int nindata)
 		if(x>1)
 		{
 		hnuerons.push_back(nueron(nnuerons_lyer)); 
+		//cout << "\n" << hnuerons[(x-1)*nnuerons_lyer + y -1].get_nw();
 		}
 		}
 	}
@@ -167,7 +172,7 @@ void NN::load_NN(string NNfilename)
 		           	bias = bias + D.get_ind(wds,z)*get_hW(x,y,z); 		
 				}
 			
-			Y[y-1]=tanh(bias); 
+			Y[y-1]=tanh(bias + get_hnb(x,y) ); 
 		}
 		}
 		if(x>1)
@@ -181,7 +186,7 @@ void NN::load_NN(string NNfilename)
                            	bias = bias + Y[z-1]*get_hW(x,y,z);
                         	}
 			
-                        newY.push_back(tanh(bias));
+                        newY.push_back(tanh(bias+get_hnb(x,y)));
                   }
                  for(int y=1; y<=nnpl; y++){Y[y-1]=newY[y-1];}
 		}
@@ -196,7 +201,7 @@ void NN::load_NN(string NNfilename)
 			bias = bias + Y[y-1]*get_oW(x,y); 
 		}
 		//cout << "\n" << bias; 
-		output.push_back(bias); 
+		output.push_back(bias+get_onb(x)); 
 	}
 	
 }
