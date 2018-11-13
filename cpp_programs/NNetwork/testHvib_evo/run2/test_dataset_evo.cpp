@@ -13,7 +13,7 @@ int main()
    dataset   myds("Dataset",458,5,3); 
    vector<NN>     myNN; 
    srand(time(NULL)); 
-   int S = 100; for(int x=1; x<=S; x++){myNN.push_back(NN(1,80,1,5));} 
+   int S = 100; for(int x=1; x<=S; x++){myNN.push_back(NN(1,20,2,5));} 
    double hw_del = 0.001;
    double  bias_del = 0.01; 
    double ow_del = 0.001;
@@ -77,7 +77,7 @@ for(int x=1; x<=num_its; x++)
 	vector<NN>  nnP;
 	for(int y=1; y<=10; y++){for(int z=1; z<=10; z++){nnP.push_back(myNN[most_fit[z-1]-1]);}}
 	
-	for(int y=1; y<100; y++)
+	for(int y=1; y<=100; y++)
 	{
 		int  rn =rand()%S +1; mate(nnP[rn-1],nnP[y-1]);
 		mutate_hW(nnP[y-1],hw_del);
@@ -117,9 +117,9 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 {
 	double Sc = 0; 
 	int x=1; 
-	double  diff = calc[x-1]-mydata.get_od(wds,x);
+	double  diff = calc[x-1]*calc[x]-mydata.get_od(wds,x);
 	Sc = Sc+ diff*diff/(mydata.get_od(wds,x)*mydata.get_od(wds,x));
-	if( calc[x-1]*mydata.get_od(wds,x) < 0 ){Sc=Sc+100;}
+	if( calc[x-1]*calc[1]*mydata.get_od(wds,x) < 0 ){Sc=Sc+100;}
 	return Sc; 
 }
 

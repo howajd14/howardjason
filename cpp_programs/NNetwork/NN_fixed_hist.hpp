@@ -13,7 +13,7 @@ class  NN
 	{onuerons[n-1].set_W(nindex,val);}
 	void set_onb(int index, int val){onuerons[index-1].set_nb(val);}
 	double get_onb(int index){return onuerons[index-1].get_nb(); }
-	void set_hnb(int lyr,int n, int val){int index = (lyr-1)*nnpl + n; hnuerons[index-1].set_nb(val);}
+	void set_hnb(int lyr,int n, double val){int index = (lyr-1)*nnpl + n; hnuerons[index-1].set_nb(val);}
         double get_hnb(int lyr, int n){int index = (lyr-1)*nnpl + n; return hnuerons[index-1].get_nb(); }
 	 void make_NN(string filename);
 	 void load_NN(string NNfilename); 
@@ -81,6 +81,8 @@ void NN::make_NN(string filename)
                         {
                                 line = "n" ;  ss.clear(); ss.str(""); ss << y;
                                 ss >> hold; line = line + hold; ss.clear(); ss.str("");
+				ss << get_hnb(x,y); ss >> hold; line = line + "\t" + hold; 
+				ss.clear(); ss.str(""); 
                                 for(int z=1; z<=get_nhw(x); z++)
                                 {
                                         ss << get_hW(x,y,z); ss >> hold;
@@ -123,11 +125,12 @@ void NN::load_NN(string NNfilename)
 				{
 					ss.clear(); ss.str(""); 
 					ss << NNfile.get_line(y+z);  
-					string burner; ss >> burner; 
+					string burner; ss >> burner;
+				        double bb; ss >> bb; set_hnb(x,z,bb); 	
 					for(int ko =1; ko<=get_nhw(x); ko++)
 					{
 						double holder; ss >> holder;
-					        cout << "\n" << x << "\t" << z << "\t" << holder << "\t" << ko << "\t" << get_nhw(x); 	
+					      //  cout << "\n" << x << "\t" << z << "\t" << holder << "\t" << ko << "\t" << get_nhw(x); 	
 						set_hW(x, z, holder, ko);
 					}
 				}
@@ -205,5 +208,7 @@ void NN::load_NN(string NNfilename)
 	}
 	
 }
+
+
 NN::~NN()
 {}

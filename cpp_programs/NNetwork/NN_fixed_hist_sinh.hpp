@@ -14,7 +14,13 @@ class  NN
 	 void make_NN(string filename);
 	 void load_NN(string NNfilename); 
 	double get_hW(int lyr, int n, int nindex) 
-	{int index = (lyr-1)*nnpl + n; return hnuerons[index-1].get_W(nindex);}
+		 {int index = (lyr-1)*nnpl + n; return hnuerons[index-1].get_W(nindex);}
+
+	 void set_onb(int index, int val){onuerons[index-1].set_nb(val);}
+        double get_onb(int index){return onuerons[index-1].get_nb(); }
+        void set_hnb(int lyr,int n, int val){int index = (lyr-1)*nnpl + n; hnuerons[index-1].set_nb(val);}
+        double get_hnb(int lyr, int n){int index = (lyr-1)*nnpl + n; return hnuerons[index-1].get_nb(); }
+
         int   get_non() const {return non;}
 	int   get_nnpl()const {return nnpl;}
 	int  get_nhw(int wl){int index = 1 + (wl-1)*get_nnpl(); return hnuerons[index-1].get_nw();}

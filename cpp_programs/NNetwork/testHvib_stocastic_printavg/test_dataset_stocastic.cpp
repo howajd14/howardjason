@@ -4,13 +4,13 @@
 using namespace std; 
 
 double xscore(const vector<double> calc,  const dataset & mydata, int wds); 
-
+void  mutate_hb(NN & nn,double p);
 int main()
 {
    dataset   myds("Dataset",458,5,3); 
    vector<NN>     myNN; 
    srand(time(NULL)); 
-   int S = 1; for(int x=1; x<=S; x++){myNN.push_back(NN(1,3,1,5));} 
+   int S = 1; for(int x=1; x<=S; x++){myNN.push_back(NN(1,20,1,5));} 
    int tnhw=0; 
 for(int x=1; x<=myNN[0].get_nlyer(); x++)
 {
@@ -78,14 +78,14 @@ for(int x=1; x<=S; x++)
                avgS = avgS + scr/myds.get_nsets(); 
 		}
 }
-if(dds%10==0){cout << "\n" << dds << "\t" << ods << "\t" <<  "\t" << avgS/(dds/10) << "\t" << avgSp/(dds/10);}
+if(dds%10==0){cout << "\n" << dds << "\t" << ods << "\t" <<  "\t" << avgS/(dds/10) ;}
 sort(tempscores.begin(),tempscores.end()); 
 double max = tempscores[S-1];
-hist GE(tempscores,bins); 
-for(int x=1; x<=num_its; x++)
-{
+hist GE(tempscores,bins);int count =0;  
+while(tempscores[S-1]>50)
+{count++; 
 	//if(x%1000==0){cout << "\n" << dds << "\t" << ods << "\t" << x << "\t" << tempscores[0];} 
-        if(x%10==0){max = tempscores[0];}
+        if(count%100==0){max = tempscores[0];}
 	vector<NN>  nnP; for(int y=1; y<=S; y++){nnP.push_back(myNN[y-1]);}
 	vector<double> scoresP, tempscoresP; 
 	for(int y=1; y<=S; y++)
@@ -108,6 +108,7 @@ for(int x=1; x<=num_its; x++)
                 double chng = nnP[y-1].get_oW(1,rw) + del*pm;
                 nnP[y-1].set_oW(1,chng,rw);
 		}
+		mutate_hb(nnP[y-1],10*del); 
 		double scrh=0; 
 		for(int yt=1;yt <=3; yt++)
 		{
@@ -116,6 +117,7 @@ for(int x=1; x<=num_its; x++)
 	         }	
 		scoresP.push_back(scrh/3); 
 		tempscoresP.push_back(scoresP[y-1]);
+		/*
 	       if(x==num_its&&dds%10==0)
 	       {	       
 		 scrh =0;
@@ -126,6 +128,7 @@ for(int x=1; x<=num_its; x++)
                 }
                avgSp = avgSp + scrh/myds.get_nsets();
 		}
+		*/
 	}
       //  if(dds%100==0){cout << "\t" << avgSp/dds; }
 	sort(tempscoresP.begin(),tempscoresP.end()); 
@@ -179,7 +182,14 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 	int x=1; 
 	double  diff = calc[x-1]-mydata.get_od(wds,x);
 	Sc = Sc+ diff*diff/(mydata.get_od(wds,x)*mydata.get_od(wds,x));
-	if( calc[x-1]*mydata.get_od(wds,x) < 0 ){Sc=Sc+Sc;}
+	if( calc[x-1]*mydata.get_od(wds,x) < 0 ){Sc=Sc+100;}
 	return Sc; 
+}
+void  mutate_hb(NN & nn,double p)
+{
+        int pm = (rand()%2+1)*2 - 3;
+        int rl = rand()%nn.get_nlyer()+1;
+        int rn = rand()%nn.get_nnpl()+1;
+        nn.set_hnb(rl,rn,nn.get_hnb(rl,rn)+pm*p);
 }
 
