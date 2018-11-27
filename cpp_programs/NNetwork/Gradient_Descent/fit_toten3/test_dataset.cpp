@@ -6,14 +6,16 @@ using namespace std;
 double xscore(const vector<double> calc,  const dataset & mydata, int wds); 
 void grad( NN &  gradNN,   NN & myNN,  const dataset & mydata, double p);
 void gradSD( NN &  gradNN,   NN & myNN,  const dataset & mydata, double p, int wds);
-void gradD( NN & gradNN,   NN & myNN, double p); 
+void gradD( NN & gradNN,   NN & myNN, double p);
+void gradD_justW( NN & gradNN,   NN & myNN, double p);
 void   mutate_hW( NN & nnwk, double p);
 void   mutate_oW( NN & nnwk, double p);
 void   mutate_hb( NN & nnwk, double p);
 int main()
 {
-   dataset   myds1("Dataset1",4,8,1); 
-   //dataset   myds2("Dataset2",932,8,1);
+   dataset   myds1("Dataset1",990,8,1); 
+   dataset   myds2("Dataset2",932,8,1);
+   /*
    double min=100; 
    double max=-100; 
    double avg=0; 
@@ -29,15 +31,15 @@ int main()
    {
 	   myds1.set_od(x,1, (myds1.get_od(x,1)-avg)/(max-min)); 
    }
+  */
 
-
-   NN  myNN(1,20,1,5); 
+   NN  myNN(1,80,1,5); 
    srand(time(NULL)); 
-  myNN.load_NN("FinalNN");
+myNN.load_NN("FinalNN");
 
    double del = 0.000001;
-   double del2 =0.0001; 
-   int num_its = 100000000;  
+   double del2 =0.00001; 
+   int num_its = 1000000000;  
    double val = 0.001;  
 	
 /*
@@ -47,7 +49,7 @@ for(int x=1; x<=myNN.get_nnpl(); x++)
 {
 	 for(int y=1; y<=myNN.get_nhw(nl); y++)
 	 {
-		double rnm = rand()%100+1;
+		double rnm = rand()%1000+1;
 		int  pm = (rand()%2+1)*2 -3;  
 		myNN.set_hW(nl,x,val*pm*rnm, y); 
 	 }
@@ -57,9 +59,9 @@ for(int nl=1; nl<=myNN.get_nlyer(); nl++)
 {
 for(int x=1; x<=myNN.get_nnpl(); x++)
 {
-         double rnm = rand()%100+1;
+         double rnm = rand()%1000+1;
                 int  pm = (rand()%2+1)*2 -3;
-                myNN.set_hnb(nl,x,val*pm*rnm);
+                myNN.set_hnb(nl,x,0);
          
 }
 }
@@ -69,36 +71,48 @@ for(int x=1; x<=myNN.get_non(); x++)
 {
 	for(int y=1; y<=myNN.get_now(); y++)
 	{
-		double rnm = rand()%100+1; 
+		double rnm = rand()%1000+1; 
 		 int  pm = (rand()%2+1)*2 -3;
 		myNN.set_oW(x,val*pm*rnm,y);
 	} 
 }
-
 */
+myNN.make_NN("startingNN");
+
 	  
 
 
 NN   gradNN(myNN.get_nlyer(),myNN.get_nnpl(),myNN.get_non(),myNN.get_nhw(1));
+
 for(int x=1; x<=num_its; x++)
 {
-	if(x%1000==0){
-     double scr =0; 
+	if(x%10==0){
+     double scr1 =0; double scr2=0; 
      for(int ii=1; ii<=myds1.get_nsets(); ii++)
      {
 	 vector<double> calc_val;
          myNN.get_O(calc_val,myds1,ii);  
-         scr = scr + xscore(calc_val, myds1, ii);
-	 cout << "\n" << calc_val[0] << "\t" << myds1.get_od(ii,1); 
+         scr1 = scr1 + xscore(calc_val, myds1, ii);
+	
+       
      }
+     for(int ii=1; ii<=myds2.get_nsets(); ii++)
+     {
+         vector<double> calc_val;
+         myNN.get_O(calc_val,myds1,ii);
+         scr2 = scr2 + xscore(calc_val, myds2, ii);
+
+
+     }
+
      
-     scr = scr/(myds1.get_nsets()); 
-     cout << "\n" << x << "\t" << scr; }
+     
+     scr1 = scr1/(myds1.get_nsets()); scr2 = scr2/(myds1.get_nsets()); 
+     cout << "\n" << x << "\t" << scr1 << "\t" << scr2; }
                                  
-//     int rn = rand()%2+1;
-  
+  //  int rn = rand()%(myds1.get_nsets())+1;
      grad(gradNN, myNN, myds1,del); 
-     gradD(gradNN,myNN,del2);  
+     gradD_justW(gradNN,myNN,del2);  
      if(x%1000==0)
      {
 	     string cfilename = "CurrentNN";
@@ -120,7 +134,7 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 {
 	double Sc = 0; 
 	int x=1; 
-	double  diff = calc[x-1]-mydata.get_od(wds,x);
+	double  diff = calc[x-1]-(mydata.get_od(wds,x)+2);
 	Sc = diff*diff ;
 	return Sc; 
 }
@@ -273,6 +287,44 @@ void gradD( NN & gradNN,   NN & myNN, double p)
                  }
          }
 	   for(int x=1; x<=myNN.get_non(); x++)
+         {
+                 for(int y=1; y<=myNN.get_now(); y++)
+                 {
+
+                                 myNN.set_oW(x,myNN.get_oW(x,y)-p*gradNN.get_oW(x,y),y);
+
+                 }
+         }
+
+
+
+}
+void gradD_justW( NN & gradNN,   NN & myNN, double p)
+{
+         for(int x=1; x<=myNN.get_nlyer(); x++)
+         {
+                 for(int y=1; y<=myNN.get_nnpl(); y++)
+                 {
+                         for(int z=1; z<=myNN.get_nhw(x); z++)
+                         {
+
+                                 myNN.set_hW(x,y,myNN.get_hW(x,y,z)-p*gradNN.get_hW(x,y,z),z);
+
+                         }
+                 }
+         }
+	 /*
+          for(int x=1; x<=myNN.get_nlyer(); x++)
+         {
+                 for(int y=1; y<=myNN.get_nnpl(); y++)
+                 {
+
+                                 myNN.set_hnb(x,y,myNN.get_hnb(x,y)-p*gradNN.get_hnb(x,y));
+
+                 }
+         }
+	 */
+           for(int x=1; x<=myNN.get_non(); x++)
          {
                  for(int y=1; y<=myNN.get_now(); y++)
                  {

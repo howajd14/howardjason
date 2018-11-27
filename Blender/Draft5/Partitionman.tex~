@@ -130,11 +130,25 @@ Something of interest to understand is some of the basic convergence properties 
  Once the energy density of states is obtained many important thermodynamic properties can be determined but it may be considered a draw back that ensemble averages of a general order parameter $a_i \equiv a(\Sigma_i)$ are not accessible.  It is shown in this work that this possible to achieve by considering the following equation, 
 \begin{equation}
 \begin{split}
-&\langle a \rangle = \sum_i^{\Omega}a_i \frac{ e^{- \frac{e_i}{K_bT}  }}{Z} = \\
-&\sum_j^{\Pi}<a_i>_{j}G(E_j)\frac{e^{-\frac{E_J}{K_bT} }}{Z} \; . 
+&\langle a \rangle = \sum_{i=1}^{\Omega}a_i \frac{ e^{- \frac{e_i}{K_bT}  }}{Z} = \\
+&\sum_{j=1}^{\Pi}<a_i>_{j}G(E_j)\frac{e^{-\frac{E_J}{K_bT} }}{Z} \; . 
+\label{order_param}
 \end{split} 
 \end{equation}
-Where $<a_i>_{j}$ is the linear/simple average of $a_i$ over all configurations with energy $E_j$. So if an average of the values visited  during the simulation is calculated then it may be possible to approximate ensemble averaged order parameters over the entire temperature range.  To test this the B$_L$ENDER algorithm was applied to a 26$\times$26 ferromagnetic Ising model with zero field with $\mathcal{S}=$ 10 and 100 to calculate the ensemble average of the absolute value of the magnetization per lattice site $\langle |m| \rangle$. In Fig \ref{avg_mag} (a) and (b) the results of five seperate simulations are shown for $\mathcal{S}=$ 10 and 100.  The results show that the known phase transition behavior of the ferromagnetic Ising model is well represented which indicates that this is a viable method for calculating ensemble averaged order parameters and that a larger value of $\mathcal{S}$ appears to reduce the variability between separate calculations.  This calculation is also evidence of B$_L$ENDER being applicable to larger systems, although this is still small compared to the 256$\times$256 model tested by Wang and Landau. 
+Where $<a_i>_{j}$ is the linear/simple average of $a_i$ over all configurations with energy $E_j$. This equation (Eq \ref{order_param}) follows that given the ordered set of configurations $\{\Sigma_i\}_\Omega$ with energies $e_1 \leq e_i \leq e_\Omega$ and correspnding order paramaters $a_1 ... a_i ... a_\Omega$, the order paramaters can be paritioned into groups based on like energy. With this notion and defining  $K(E_j)\equiv \sum_{l=0}^{j-1}G(E_l)$ (note: $G(E_0)\equiv 0$) ,Eq \ref{order_param} can be written as,
+\begin{equation}
+\begin{split}
+&\langle a \rangle =  \sum_{j=1}^{\Pi} \sum_{k=1}^{G(E_j)}a_{K+k} \frac{e^{-\frac{E_J}{K_bT} }}{Z} = \\
+&   \sum_{j=1}^{\Pi} \frac{e^{-\frac{E_J}{K_bT} }}{Z} \sum_{k=1}^{G(E_j)}a_{K+k} \;. 
+\end{split}
+\label{derive_order}
+\end{equation}
+From here it is straight forward to define the sum over $a_{K+k}$ in Eq \ref{derive_order} as, 
+\begin{equation}
+\sum_{k=1}^{G(E_j)}a_{K+k} \equiv  G(E_j)<a_i>_{j} \;, 
+\end{equation}
+that being the number of states with energy $E_j$ times the average value of the order parameter  $a_i$ over those states. 
+If an average of the values visited  during the simulation is calculated then it may be possible to approximate ensemble averaged order parameters over the entire temperature range.  To test this the B$_L$ENDER algorithm was applied to a 26$\times$26 ferromagnetic Ising model with zero field with $\mathcal{S}=$ 10 and 100 to calculate the ensemble average of the absolute value of the magnetization per lattice site $\langle |m| \rangle$. In Fig \ref{avg_mag} (a) and (b) the results of five seperate simulations are shown for $\mathcal{S}=$ 10 and 100.  The results show that the known phase transition behavior of the ferromagnetic Ising model is well represented which indicates that this is a viable method for calculating ensemble averaged order parameters and that a larger value of $\mathcal{S}$ appears to reduce the variability between separate calculations.  This calculation is also evidence of B$_L$ENDER being applicable to larger systems, although this is still small compared to the 256$\times$256 model tested by Wang and Landau. 
 
 In summary the presented algorithm in this work has shown its effectiveness in accurately determining the density of states for the 2D square zero field Ising model.  The simulations suggest that within a decade using B$_L$ENDER   it will be feasible on a state of the art super computer to calculate the partition function of a 3$\times$3$\times$3 135 atom model of disordered cubic Li$_2$OHCl using  density functional to a high level of accuracy. At the present time the algorithm should be suitable for first principles methods with smaller system sizes, with model Hamiltonians, or with models defined through model potentials. The algorithm shows promise for first principles methods in particular because the calculation of the energies can be done as individual job submissions to compute nodes managed by a script running on a head node. This work also demonstrated that if during the simulation to determine the energy density of states, linear/simple averages are made of order parameters for each energy level, then calculation of order parameters at any temperature is feasible. 
 %\newcommand{\bibdir}{./}

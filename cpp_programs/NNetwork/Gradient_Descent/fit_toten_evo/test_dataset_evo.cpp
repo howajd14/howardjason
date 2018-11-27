@@ -10,42 +10,48 @@ void   mutate_oW( NN & nnwk, double p);
 void   mutate_hb( NN & nnwk, double p);
 int main()
 {
-   dataset   myds1("Dataset1",4,8,1);
-   dataset   myds2("Dataset2",4,8,1);
+   dataset   myds1("Dataset1",10,8,1);
+//   dataset   myds2("Dataset2",4,8,1);
    double eval = myds1.get_od(1,1);
+   double min=100;
+   double max=-100;
+   double avg=0;
    for(int x=1; x<=myds1.get_nsets(); x++)
    {
-	   myds1.set_od(x,1,myds1.get_od(x,1)-eval);
-	   cout << "\n" << myds1.get_od(x,1) ;
+           double BB = myds1.get_od(x,1);
+           if(BB<min){min=BB;}
+           if(BB>max){max=BB;}
+           avg = avg+BB;
    }
-   for(int x=1; x<=myds2.get_nsets(); x++)
+        avg = avg/myds1.get_nsets();
+   for(int x=1; x<=myds1.get_nsets(); x++)
    {
-           myds2.set_od(x,1,myds2.get_od(x,1)-eval);
-	   cout << "\n" << myds2.get_od(x,1); 
+           myds1.set_od(x,1, (myds1.get_od(x,1)-avg)/(max-min));
    }
 
-   double  tns = myds1.get_nsets()+myds2.get_nsets(); 
+
+   double  tns = myds1.get_nsets(); 
    vector<NN>     myNN; 
    srand(time(NULL)); 
-    double hw_del = 0.00001;
-   double  bias_del = 0.00001;
-   double ow_del = 0.00001;
+    double hw_del = 0.0001;
+   double  bias_del = 0.0001;
+   double ow_del = 0.0001;
    int num_its = 10000000;
    double val = 0.00001;
 
    int S = 100; for(int x=1; x<=S; x++)
-   {myNN.push_back(NN(1,10,1,5));myNN[x-1].load_NN("FinalNN");
+   {myNN.push_back(NN(1,20,1,5));/*myNN[x-1].load_NN("FinalNN");
                int  rmut = rand()%100+1;
                 for(int rt =1; rt<=rmut; rt++)
                 {
                 mutate_hW(myNN[x-1],hw_del);
                 mutate_oW(myNN[x-1],ow_del);
                 mutate_hb(myNN[x-1],bias_del);
-                }
+                }*/
 
    } 
    
-   /*
+ 
 for(int z=1; z<=S; z++)
 {	
 for(int nl=1; nl<=myNN[0].get_nlyer(); nl++){
@@ -54,7 +60,7 @@ for(int x=1; x<=myNN[0].get_nnpl(); x++)
 	 for(int y=1; y<=myNN[0].get_nhw(nl); y++)
 	 {
 		int  pm = (rand()%2+1)*2 -3;  
-		int rn = rand()%10+1; 
+		int rn = rand()%1000+1; 
 		myNN[z-1].set_hW(nl,x,val*pm*1.0*rn, y); 
 	 }
 }
@@ -67,7 +73,7 @@ for(int x=1; x<=myNN[0].get_non(); x++)
 	for(int y=1; y<=myNN[0].get_now(); y++)
 	{
 		 int  pm = (rand()%2+1)*2 -3;
-		  int rn = rand()%10+1;
+		  int rn = rand()%1000+1;
 		myNN[z-1].set_oW(x,val*pm*1.0*rn,y);
 	} 
 }
@@ -78,7 +84,7 @@ for(int nl=1; nl<=myNN[z-1].get_nlyer(); nl++)
 {
 for(int x=1; x<=myNN[z-1].get_nnpl(); x++)
 {
-                double rn = rand()%10+1;
+                double rn = rand()%1000+1;
 
                 int  pm = (rand()%2+1)*2 -3;
                 myNN[x-1].set_hnb(nl,x,val*rn*pm);
@@ -86,7 +92,7 @@ for(int x=1; x<=myNN[z-1].get_nnpl(); x++)
 }
 }
 }
-*/
+
 vector<double> scores,tempscores; 
 for(int x=1; x<=S; x++)
 {
@@ -97,11 +103,6 @@ for(int x=1; x<=S; x++)
 		vector<double>  out;  myNN[x-1].get_O(out, myds1, y );
 		scr = scr + xscore(out,myds1,y);
 	}
-	for(int y=1; y<=myds2.get_nsets(); y++)
-        {
-                vector<double>  out;  myNN[x-1].get_O(out, myds2, y );
-                scr = scr + xscore(out,myds2,y);
-        }
 
 		scores.push_back(scr/(tns));
 	        tempscores.push_back(scores[x-1]); 	
@@ -129,7 +130,7 @@ for(int x=1; x<=num_its; x++)
 	for(int y=1; y<100; y++)
 	{
 		int  rn =rand()%S +1; mate(nnP[rn-1],nnP[y-1]);
-		int  rmut = rand()%4+1; 
+		int  rmut = rand()%1+1; 
 		for(int rt =1; rt<=rmut; rt++)
 		{
 		mutate_hW(nnP[y-1],hw_del);
@@ -148,14 +149,10 @@ for(int x=1; x<=num_its; x++)
                 scr = scr + xscore(out,myds1,y);
 		if(x%1000==0&&(y<=10&&xx==1))
 		{
-			cout << "\n" << out[0] << "\t" << myds1.get_od(y,1)*13.6057; 
+			cout << "\n" << out[0] << "\t" << myds1.get_od(y,1); 
 		}
         }
-	for(int y=1; y<=myds2.get_nsets(); y++)
-        {
-                vector<double>  out;  myNN[xx-1].get_O(out, myds2, y );
-                scr = scr + xscore(out,myds2,y);
-        }
+	
 
                 scores[xx-1]=(scr/(tns));
                 tempscores[xx-1]=(scores[xx-1]);
@@ -186,7 +183,7 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 {
         double Sc = 0;
         int x=1;
-        double  diff = calc[x-1]-mydata.get_od(wds,x)*13.6057;
+        double  diff = calc[x-1]-mydata.get_od(wds,x);
         Sc = diff*diff ;
         return Sc;
 }

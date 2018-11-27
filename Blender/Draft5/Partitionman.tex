@@ -135,15 +135,15 @@ Something of interest to understand is some of the basic convergence properties 
 \label{order_param}
 \end{split} 
 \end{equation}
-Where $<a_i>_{j}$ is the linear/simple average of $a_i$ over all configurations with energy $E_j$. This equation (Eq \ref{order_param}) follows that given the ordered set of configurations $\{\Sigma_i\}_\Omega$ with energies $e_1 \leq e_i \leq e_\Omega$ and correspnding order paramaters $a_1 ... a_i ... a_\Omega$, the order paramaters can be paritioned into groups based on like energy. With this notion and defining  $K(E_j)\equiv \sum_{l=0}^{j-1}G(E_l)$ (note: $G(E_0)\equiv 0$) ,Eq \ref{order_param} can be written as,
+Where $<a_i>_{j}$ is the linear/simple average of $a_i$ over all configurations with energy $E_j$. This equation (Eq \ref{order_param}) follows that given the ordered set of configurations $\{\Sigma_i\}_\Omega$ with energies $e_1 \leq e_i \leq e_\Omega$ and correspnding order paramaters $a_1 ... a_i ... a_\Omega$, the order paramaters can be paritioned into groups based on like energy. With this notion and defining  $K(E_j)\equiv \sum_{l=0}^{j-1}G(E_l)$ (note that for convience: $G(E_0)\equiv 0$), Eq \ref{order_param} can be written as,
 \begin{equation}
 \begin{split}
 &\langle a \rangle =  \sum_{j=1}^{\Pi} \sum_{k=1}^{G(E_j)}a_{K+k} \frac{e^{-\frac{E_J}{K_bT} }}{Z} = \\
 &   \sum_{j=1}^{\Pi} \frac{e^{-\frac{E_J}{K_bT} }}{Z} \sum_{k=1}^{G(E_j)}a_{K+k} \;. 
 \end{split}
-\label{derive_order}
+\label{deriveorder}
 \end{equation}
-From here it is straight forward to define the sum over $a_{K+k}$ in Eq \ref{derive_order} as, 
+From Eq \ref{deriveorder}  it is straight forward to define the sum over $a_{K+k}$ in Eq \ref{deriveorder} as, 
 \begin{equation}
 \sum_{k=1}^{G(E_j)}a_{K+k} \equiv  G(E_j)<a_i>_{j} \;, 
 \end{equation}

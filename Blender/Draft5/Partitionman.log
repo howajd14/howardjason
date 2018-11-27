@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  13 NOV 2018 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  27 NOV 2018 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,7 +402,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 87--90
 ) [5] (./Partitionman.aux) ) 
 Here is how much of TeX's memory you used:
  4255 strings out of 494805
- 57179 string characters out of 6177999
+ 57178 string characters out of 6177999
  143173 words of memory out of 5000000
  7531 multiletter control sequences out of 15000+600000
  9293 words of font info for 34 fonts, out of 8000000 for 9000
@@ -425,7 +425,7 @@ cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Partitionman.pdf (5 pages, 249627 bytes).
+Output written on Partitionman.pdf (5 pages, 249647 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
