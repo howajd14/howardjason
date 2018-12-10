@@ -68,8 +68,8 @@ for(int x = 1; x<=Li_positions.num_lines(); x++)
 	string line43 = Li_positions.get_line(x);
 	stringstream ppp; ppp << line43; 
 	string holder;  ppp >> holder; 
-	if(holder == "Li")
-	{
+	if(holder == "#Li")
+	{ 
 	double av, bv, cv; ppp >> av; ppp >> bv; ppp>>cv;
 	atomic_pos[x-1][0]=av; atomic_pos[x-1][1]=bv; atomic_pos[x-1][2]=cv;
 	}

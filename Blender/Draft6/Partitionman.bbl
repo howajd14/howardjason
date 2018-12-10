@@ -24,10 +24,7 @@ Georg Schwering, Andreas H\"{o}nnerscheid, Leo van W\"{u}llen, and Martin
 \newblock {\em ChemPhysChem}, 4(4):343--348, 2003.
 
 \bibitem{Holzwarth_group}
-Jason Howard, Zachary~D. Hood, and N.~A.~W. Holzwarth.
-\newblock Fundamental aspects of the structural and electrolyte properties of
-  ${\mathrm{li}}_{2}\mathrm{OHCl}$ from simulations and experiment.
-\newblock {\em Phys. Rev. Materials}, 1:075406, Dec 2017.
+
 
 \bibitem{Song_Borodin}
 Ah-Young Song, Yiran Xiao, Kostiantyn Turcheniuk, Punith Upadhya, Anirudh
@@ -37,6 +34,11 @@ Ah-Young Song, Yiran Xiao, Kostiantyn Turcheniuk, Punith Upadhya, Anirudh
   oxyhalide solid electrolytes by forming rotating hydroxy groups.
 \newblock {\em Advanced Energy Materials}, pages 1700971--n/a.
 \newblock 1700971.
+
+\bibitem{kohn:1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-consistent equations including exchange and correlation effects.
+\newblock {\em Physical Review}, 140:A1133--A1138, 1965.
 
 \bibitem{metropolis_equation_1953}
 Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
@@ -92,5 +94,24 @@ Barry~M. McCoy and Tai~Tsun Wu.
 Paul~D. Beale.
 \newblock Exact distribution of energies in the two-dimensional ising model.
 \newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
+
+\bibitem{PWscf:2009}
+Paolo Giannozzi, Stefano Baroni, Nicola Bonini, Matteo Calandra, Roberto Car,
+  Carlo Cavazzoni, Davide Ceresoli, Guido~L Chiarotti, Matteo Cococcioni,
+  Ismaila Dabo, Andrea~Dal Corso, Stefano de~Gironcoli, Stefano Fabris, Guido
+  Fratesi, Ralph Gebauer, Uwe Gerstmann, Christos Gougoussis, Anton Kokalj,
+  Michele Lazzeri, Layla Martin-Samos, Nicola Marzari, Francesco Mauri,
+  Riccardo Mazzarello, Stefano Paolini, Alfredo Pasquarello, Lorenzo Paulatto,
+  Carlo Sbraccia, Sandro Scandolo, Gabriele Sclauzero, Ari~P Seitsonen,
+  Alexander Smogunov, Paolo Umari, and Renata~M Wentzcovitch.
+\newblock Quantum espresso: a modular and open-source software project for
+  quantum simulations of materials.
+\newblock {\em J. Phys.: Condens. Matter}, 21(39):394402 (19pp), 2009.
+\newblock Available from the website \url{http://www.quantum-espresso.org.}
+
+\bibitem{PBE}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys. Rev. Lett.}, 77:3865--3868, Oct 1996.
 
 \end{thebibliography}

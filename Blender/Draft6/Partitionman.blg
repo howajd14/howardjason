@@ -8,47 +8,62 @@ Repeated entry---line 97 of file Bib.bib
  : @book{Ising
  :            ,
 I'm skipping whatever remains of this entry
+Warning--string name "fundamental" is undefined
+--line 223 of file Bib.bib
+I was expecting a `,' or a `}'---line 223 of file Bib.bib
+ :   title = fundamental 
+ :                       aspects of the structural and electrolyte properties of $  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 289 of file Bib.bib
+ : 
+ : %PBE citation
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty author in Holzwarth_group
+Warning--empty title in Holzwarth_group
+Warning--empty journal in Holzwarth_group
+Warning--empty year in Holzwarth_group
 Warning--empty year in Song_Borodin
 Warning--empty journal in Hframe_Wang_Landau
-You've used 15 entries,
+You've used 18 entries,
             1791 wiz_defined-function locations,
-            564 strings with 6643 characters,
-and the built_in function-call counts, 3949 in all, are:
-= -- 348
-> -- 191
+            581 strings with 7570 characters,
+and the built_in function-call counts, 5053 in all, are:
+= -- 414
+> -- 301
 < -- 1
-+ -- 70
-- -- 55
-* -- 305
-:= -- 630
-add.period$ -- 47
-call.type$ -- 15
-change.case$ -- 13
++ -- 108
+- -- 90
+* -- 428
+:= -- 819
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 155
-empty$ -- 364
-format.name$ -- 55
-if$ -- 860
+cite$ -- 24
+duplicate$ -- 181
+empty$ -- 438
+format.name$ -- 90
+if$ -- 1072
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 18
-newline$ -- 80
-num.names$ -- 15
-pop$ -- 35
+int.to.str$ -- 18
+missing$ -- 21
+newline$ -- 94
+num.names$ -- 17
+pop$ -- 44
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 69
+skip$ -- 82
 stack$ -- 0
-substring$ -- 337
-swap$ -- 31
+substring$ -- 426
+swap$ -- 33
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 35
-width$ -- 17
-write$ -- 167
-(There was 1 error message)
+warning$ -- 6
+while$ -- 41
+width$ -- 20
+write$ -- 195
+(There were 3 error messages)
