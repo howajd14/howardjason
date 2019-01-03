@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{Hood}
+Zachary~D. Hood, Hui Wang, Amaresh Samuthira~Pandian, Jong~Kahk Keum, and
+  Chengdu Liang.
+\newblock Li2ohcl crystalline electrolyte for stable metallic lithium anodes.
+\newblock {\em Journal of the American Chemical Society}, 138(6):1768--1771,
+  2016.
+
+\bibitem{Goodenough}
+Yutao Li, Weidong Zhou, Sen Xin, Shuai Li, Jinlong Zhu, Xujie Lü, Zhiming Cui,
+  Quanxi Jia, Jianshi Zhou, Yusheng Zhao, and John~B. Goodenough.
+\newblock Fluorine-doped antiperovskite electrolyte for all-solid-state
+  lithium-ion batteries.
+\newblock {\em Angewandte Chemie International Edition}, 55(34):9965--9968,
+  2016.
+
+\bibitem{Schwering}
+Georg Schwering, Andreas H\"{o}nnerscheid, Leo van W\"{u}llen, and Martin
+  Jansen.
+\newblock High lithium ionic conductivity in the lithium halide hydrates
+  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and
+  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at ambient
+  temperatures.
+\newblock {\em ChemPhysChem}, 4(4):343--348, 2003.
+
+\bibitem{Holzwarth_group}
+Jason Howard, Zachary~D. Hood, and N.~A.~W. Holzwarth.
+\newblock Fundamental aspects of the structural and electrolyte properties of $
+  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment.
+\newblock {\em Phys. Rev. Materials}, 1:075406, Dec 2017.
+
+\bibitem{Song_Borodin}
+Ah-Young Song, Yiran Xiao, Kostiantyn Turcheniuk, Punith Upadhya, Anirudh
+  Ramanujapuram, Jim Benson, Alexandre Magasinski, Marco Olguin, Lamartine
+  Meda, Oleg Borodin, and Gleb Yushin.
+\newblock Protons enhance conductivities in lithium halide hydroxide/lithium
+  oxyhalide solid electrolytes by forming rotating hydroxy groups.
+\newblock {\em Advanced Energy Materials}, pages 1700971--n/a.
+\newblock 1700971.
+
+\bibitem{kohn:1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-consistent equations including exchange and correlation effects.
+\newblock {\em Physical Review}, 140:A1133--A1138, 1965.
+
+\bibitem{metropolis_equation_1953}
+Nicholas Metropolis, Arianna~W. Rosenbluth, Marshall~N. Rosenbluth, Augusta~H.
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
+
+\bibitem{landau_MC_simulations}
+David~P. Landau and Kurt Binder.
+\newblock {\em A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics}.
+\newblock Cambridge University Press, fourth edition edition, 2015.
+
+\bibitem{WL_phys_rev_lett}
+Fugao Wang and D.~P. Landau.
+\newblock Efficient, multiple-range random walk algorithm to calculate the
+  density of states.
+\newblock {\em Phys. Rev. Lett.}, 86:2050--2053, Mar 2001.
+
+\bibitem{MP_Wang_Landau}
+Junqi Yin and D.P. Landau.
+\newblock Massively parallel wang–landau sampling on multiple gpus.
+\newblock {\em Computer Physics Communications}, 183(8):1568 -- 1573, 2012.
+
+\bibitem{P_imp_Wang_Landau}
+Lixin Zhan.
+\newblock A parallel implementation of the wang–landau algorithm.
+\newblock {\em Computer Physics Communications}, 179(5):339 -- 344, 2008.
+
+\bibitem{Hframe_Wang_Landau}
+Thomas Vogel, Ying~Wai Li, Thomas Wüst, and D~Landau.
+\newblock Generic, hierarchical framework for massively parallel wang-landau
+  sampling.
+\newblock 110:210603, 05 2013.
+
+\bibitem{exact_statistical}
+R.J. Baxter.
+\newblock {\em Exactly Solved Models in Statistical Mechanics}.
+\newblock Elsevier, 2016.
+\newblock ISBN 978-0-12-083180-7.
+
+\bibitem{Onsager}
+Lars Onsager.
+\newblock Crystal statistics. i. a two-dimensional model with an order-disorder
+  transition.
+\newblock {\em Phys. Rev.}, 65:117--149, 1944.
+
+\bibitem{Ising}
+Barry~M. McCoy and Tai~Tsun Wu.
+\newblock {\em The {T}wo-{D}imensional {I}sing {M}odel}.
+\newblock Harvard University Press, 1973.
+
+\bibitem{Beale_2d_ising}
+Paul~D. Beale.
+\newblock Exact distribution of energies in the two-dimensional ising model.
+\newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
+
+\bibitem{PBE}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys. Rev. Lett.}, 77:3865--3868, Oct 1996.
+
+\end{thebibliography}
