@@ -196,7 +196,7 @@ modeprint = { http://dx.doi.org/10.1021/jacs.5b11851 } }
 @article {Schwering,
 author = {Schwering, Georg and H\"{o}nnerscheid, Andreas and van 
 W\"{u}llen, Leo and Jansen, Martin},
-title = {High Lithium Ionic Conductivity in the Lithium Halide Hydrates  $\mathrm{Li}_{3-n}(O mathrm{H}_{n})\mathrm{Cl} (0.83≤n≤2) and \mathrm{Li}_{3-n}(O\mathrm{H}_{n})Br (1≤n≤2)$ at Ambient Temperatures},
+title = {High Lithium Ionic Conductivity in the Lithium Halide Hydrates  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at Ambient Temperatures},
 journal = {ChemPhysChem},
 volume = {4},
 number = {4},
