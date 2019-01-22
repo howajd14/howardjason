@@ -16,7 +16,7 @@ Y.~Li, W.~Zhou, S.~Xin, S.~Li, X.~Zhu, J.and~Lü, Z.~Cui, Q.~Jia, J.~Zhou,
   2016.
 
 \bibitem{Schwering}
-G~Schwering, A~H\"{o}nnerscheid, L~v~W\"{u}llen, and M~Jansen.
+G.~Schwering, A.~H\"{o}nnerscheid, L.~v.~W\"{u}llen, and M.~Jansen.
 \newblock High lithium ionic conductivity in the lithium halide hydrates
   $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and
   $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at ambient
@@ -24,7 +24,7 @@ G~Schwering, A~H\"{o}nnerscheid, L~v~W\"{u}llen, and M~Jansen.
 \newblock {\em ChemPhysChem}, 4(4):343--348, 2003.
 
 \bibitem{Holzwarth_group}
-J~Howard, Z~D. Hood, and N.~A.~W. Holzwarth.
+J.~D. Howard, Z~D. Hood, and N.~A.~W. Holzwarth.
 \newblock Fundamental aspects of the structural and electrolyte properties of $
   \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment.
 \newblock {\em Phys. Rev. Materials}, 1:075406, Dec 2017.
@@ -72,6 +72,13 @@ T.~Vogel, Y.~W. Li, T.~W\"{u}st, and D.~Landau.
 \newblock Generic, hierarchical framework for massively parallel wang-landau
   sampling.
 \newblock 110:210603, 05 2013.
+
+\bibitem{partition}
+J.~D. Howard and N.~A.~W. Holzwarth.
+\newblock First-principles estimation of partition functions representing
+  disordered lattices such as the cubic phases of
+  ${\mathrm{li}}_{2}\mathrm{OHCl}$ and ${\mathrm{li}}_{2}\mathrm{OHBr}$.
+\newblock {\em Phys. Rev. B}, 99:014109, Jan 2019.
 
 \bibitem{exact_statistical}
 R.~J. Baxter.

@@ -1,6 +1,6 @@
 %Article in American Journal of Physics about the Wang and Landau method
 @article{Wang_and_Landua_AAPT,
-author = {Landau,D. P.  and Tsai,Shan-Ho  and Exler,M. },
+author = {Landau,D. P.  and Tsai,S. H. and Exler,M. },
 title = {A new approach to Monte Carlo simulations in statistical physics: Wang-Landau sampling},
 journal = {American Journal of Physics},
 volume = {72},
@@ -23,7 +23,7 @@ eprint = {
 %Wang and Landau's article in physical review letters
 @article{WL_phys_rev_lett,
   title = {Efficient, Multiple-Range Random Walk Algorithm to Calculate the Density of States},
-  author = {Wang, Fugao and Landau, D. P.},
+  author = {Wang, F. and Landau, D. P.},
   journal = {Phys. Rev. Lett.},
   volume = {86},
   issue = {10},
@@ -40,7 +40,7 @@ eprint = {
  %exactly solved models in statistical mechanics
  @book{exact_statistical,
     title={Exactly Solved Models in Statistical Mechanics},
-    author={Baxter, R.J.},
+    author={Baxter, R. J.},
     year={2016},
     publisher={Elsevier},
     note = {ISBN  978-0-12-083180-7}
@@ -50,7 +50,7 @@ eprint = {
 %Onsagers solution to the 2-d ising model 
 @article{Onsager,
   title = {Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition},
-  author = {Onsager, Lars},
+  author = {Onsager, L.},
   journal = {Phys. Rev.},
   volume = {65},
   issue = {3-4},
@@ -64,14 +64,14 @@ eprint = {
 
 %Harvard book on 2-d Ising model
 @book{Ising,
-    author={Barry M. McCoy and Tai Tsun Wu},
+    author={B. M. McCoy and T. T. Wu},
     title={The {T}wo-{D}imensional {I}sing {M}odel},
     publisher = {Harvard University Press},
     year=1973}
 
 %Monte Carlo simulations book
 @book{landau_MC_simulations,
-  author={David P. Landau and Kurt Binder},
+  author={D. P. Landau and K.Binder},
   title={A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics},
   edition={Fourth Edition},
   publisher={Cambridge University Press},
@@ -86,19 +86,14 @@ eprint = {
 	pages = {1087--1092},
 	number = {6},
 	journal = {The Journal of Chemical Physics},
-	author = {Metropolis, Nicholas and Rosenbluth, Arianna W. 
-         and Rosenbluth, Marshall N. and Teller, Augusta H. and 
-          Teller, Edward},
+	author = {Metropolis, N. and Rosenbluth, A. W. 
+         and Rosenbluth, M. N. and Teller, A. H. and 
+          Teller, E.},
 	urldate = {2017-12-31},
 	date = {1953-06},
         year=1953}
   
-  %2d-Ising model reference from Harvard
-@book{Ising,
-    author={Barry M. McCoy and Tai Tsun Wu},
-    title={The {T}wo-{D}imensional {I}sing {M}odel},
-    publisher = {Harvard University Press},
-    year=1973}
+  
     
     @misc{XMGRACE,
    note={XMGRACE is a two-dimensional plotting software 
@@ -114,7 +109,7 @@ package maintained at the webpage
 	urldate = {2018-08-20},
 	booktitle = {{S}olid {S}tate {P}hysics},
 	publisher = {Elsevier},
-	author = {Fontaine, D. De},
+	author = {Fontaine, D. D.},
 	year = {1994},
 	doi = {10.1016/S0081-1947(08)60639-6},
 	pages = {33--176}}
@@ -122,7 +117,7 @@ package maintained at the webpage
 	%Beale exact solution 2-D ising weights
 	@article{Beale_2d_ising,
   title = {Exact Distribution of Energies in the Two-Dimensional Ising Model},
-  author = {Beale, Paul D.},
+  author = {Beale, P. D.},
   journal = {Phys. Rev. Lett.},
   volume = {76},
   issue = {1},
@@ -147,7 +142,7 @@ year = "2012",
 issn = "0010-4655",
 doi = "https://doi.org/10.1016/j.cpc.2012.02.023",
 url = "http://www.sciencedirect.com/science/article/pii/S0010465512000859",
-author = "Junqi Yin and D.P. Landau",
+author = "J. Yin and D. P. Landau",
 keywords = "Wang–Landau sampling, GPU computing, Water clusters, Phase transition"
 }
 
@@ -162,13 +157,13 @@ year = "2008",
 issn = "0010-4655",
 doi = "https://doi.org/10.1016/j.cpc.2008.04.002",
 url = "http://www.sciencedirect.com/science/article/pii/S0010465508001392",
-author = "Lixin Zhan",
+author = "L. Zhan",
 keywords = "Wang–Landau, Monte Carlo, OpenMP, Distributed computing"
 }
 
 %Hierachical frame work for Wang and Landau parallel
 @article{Hframe_Wang_Landau,
-author = {Vogel, Thomas and Li, Ying Wai and Wüst, Thomas and Landau, D},
+author = {Vogel, T. and Li, Y. W. and W\"{u}st, T. and Landau, D.},
 year = {2013},
 month = {05},
 pages = {210603},
@@ -180,8 +175,8 @@ booktitle = {Physical review letters}
 
 %Zachs reference 
 @article{Hood,
-author = {Hood, Zachary D. and Wang, Hui and Samuthira Pandian, Amaresh and Keum, Jong Kahk and Liang, Chengdu},
-title = {Li2OHCl Crystalline Electrolyte for Stable Metallic Lithium Anodes},
+author = {Hood, Z. D. and Wang, H. and S. Pandian, A. and Keum, J. K. and Liang, C.},
+title = {$\mathrm{Li}_2\mathrm{O}\mathrm{H}\mathrm{Cl}$ Crystalline Electrolyte for Stable Metallic Lithium Anodes},
 journal = {Journal of the American Chemical Society},
 volume = {138},
 number = {6},
@@ -194,8 +189,8 @@ modeprint = { http://dx.doi.org/10.1021/jacs.5b11851 } }
 
 %schwerings reference
 @article {Schwering,
-author = {Schwering, Georg and H\"{o}nnerscheid, Andreas and van 
-W\"{u}llen, Leo and Jansen, Martin},
+author = {Schwering, G. and H\"{o}nnerscheid, A. and v. 
+W\"{u}llen, L. and Jansen, M.},
 title = {High Lithium Ionic Conductivity in the Lithium Halide Hydrates  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at Ambient Temperatures},
 journal = {ChemPhysChem},
 volume = {4},
@@ -212,7 +207,7 @@ year = {2003},
 %our reference 
 @article{Holzwarth_group ,
   title = { Fundamental aspects of the structural and electrolyte properties of $  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment} ,
-  author = {Howard, Jason and Hood, Zachary D. and Holzwarth, N. A. W.},
+  author = {Howard, J. D. and Hood, Z D. and Holzwarth, N. A. W.},
   journal = {Phys. Rev. Materials},
   volume = {1},
   issue = {7},
@@ -227,20 +222,20 @@ year = {2003},
 
 %Songs paper (Borodin)
 ﻿@article {Song_Borodin,
-author = {Song, Ah-Young and Xiao, Yiran and Turcheniuk, Kostiantyn and Upadhya, Punith and Ramanujapuram, Anirudh and Benson, Jim and Magasinski, Alexandre and Olguin, Marco and Meda, Lamartine and Borodin, Oleg and Yushin, Gleb},
+author = {Song, A.-Y. and Xiao, Y. and Turcheniuk, K. and Upadhya, P. and Ramanujapuram, A. and Benson, J. and Magasinski, A. and Olguin, M. and Meda, L. and Borodin, O. and Yushin, G.},
 title = {Protons Enhance Conductivities in Lithium Halide Hydroxide/Lithium Oxyhalide Solid Electrolytes by Forming Rotating Hydroxy Groups},
 journal = {Advanced Energy Materials},
 issn = {1614-6840},
 url = {http://dx.doi.org/10.1002/aenm.201700971},
 doi = {10.1002/aenm.201700971},
-pages = {1700971--n/a},
+pages = {1700971},
 keywords = {antiperovskite, Li-ion conductivity, molecular dynamics simulations, solid state electrolyte, X-ray diffraction},
-note = {1700971},
+year = {2018},
 }
 
 %Goodenoughs reference 
 @article {Goodenough,
-author = {Li, Yutao and Zhou, Weidong and Xin, Sen and Li, Shuai and Zhu, Jinlong and Lü, Xujie and Cui, Zhiming and Jia, Quanxi and Zhou, Jianshi and Zhao, Yusheng and Goodenough, John B.},
+author = {Li, Y. and Zhou, W. and Xin, S. and Li, S. and Zhu, J.and Lü, X. and Cui, Z. and Jia, Q. and Zhou, J. and Zhao, Y. and Goodenough, J. B.},
 title = {Fluorine-Doped Antiperovskite Electrolyte for All-Solid-State Lithium-Ion Batteries},
 journal = {Angewandte Chemie International Edition},
 volume = {55},
@@ -256,17 +251,17 @@ year = {2016},
 %Quantum Espresso Citation
 
 @article{PWscf:2009,
-   author={Paolo Giannozzi and Stefano Baroni and  Nicola Bonini and
-         Matteo Calandra and Roberto Car and Carlo Cavazzoni and
-         Davide Ceresoli and Guido L Chiarotti and Matteo Cococcioni and
-         Ismaila Dabo  and Andrea Dal Corso and Stefano de Gironcoli and
-         Stefano Fabris and Guido Fratesi and Ralph Gebauer and
-         Uwe Gerstmann and Christos Gougoussis and Anton Kokalj and
-         Michele Lazzeri and Layla Martin-Samos and Nicola Marzari and
-         Francesco Mauri and Riccardo Mazzarello and Stefano Paolini and
-         Alfredo Pasquarello and Lorenzo Paulatto and Carlo Sbraccia and
-         Sandro Scandolo and Gabriele Sclauzero and Ari P Seitsonen and
-         Alexander Smogunov and Paolo Umari and Renata M Wentzcovitch},
+   author={P. Giannozzi and S. Baroni and  N. Bonini and
+         M. Calandra and R. Car and C. Cavazzoni and
+         D. Ceresoli and G.L Chiarotti and M. Cococcioni and
+         I. Dabo  and A. D. Corso and S. d. Gironcoli and
+         S. Fabris and G. Fratesi and R. Gebauer and
+         U. Gerstmann and C. Gougoussis and A. Kokalj and
+         M.Lazzeri and L. M. Samos and . Marzari and
+         F. Mauri and R. Mazzarello and S. Paolini and
+         A. Pasquarello and L. Paulatto and C. Sbraccia and
+         S.Scandolo and G. Sclauzero and A. P. Seitsonen and
+         A. Smogunov and P. Umari and R. M. Wentzcovitch},
    title={QUANTUM ESPRESSO: a modular and open-source software project 
         for quantum simulations of materials},
    journal={J. Phys.: Condens. Matter},
@@ -280,7 +275,7 @@ year = {2016},
 %PBE citation
 @article{PBE,
   title = {Generalized Gradient Approximation Made Simple},
-  author = {Perdew, John P. and Burke, Kieron and Ernzerhof, Matthias},
+  author = {Perdew, J. P. and Burke, K. and Ernzerhof, M.},
   journal = {Phys. Rev. Lett.},
   volume = {77},
   issue = {18},

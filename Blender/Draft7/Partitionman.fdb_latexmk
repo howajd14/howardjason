@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Partitionman"] 1547056801 "Partitionman.aux" "Partitionman.bbl" "Partitionman" 1547497870
+["bibtex Partitionman"] 1547651544 "Partitionman.aux" "Partitionman.bbl" "Partitionman" 1547651577
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Bib.bib" 1547056782 9828 a44d4d4fafcbfd9014f50edc10f7744f ""
-  "Partitionman.aux" 1547497870 3442 24c3f900e47563acccc28603a9350a89 ""
+  "Bib.bib" 1547651527 10403 cabc0ce622c62d15555592e98a194355 ""
+  "Partitionman.aux" 1547651577 3499 e06a14f7e412540a1f8dfd92b724c339 ""
   "Partitionman.bcf" 0 -1 0 ""
-  "PartitionmanNotes.bib" 1547497870 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "PartitionmanNotes.bib" 1547651577 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "Partitionman.blg"
   "Partitionman.bbl"
+  "Partitionman.blg"
 ["latex"] 1543346560 "Partitionman.tex" "Partitionman.dvi" "Partitionman" 1543346560
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -60,11 +60,11 @@
   "Partitionman.tex" 1543346559 21159 b05ff9f2aa358cb3fe399702d967f710 ""
   "its_vs_S.png" 1539367934 7238 081dc63d5422b1497341a3174ef74df3 ""
   (generated)
-  "PartitionmanNotes.bib"
   "Partitionman.dvi"
   "Partitionman.aux"
+  "PartitionmanNotes.bib"
   "Partitionman.log"
-["pdflatex"] 1547497870 "Partitionman.tex" "Partitionman.pdf" "Partitionman" 1547497870
+["pdflatex"] 1547651577 "Partitionman.tex" "Partitionman.pdf" "Partitionman" 1547651577
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -139,15 +139,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540316973 946996 0df2ff670e2d66c6eb193e4f54f904b3 ""
   "M_vs_T_S10.png" 1546535044 7828 68ff2632d12589575c0e91676a4c7346 ""
   "M_vs_T_S100.png" 1546535044 7300 348f1dd5ad474a2ab0f8bd96331e61cb ""
-  "Partitionman.aux" 1547497870 3442 24c3f900e47563acccc28603a9350a89 ""
-  "Partitionman.bbl" 1547056801 3921 ad0fe5ba3713da4cc2e6bb692c7ffa65 "bibtex Partitionman"
-  "Partitionman.tex" 1547497839 22802 a5e1bcd50bb25dd0bd8948f9e5765071 ""
+  "Partitionman.aux" 1547651577 3499 e06a14f7e412540a1f8dfd92b724c339 ""
+  "Partitionman.bbl" 1547651544 4236 761d7e09f1aa9ae723080a11cb0fb0c6 "bibtex Partitionman"
+  "Partitionman.tex" 1547651540 22798 24abe3ef351df13734e2e5f8ff585532 ""
   "its_to_find.png" 1546535044 7094 4b667ee945025336f8aee7a44313e216 ""
   "its_vs_S.png" 1546535044 7238 081dc63d5422b1497341a3174ef74df3 ""
   "long_time_error.png" 1546535044 7348 ba241b6366dd001287db96b765d94502 ""
   "relative_errors.png" 1546535044 11257 d4b5041ac7f21e9882cd47585cdcf1dd ""
   (generated)
   "PartitionmanNotes.bib"
-  "Partitionman.log"
   "Partitionman.aux"
+  "Partitionman.log"
   "Partitionman.pdf"
