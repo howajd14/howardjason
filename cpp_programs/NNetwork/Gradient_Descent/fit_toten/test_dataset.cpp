@@ -13,13 +13,24 @@ void   mutate_hb( NN & nnwk, double p);
 int main()
 {
    dataset   myds("Dataset",990,8,1); 
-   NN  myNN(1,40,1,5); 
+   NN  myNN(2,20,1,5); 
    srand(time(NULL)); 
-  
+  double avg=0;
+   for(int x=1; x<=myds.get_nsets(); x++)
+   {
+           double BB = myds.get_od(x,1);
+           avg = avg+BB;
+   }
+        avg = avg/myds.get_nsets();
+   for(int x=1; x<=myds.get_nsets(); x++)
+   {
+           myds.set_od(x,1, (myds.get_od(x,1)-avg));
+   }
 
-   double del = 0.0000001;
-   double del2 =0.00003; 
-   int num_its = 100000000;  
+
+   double del = 0.0001;
+   double del2 =0.0001; 
+   int num_its = 1e5;  
    double val = 0.01;  
 	
 
@@ -30,7 +41,8 @@ for(int x=1; x<=myNN.get_nnpl(); x++)
 	 for(int y=1; y<=myNN.get_nhw(nl); y++)
 	 {
 		int  pm = (rand()%2+1)*2 -3;  
-		myNN.set_hW(nl,x,val*pm, y); 
+		double rmg = rand()%100+1;
+		myNN.set_hW(nl,x,val*pm*rmg, y); 
 	 }
 }
 }
@@ -40,7 +52,8 @@ for(int x=1; x<=myNN.get_nnpl(); x++)
 {
          
                 int  pm = (rand()%2+1)*2 -3;
-                myNN.set_hnb(nl,x,val*pm);
+		double rmg = rand()%100+1;
+                myNN.set_hnb(nl,x,val*pm*rmg);
          
 }
 }
@@ -53,7 +66,8 @@ for(int x=1; x<=myNN.get_non(); x++)
 	for(int y=1; y<=myNN.get_now(); y++)
 	{
 		 int  pm = (rand()%2+1)*2 -3;
-		myNN.set_oW(x,val*pm,y);
+		 double rmg = rand()%100+1;
+		myNN.set_oW(x,val*pm*rmg,y);
 	} 
 }
 

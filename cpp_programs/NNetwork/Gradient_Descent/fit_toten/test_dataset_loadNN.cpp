@@ -12,15 +12,26 @@ void   mutate_oW( NN & nnwk, double p);
 void   mutate_hb( NN & nnwk, double p);
 int main()
 {
-   dataset   myds("Dataset",990,8,1); 
-   NN  myNN(1,40,1,5); 
+   dataset   myds("Dataset1",990,8,1); 
+   NN  myNN(1,40,1,5);
    myNN.load_NN("FinalNN"); 
    srand(time(NULL)); 
-  
+  double avg=0;
+   for(int x=1; x<=myds.get_nsets(); x++)
+   {
+           double BB = myds.get_od(x,1);
+           avg = avg+BB;
+   }
+        avg = avg/myds.get_nsets();
+   for(int x=1; x<=myds.get_nsets(); x++)
+   {
+           myds.set_od(x,1, (myds.get_od(x,1)-avg));
+   }
 
-   double del = 0.0000001;
-   double del2 =0.00003; 
-   int num_its = 100000000;  
+
+   double del = 0.00001;
+   double del2 =0.00001; 
+   int num_its = 1e5;  
    double val = 0.01;  
 	
 /*
@@ -31,7 +42,8 @@ for(int x=1; x<=myNN.get_nnpl(); x++)
 	 for(int y=1; y<=myNN.get_nhw(nl); y++)
 	 {
 		int  pm = (rand()%2+1)*2 -3;  
-		myNN.set_hW(nl,x,val*pm, y); 
+		double rmg = rand()%100+1;
+		myNN.set_hW(nl,x,val*pm*rmg, y); 
 	 }
 }
 }
@@ -41,7 +53,8 @@ for(int x=1; x<=myNN.get_nnpl(); x++)
 {
          
                 int  pm = (rand()%2+1)*2 -3;
-                myNN.set_hnb(nl,x,val*pm);
+		double rmg = rand()%100+1;
+                myNN.set_hnb(nl,x,val*pm*rmg);
          
 }
 }
@@ -54,11 +67,12 @@ for(int x=1; x<=myNN.get_non(); x++)
 	for(int y=1; y<=myNN.get_now(); y++)
 	{
 		 int  pm = (rand()%2+1)*2 -3;
-		myNN.set_oW(x,val*pm,y);
+		 double rmg = rand()%100+1;
+		myNN.set_oW(x,val*pm*rmg,y);
 	} 
 }
-
 */
+
 	  
 
 
@@ -71,13 +85,15 @@ for(int x=1; x<=num_its; x++)
 	 vector<double> calc_val;
          myNN.get_O(calc_val,myds,ii);  
          scr = scr + xscore(calc_val, myds, ii);
+	 if(x%1000==0&&ii<=10)
+         { cout << "\n" << calc_val[0] << "\t" << myds.get_od(ii,1);} 
      }
      scr = scr/myds.get_nsets(); 
      if(x%1000==0){cout << "\n" << x << "\t" << scr; }
                                  
 
-     int rds = rand()%myds.get_nsets()+1; 
-     gradSD(gradNN, myNN, myds,del, rds); 
+   //  int rds = rand()%myds.get_nsets()+1; 
+     grad(gradNN, myNN, myds,del); 
      gradD(gradNN,myNN,del2);  
      if(x%10000==0)
      {
@@ -100,7 +116,7 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 {
 	double Sc = 0; 
 	int x=1; 
-	double  diff = calc[x-1]-mydata.get_od(wds,x)/10.0;
+	double  diff = calc[x-1]-mydata.get_od(wds,x);
 	Sc = diff*diff ;
 	return Sc; 
 }

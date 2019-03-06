@@ -32,10 +32,11 @@ int main()
  */
    vector<NN>     myNN; 
    srand(time(NULL)); 
- double  del = 0.000001; 
+ double  del = 0.00001; 
    int S = 1; for(int x=1; x<=S; x++)
-   {myNN.push_back(NN(1,40,1,5)); myNN[x-1].load_NN("FinalNN"); } 
-     for(int y=1; y<=S; y++)
+   {myNN.push_back(NN(2,20,1,5)); myNN[x-1].load_NN("FinalNN"); } 
+/*  
+   for(int y=1; y<=S; y++)
         {
                 int rpt = rand()%10+1;
                double  mag = 1;
@@ -46,13 +47,14 @@ int main()
               // mutate_hb( myNN[y-1], del*mag);
                }
 	}
+	*/
    int tnhw=0; 
 for(int x=1; x<=myNN[0].get_nlyer(); x++)
 {
 	tnhw = tnhw + myNN[0].get_nnpl()*myNN[0].get_nhw(x); 
 }
    double mult = 1; 
-   int num_its = 10000000;  
+   int num_its = 1e6;  
    double val = 0.000001; 
    double bw = 1e-8; int nbins = 1000;
   double bs=bw/2;    
@@ -84,8 +86,8 @@ for(int x=1; x<=myNN[0].get_non(); x++)
         }
 }
 }
-*/
-/*
+
+
 for(int z=1; z<=S; z++){ 
 for(int nl=1; nl<=myNN[z-1].get_nlyer(); nl++)
 {
@@ -124,32 +126,35 @@ hist GE(tempscores,bins);
 for(int x=1; x<=num_its; x++)
 {
 	if(x%100==0){cout << "\n" << x << "\t" << tempscores[0];} 
-        if(x%10000==0){max2 = tempscores[S-1];}
+        //if(x%10000==0){max2 = tempscores[S-1];}
 
 
 	vector<NN>  nnP; for(int y=1; y<=S; y++){nnP.push_back(myNN[y-1]);}
 	vector<double> scoresP, tempscoresP; 
 	for(int y=1; y<=S; y++)
 	{
-		int rpt = rand()%10000+1;
-	        double  mag = rand()%10;	
+		int rpt = rand()%1+1;
+	        double  mag = 0;	
 		for(int iio=1; iio<=rpt; iio++)
 	       {
+		       mag = rand()%10;
 	       mutate_hW( nnP[y-1], del*mag);
+	       		mag=rand()%10;
                mutate_oW( nnP[y-1], del*mag);
-              // mutate_hb( nnP[y-1], del*mag);
+	       		mag=rand()%1000;
+               mutate_hb( nnP[y-1], del*mag);
 	       }
 
 		double scrh=0; 
 		for(int yy=1; yy<=myds1.get_nsets(); yy++)
-        {
+                {
                 vector<double>  out;  nnP[y-1].get_O(out, myds1, yy );
                 scrh = scrh + xscore(out,myds1,yy); 
 	       if(y==1&&(x%100==0&yy<=10))
 	       {
 		       	cout << "\n" << out[0] << "\t" << myds1.get_od(yy,1)+2;
-		}	       
-        }
+	       }	       
+               }
         
 
                 scoresP.push_back(scrh/(myds1.get_nsets()*1.0));

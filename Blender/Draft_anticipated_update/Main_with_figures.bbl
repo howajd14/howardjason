@@ -1,0 +1,148 @@
+\begin{thebibliography}{10}
+
+\bibitem{Hood}
+Z.~D. Hood, H.~Wang, A.~S.~Pandian, J.~K. Keum, and C.~Liang.
+\newblock $\mathrm{Li}_2\mathrm{O}\mathrm{H}\mathrm{Cl}$ crystalline
+  electrolyte for stable metallic lithium anodes.
+\newblock {\em J. Am. Chem. Soc.}, 138(6):1768--1771, 2016.
+
+\bibitem{Goodenough}
+Y.~Li, W.~Zhou, S.~Xin, S.~Li, X.~Zhu, J.and~Lü, Z.~Cui, Q.~Jia, J.~Zhou,
+  Y.~Zhao, and J.~B. Goodenough.
+\newblock Fluorine-doped antiperovskite electrolyte for all-solid-state
+  lithium-ion batteries.
+\newblock {\em Angewandte Chemie International Edition}, 55(34):9965--9968,
+  2016.
+
+\bibitem{Schwering}
+G.~Schwering, A.~H\"{o}nnerscheid, L.~v.~W\"{u}llen, and M.~Jansen.
+\newblock High lithium ionic conductivity in the lithium halide hydrates
+  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and
+  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at ambient
+  temperatures.
+\newblock {\em ChemPhysChem}, 4(4):343--348, 2003.
+
+\bibitem{Holzwarth_group}
+J.~D. Howard, Z.~D. Hood, and N.~A.~W. Holzwarth.
+\newblock Fundamental aspects of the structural and electrolyte properties of $
+  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment.
+\newblock {\em Phys. Rev. Materials}, 1:075406, Dec 2017.
+
+\bibitem{Song_Borodin}
+A.~Y. Song, Y.~Xiao, K.~Turcheniuk, P.~Upadhya, A.~Ramanujapuram, J.~Benson,
+  A.~Magasinski, M.~Olguin, L.~Meda, O.~Borodin, and G.~Yushin.
+\newblock Protons enhance conductivities in lithium halide hydroxide/lithium
+  oxyhalide solid electrolytes by forming rotating hydroxy groups.
+\newblock {\em Adv. Energy Mater.}, page 1700971, 2018.
+
+\bibitem{kohn:1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-consistent equations including exchange and correlation effects.
+\newblock {\em Phys. Rev.}, 140:A1133--A1138, 1965.
+
+\bibitem{metropolis_equation_1953}
+N.~Metropolis, A.~W. Rosenbluth, M.~N. Rosenbluth, A.~H. Teller, and E.~Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em J. Chem. Phys.}, 21(6):1087--1092, 1953.
+
+\bibitem{landau_MC_simulations}
+D.~P. Landau and K.~Binder.
+\newblock {\em A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics}.
+\newblock Cambridge University Press, fourth edition edition, 2015.
+
+\bibitem{WL_phys_rev_lett}
+F.~Wang and D.~P. Landau.
+\newblock Efficient, multiple-range random walk algorithm to calculate the
+  density of states.
+\newblock {\em Phys. Rev. Lett.}, 86:2050--2053, Mar 2001.
+
+\bibitem{MP_Wang_Landau}
+J.~Yin and D.~P. Landau.
+\newblock Massively parallel wang–landau sampling on multiple gpus.
+\newblock {\em Comput. Phys. Commun.}, 183(8):1568 -- 1573, 2012.
+
+\bibitem{P_imp_Wang_Landau}
+L.~Zhan.
+\newblock A parallel implementation of the wang–landau algorithm.
+\newblock {\em Comput. Phys. Commun.}, 179(5):339 -- 344, 2008.
+
+\bibitem{Hframe_Wang_Landau}
+T.~Vogel, Y.~W. Li, T.~W\"{u}st, and D.~Landau.
+\newblock Generic, hierarchical framework for massively parallel wang-landau
+  sampling.
+\newblock 110:210603, 05 2013.
+
+\bibitem{partition}
+J.~D. Howard and N.~A.~W. Holzwarth.
+\newblock First-principles estimation of partition functions representing
+  disordered lattices such as the cubic phases of
+  ${\mathrm{li}}_{2}\mathrm{OHCl}$ and ${\mathrm{li}}_{2}\mathrm{OHBr}$.
+\newblock {\em Phys. Rev. B}, 99:014109, Jan 2019.
+
+\bibitem{exact_statistical}
+R.~J. Baxter.
+\newblock {\em Exactly Solved Models in Statistical Mechanics}.
+\newblock Elsevier, 2016.
+\newblock ISBN 978-0-12-083180-7.
+
+\bibitem{Onsager}
+L.~Onsager.
+\newblock Crystal statistics. i. a two-dimensional model with an order-disorder
+  transition.
+\newblock {\em Phys. Rev.}, 65:117--149, 1944.
+
+\bibitem{Ising}
+B.~M. McCoy and T.~T. Wu.
+\newblock {\em The {T}wo-{D}imensional {I}sing {M}odel}.
+\newblock Harvard University Press, 1973.
+
+\bibitem{Beale_2d_ising}
+P.~D. Beale.
+\newblock Exact distribution of energies in the two-dimensional ising model.
+\newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
+
+\bibitem{Vasp1}
+G.~Kresse and J.~Hafner.
+\newblock Ab initio molecular dynamics for liquid metals.
+\newblock {\em Phys. Rev. B}, 47:558--561, Jan 1993.
+
+\bibitem{Vasp2}
+G.~Kresse and J.~Hafner.
+\newblock Ab initio molecular-dynamics simulation of the
+  liquid-metal--amorphous-semiconductor transition in germanium.
+\newblock {\em Phys. Rev. B}, 49:14251--14269, May 1994.
+
+\bibitem{Vasp3}
+G.~Kresse and J.~Furthmüller.
+\newblock Efficiency of ab-initio total energy calculations for metals and
+  semiconductors using a plane-wave basis set.
+\newblock {\em Computational Materials Science}, 6(1):15 -- 50, 1996.
+
+\bibitem{Vasp4}
+G.~Kresse and J.~Furthm\"uller.
+\newblock Efficient iterative schemes for ab initio total-energy calculations
+  using a plane-wave basis set.
+\newblock {\em Phys. Rev. B}, 54:11169--11186, Oct 1996.
+
+\bibitem{Blochl}
+P.~E. Bl\"ochl.
+\newblock Projector augmented-wave method.
+\newblock {\em Phys. Rev. B}, 50:17953--17979, Dec 1994.
+
+\bibitem{pawVasp}
+G.~Kresse and D.~Joubert.
+\newblock From ultrasoft pseudopotentials to the projector augmented-wave
+  method.
+\newblock {\em Phys. Rev. B}, 59:1758--1775, Jan 1999.
+
+\bibitem{PBE}
+J.~P. Perdew, K.~Burke, and M.~Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys. Rev. Lett.}, 77:3865--3868, Oct 1996.
+
+\bibitem{PBEerratum}
+J.~P. Perdew and M.~Burke, K.and~Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys. Rev. Lett.}, 78:1396--1396, Feb 1997.
+
+\end{thebibliography}

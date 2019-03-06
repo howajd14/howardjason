@@ -11,12 +11,18 @@ class hist
 		void make_file(string filename)
 		{
 			file outfile; 
-			for(unsigned int x=1; x<=cents.size(); x++)
+			for(unsigned int x=1; x<=cents.size()+1; x++)
 			{
+				if(x<=cents.size()){
 				stringstream ss; string outline; string holder; 
 				ss << cents[x-1]; ss >> outline; ss.clear(); ss.str(""); 
 				ss << GE[x-1]; ss >> holder; outline = outline + "\t" + holder; 
-				outfile.add_line(outline);  
+				outfile.add_line(outline);}else{
+				 stringstream ss; string outline; string holder;
+                                ss << cents[cents.size()-1]+bw; ss >> outline; ss.clear(); ss.str("");
+                                ss << GE[x-1]; ss >> holder; outline = outline + "\t" + holder;
+                                outfile.add_line(outline);
+				}	
 			}
 			outfile.make_file(filename); 
 		}
@@ -41,12 +47,17 @@ class hist
 			if(val >0)
 			{
 			file outfile; 
-			for(unsigned int x=1; x<=cents.size(); x++)
+			for(unsigned int x=1; x<=cents.size()+1; x++)
 			{
+				if(x<=cents.size()){
 				stringstream ss; string outline; string holder; 
 				ss << cents[x-1]/(val*1.0); ss >> outline; ss.clear(); ss.str(""); 
 				ss << GE[x-1]; ss >> holder; outline = outline + "\t" + holder; 
-				outfile.add_line(outline);  
+				outfile.add_line(outline);}else{
+				       stringstream ss; string outline; string holder;
+                                ss << (cents[x-1]+bw)/(val*1.0); ss >> outline; ss.clear(); ss.str("");
+                                ss << GE[x-1]; ss >> holder; outline = outline + "\t" + holder;
+                                outfile.add_line(outline);}	
 			}
 			outfile.make_file(filename); 
 			}
@@ -68,7 +79,11 @@ class hist
 			if(bin==0){bin=cents.size()+1;}
 			return bin; 
 		}
-		double   get_en(int x) const {return cents[x-1];}
+		double   get_en(int x) const { double eng=0; 
+			if(x<=cents.size()){eng= cents[x-1];}
+			if(x>cents.size()){eng= cents[x-1]+bw*2.0;}
+			return eng; 
+			}
 		double   get_count(int x) const {return GE[x-1];}
 		double   get_sum() const 
 		{ 
@@ -141,6 +156,8 @@ void hist::combine(const hist & H)
 	
 	for(unsigned int x=1; x<=GE.size(); x++)
 	{
+		//if(x==GE.size()){
+		//cout << "\n" << GE[x-1] << "\t" << H.get_count(x); }
 		GE[x-1]=GE[x-1]+H.get_count(x); 
 	}
 	

@@ -1,0 +1,165 @@
+%% ****** Start of file apstemplate.tex ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.1r of REVTeX, August 2010
+%%
+%%
+%%   Copyright (c) 2001, 2009, 2010 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+%\documentclass[aps,prb,preprint,superscriptaddress,showkeys,endfloats]{revtex4-1}
+%\documentclass[aps,prb,preprint,superscriptaddress,showkeys]{revtex4-1}
+\documentclass[aps,prl,reprint,superscriptaddress,showkeys]{revtex4-1}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{verbatim}
+\usepackage{epstopdf}
+\usepackage{inputenc}
+\newcolumntype{d}{D{.}{.}{-1}}
+
+
+
+
+
+\begin{document}
+
+
+
+
+%\title{Fully parallel methods for calculation of partition functions for systems with known number of states with application to crystalline Li$_2$OHCl and Li$_2$OHBr}
+\title{ Naturally   parallelizable  Monte Carlo  algorithm for calculation of energy density of states}
+
+\author{Jason D. Howard}
+\affiliation{Materials Science Division, Argonne National Lab, Lemont, IL, 60439, USA}
+
+\date{\today}
+
+%\begin{abstract}
+%\input{abstract}
+%\end{abstract}
+
+
+\begin{acknowledgments}
+\end{acknowledgments}
+\begin{abstract}
+In this work  an algorithm  is proposed that calculates the energy density of states, this algorithm combines random sets with Wang and Landau importance sampling  and is naturally parallelizable. The algorithm is referred to as B$_L$ENDER, which is an acronym for B$_L$end Each New Density Each Round and an  adjective for  how it was created and functions. The algorithm was developed for the purpose of working towards the goal of using first principles simulations, such as density functional theory, to calculate the partition function of disordered sub lattices in crystal materials. In this work  the algorithm is tested with the 2d Ising model as an analogous system to the disordered cubic phase of the solid state lithium ion electrolyte Li$_2$OHCl. This was done in the spirit of a ``Fermi" problem to make a prediction of the  wall time and core hours necessary for the algorithm to evaluate the partition function of a 3$\times$3$\times$3 supercell of disordered cubic Li$_2$OHCl. This work also demonstrates that, during the simulation to calculate the energy density of states, arithmetic averages of  order parameters can be made for each energy level. With these averages and the energy density of states the ensemble average of the order parameter can be determined at any temperature. 
+\end{abstract}
+\maketitle
+For crystalline  materials  with disordered sub-lattices such as the Li-ion solid state electrolyte  Li$_2$OHCl\cite{Hood, Goodenough, Schwering, Holzwarth_group, Song_Borodin} it is desirable to calculate from first principles methods(such as density functional theory\cite{kohn:1965}) the density of energy states $G(E_j)$. Here the energy density of states is meant to correspond to the energies of the distinct lattice configurations. With the energy density of states the partition function,
+\begin{equation}
+\begin{split}
+Z = \sum_{i}^{\Omega}e^{\frac{-e_i}{k_B T} }= \sum_{j}^{\Pi}G(E_j)e^{\frac{-E_j}{k_BT}} \;,
+\end{split}
+\label{partition}
+\end{equation}
+can be  determined and from it many important thermodynamics properties such as the free energy, entropy, specific heat, and ensemble averages calculated. In Eq. (\ref{partition}), $\Omega$ corresponds to the number of possible configurations and energies in the set $\{\Sigma_i,e_i\}_\Omega$, $\Pi$ to number of possible distinct energies $E_j$, $k_B$ is Boltzman's constant, and $T$ is the temperature. One method to solve this problem could be temperature dependent simulations involving the  Metropolis algorithm and histogram re-weighting techniques\cite{metropolis_equation_1953, landau_MC_simulations}.   Another algorithm called the  Wang and Landau algorithm\cite{WL_phys_rev_lett} has been developed which is temperature independent.  An issue with these algorithms in use with first principles methods such as density functional theory is the large number of iterations needed which would require a prohibitively long wall time at the current performance power of computers.  In this paper a method is proposed that combines the use of random sets along with the importance sampling method of the Wang and Landau algorithm that is meant to work towards the goal of highly parallel importance sampling algorithms that mesh well with high performance computing architectures. The algorithm developed in this work is referred to as the B$_{L}$ENDER (B$_{L}$end Each New Density Each Round) algorithm. The name B$_{L}$ENDER functions as an  adjective as well as an acronym. This comes from how it blends the ideas of a random set and the Wang and Landau method of sampling with probablity proportional to the inverse of the density of states, and also due to the nature of the algorithm iteratively blending histograms to produce a converged density of states.  The Wang and Landau method does have parallel versions, including  restricting random walkers to specific energy ranges or allowing the walkers to explore the entire space while periodically communicating with each other \cite{MP_Wang_Landau,P_imp_Wang_Landau, Hframe_Wang_Landau}.  The B$_{L}$ENDER algorithm is natural to parallelize as it is based on a set of random walkers that each can explore the entire energy range. 
+
+  In a previous study\cite{partition} the notion of the master set $\{ \Sigma_i, e_i \}_\Omega $ of the $\Omega$ total configurations and energies was put forth. The master set refers to the actual configurations of the defined system. In practice the calculation of the energy density of states $G(E_j)$  may  be possible through randomly sampling the configuration space.  In the previous work\cite{partition} it was shown that a properly scaled histogram of a uniformly sampled random set $\{ \Sigma_s, e_s \}_\mathcal{S}$ converges to the exact density of states $G(E_j)$ as the the number of samples $\mathcal{S}$ goes to infinity. The problem with this method is that if $\Omega$ is large, which it is for many problems,  then the computationally effort to achieve convergence is not feasible.  This work tackles this issue and produces an algorithm that is highly parallel in terms of the calculation of the energies  but also incorporates importance sampling such as in the Wang and Landau method.
+   
+The B$_{L}$ENDER algorithm proposed in this work  is given as follows. It is noted that the following algorithm is in terms of producing a relative density of states $H(E_j)^I$, where $I$ is the iteration number. 
+
+\begin{equation}
+\begin{split}
+&1.\hspace{0.125cm} H(E_j)^I ,\hspace{0.15cm}  \{\Sigma_{s},e_s\}_{\mathcal{S}}^I\\
+&2. \hspace{0.125cm}\{\Sigma_{s},e_s\}_{\mathcal{S}}^I \rightarrow  \{\Sigma_{s}^{'},e_s^{'}\}_{\mathcal{S}}^I\\
+&3. \hspace{0.125cm} \Sigma_{s}^{'I}, e_s^{'I} \rightarrow \Sigma_{s}^{I+1},e_s^{I+1}   \hspace{0.125cm} P = \hspace{0.075cm} min (1, H(e_s)^{I}/H(e_s^{'})^{I})\\
+& \hspace{0.125cm}else  \hspace{0.15cm} \Sigma_{s}^I, e_s^I \rightarrow \Sigma_{s}^{I+1}, e_s^{I+1}\\
+&4. \hspace{0.125cm} H(E_j)^{I+1} =  \\
+& H(E_j)^{I} + \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ (\sum_j H(E_j)^{I})^{\frac{1}{N} } }H(E_j)^{I} = \\
+& H(E_j)^{I}( 1 +  \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ (\sum_j H(E_j)^{I})^{\frac{1}{N} } } )\\
+\end{split}
+\end{equation}
+Where  $H(E_j)^0 \equiv 1 +  \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^0)$ with $\mathcal{H}(E_j,\{e_s\}_{\mathcal{S}})$ being a histogram function that counts the number of energies $E_j$ in the set $\{e_s\}_{\mathcal{S}}$. In this work $\{\Sigma_{s},e_s\}_{\mathcal{S}}^0$  is a randomly(uniformly) drawn set from the configuration space $\{ \Sigma_i, e_i \}_\Omega $. In the second step  a random change is applied to each element of the sampled set $\{\Sigma_{s},e_s\}_{\mathcal{S}}^I$ to produced a ``perturbed" set $ \{\Sigma_{s}^{'},e_s^{'}\}_{\mathcal{S}}^I$ , for the Ising model this could be randomly flipping a spin.  In the fourth step a random number is drawn between zero and one for every sampled configuration, if this number is less then the ratio of the current density of states $H(e_s)^{I}/H(e_s^{'})^{I}$ then the perturbed configuration and energy  $\Sigma_{s}^{'I},e_s^{'I}$  goes to $\Sigma_{s}^{I+1},e_s^{I+1}$,  else the unperturbed configuration and energy $\Sigma_{s}^{I},e_s^I$  goes to $\Sigma_{s}^{I+1},e_s^{I+1}$. This step (fourth) is dervied from the Wang and Landau method of sampling with probablity proportional to the inverse of the density of states.  In the fifth step a histogram of the updated $\{ e_s \}^{I+1}_{\mathcal{S}}$ energies is made and added (blended) in to the current density of states $H(E_j)^I$   by multiplying  by a constant $C_{o}$(which affects the convergence properties) and the relative probability of each energy $E_j$ in the  intermediary density of states $H(E_j)^{I}$. In this work it was found  $C_{o}=\Omega^{\frac{1}{N}}$ was computationally efficient. After the algorithm is deemed to be complete it is necessary to re-normalize the iterated relative density of states $H(E_j)^f$ at the final iteration $I=f$ as follows, 
+\begin{equation}
+\begin{split}
+&1. \hspace{0.125cm} A = \sum_jH(E_j)^f\\
+&2. \hspace{0.125cm} G(E_j)\approx H(E_j)^f \frac{\Omega}{A} \;,
+\end{split}
+\end{equation}
+to produce the properly normalized estimated value of $G(E_j)$. 
+An important point of discussion of the algorithm (Eq \ref{}he update of the relative density(step four) of state presented as addition and multiplication. In the addition form the self consisten nature of the update is clear, in the sense that the  density of states is updated by adding a  piece proportional to the counts in the histogram of the random set times the relative proportion of a that energy in the current estimate of the density of states. In the typical Wang and Landau sampling the update of the density of states is preformed by multiplication combined with a periodic reduction of the multiplication factor. In multiplication form of step four of this algorithm it is seen that the dependence on 1 over the sum of the density of states serves to naturall reduce the multiplication factor as the simulation progresses.  
+
+In this work the algorithm discussed is tested using the 2d square zero field  Ising model with lattice dimension of even number\cite{exact_statistical,Onsager,Ising}.  The configurations $\Sigma_i$ and energies $e_i$ of the 2d Ising model are inherently defined by the lattice site spin variables and coupling constant $J$. In a previous study\cite{partition} uniform sampling was used with first principles simulations to approximate the partition function for a $2\times 2\times 2$ supercell  of disordered cubic Li$_2$OHCl. In going to just a $3\times 3\times 3$ supercell the value of $\Omega$ would jump from $\sim 1e7$ to  $\sim 1e27$. So computing the partition function for the $3\times 3\times 3$ system of disordered cubic Li$_2$OHCl is completely intractable from uniform sampling. In this work a $10X10$ 2d Ising model with $\Omega = 1.3e30$ is used as an analogous system to predict the computational effort needed for the B$_L$ENDER algorithm to compute the partition function of a  $3\times 3\times 3$ supercell of disordered cubic Li$_2$OHCl.  The first test is a test to show the convergence of the algorithm in terms of the number of samples $\mathcal{S}$ and the number of iterations of the algorithm $I$. To test the accuracy of the simulations the results will be compared to the exact result solved by Beale \cite{Beale_2d_ising}. The accuracy of the simulation will be determined by the average of errors given as, 
+\begin{equation}
+\begin{split}
+ &\mathcal{E}(I,o) \hspace{0.1cm}= \hspace{0.1cm}< |\epsilon(E_j,I,o)| >_j\\
+& = \hspace{0.1cm}  \frac{1}{\Pi} \sum_{j=1}^{\Pi}\frac{|\ln(G_{ex}(E_j))- \ln(G_{cal}(E_j,I,o))|}{|\ln(G_{ex}(E_j))|}\; 
+ \end{split}. 
+\end{equation}
+\begin{figure}[h!]
+(a)\hspace{0.1cm}average iterations to reach $\mathcal{E}=1\%$ vs $\mathcal{S}$\\
+\includegraphics[width=7.5cm]{Fig1a.png}\\
+(b)\hspace{0.1cm}average iterations to find all energies vs $\mathcal{S}$\\
+\includegraphics[width=7.5cm]{Fig1b.png}
+\caption{\label{its_to}A $\log_{10}$ $\log_{10}$  plot of the average iterations $I$ to reach $\mathcal{E}(I,o)=1\%$ vs the set size $\mathcal{S}$ (a) and the average number of iterations $I$ to find all of the energies vs the set size $\mathcal{S}$ (b). Error bars represent a linear propagation of the standard deviation of mean for $<I>_o$ in $\log_{10}$($<I>_o$). }
+\end{figure}
+Where $G_{ex}(E_j)$ is the exact density of states, $G_{cal}(E_j,I,o)$ is the calculated density of states  at iteration number $I$ from initial conditions and trajectory $o$, and $|\epsilon(E_j,I,o)|$ is the absolute value of the fractional error for a specific energy level. To test the algorithm on the 10$\times$10 Ising model, 144 individual calculations were performed at  $\mathcal{S}=$ 1, 10 ,100 , 1e3,  1e4, and 1e5. The number of iterations to find all the energies and the number of iterations to  reach $\mathcal{E}=1\%$ were recorded and averaged for each value of $\mathcal{S}$. These results are shown in Fig. \ref{its_to}  (a) and (b).  The plots show that the decrease in the number of iterations is not linear in including more samples $\mathcal{S}$ in the set, in the sense that there is an exponential like decay in the reduction in number of  iterations for an increase in samples $\mathcal{S}$.  
+\begin{figure}
+\includegraphics[width=7.5cm]{Fig2.png}
+\caption{\label{log_t_err}$\log_{10}$ $\log_{10}$ plot of $<\mathcal{E}(I,o)>_o$ vs $I$.  The iterations start at 1e4 because that is approximately the number of iterations when all the energies are found for a given simulation. }
+\end{figure}
+\begin{figure}
+\includegraphics[width=7.5cm]{Fig3.png}
+\caption{\label{rel_errors}(Color online) Plots of the $\log_{10}(<|\epsilon(E_j,I,o)|>_o )$ vs  energy per lattice site for 144 simulations taken to $\mathcal{E}=1\%$ shown in black and  36 simulations taken to $I=$1e9 shown in red. Both simulations use $\mathcal{S}=100$. Error bars are a linear propagation of the standard deviation of the mean for $<|\epsilon(E_j,I,o)|>_o$ in the equation $\log_{10}(<|\epsilon(E_j,I,o)|>_o )$. }
+\end{figure}
+Something of interest to understand is some of the basic convergence properties of the error in the simulation. To test the convergence of the algorithm in terms of iterations,  36 simulations where done for  $\mathcal{S}=$100 for 1e9 iterations. The average of the errors $<\mathcal{E}(I,o)>_o$ is shown in Fig. \ref{log_t_err}  as a $\log_{10}$ $\log_{10}$  plot. The results show that the error appears to decrease approximately one order of magnitude for every 1.7 orders of magnitude increase in iterations.  To further understand the errors, relative errors plots of $<|\epsilon(E_j,I,o)|>_o$ for the 144 simulations with $\mathcal{S}=100$ taken to $\mathcal{E}=1\%$ and the 36 simulations with $\mathcal{S}=100$ taken to $I=$1e9,  are shown in Fig. \ref{rel_errors} in black and red respectively. The results show that the relative error is larger at the less probable energy levels. The general shape of the errors seems to remain unchanged and the whole curve simply shifts when comparing the less converged results in the black to the more converged results red. 
+
+ Now from Fig. \ref{its_to} (a) we could take $\mathcal{S}=100$  as an approximate optimal value to attempt a calculation of the density of states of disordered cubic Li$_2$OHCl. In willing to accept $\mathcal{E}=10\%$ there is an approximate 10$\times$ reduction in the number of iterations. So for an accuracy of $\mathcal{E}=10\%$ that gives an approximate number of iterations  $\sim 1e4$. Using the VASP code\cite{Vasp1,Vasp2,Vasp3,Vasp4} with the projector augmented wave formalism\cite{Blochl, pawVasp} and the GGA-PBE exchange and correlation functional\cite{PBE,PBEerratum}, the calculation of a structural relaxation to obtain the energy for a given lattice configuration is on the order of 2 hours for a 36 core broadwell node. So to compute the parition function of the disordered cubic lattice of a $3\times 3 \times 3$ supercell model of Li2OHCl with 100,  36-processor broadwell nodes, at the level of static lattice internal energies (no phonon free energies) calculated with GGA-PBE  would require approximately  70 million core hores and a wall time of 800 days.   So at the current moment it is still  too large of a computational effort to make utilizing this algorithm on a $3\times  3 \times 3$ model of the Li$_2$OHCl system feasible but if Moore's law continues within a decade it may be a viable option. It must be stated that this estimation on the computational effort required for the Li$_2$OHCl system is presented in the spirit of a ``Fermi" problem and is only meant for a coarse estimate and that a more detailed analogous model would be required to improve the prediction. A more detailed anlagous model might include using a 3d Ising model with fixed concentration of up and down spins and including longer range interactions. The benefit of the square 2d Ising model in this work is the availability of exact solutions to test the profficiency of the algorithm. Aside from the difficulties in large supercell first principles simulations the algorithm could be used with first principles on smaller systems, with model Hamiltonians, or systems defined by classical potentials.  
+\begin{figure}
+(a)\hspace{0.1cm} $\mathcal{S}=$10\\
+\includegraphics[width=7.5cm]{Fig4a.png}\\
+(b)\hspace{0.1cm}$\mathcal{S}=$100\\
+\includegraphics[width=7.5cm]{Fig4b.png}
+\caption{\label{avg_mag} The ensemble averaged absolute value of the magnetization per lattice site calculated for a 26$\times$26 ferromagnetic Ising model  using $\mathcal{S}=$10 and $\mathcal{S}=$100 until $\mathcal{E}(I,o)=1\%$ shown in (a) and (b) respectively. Each plot displays five seperate calculations at each value of $\mathcal{S}$.  }
+\end{figure}
+
+ Once the energy density of states is obtained many important thermodynamic properties can be determined but it may be considered a draw back that ensemble averages of a general order parameter $a_i \equiv a(\Sigma_i)$ are not accessible.  It is shown in this work that this is possible to achieve by considering the following equation, 
+\begin{equation}
+\begin{split}
+&\langle a \rangle = \sum_{i=1}^{\Omega}a_i \frac{ e^{- \frac{e_i}{K_bT}  }}{Z} = \\
+&\sum_{j=1}^{\Pi}<a_i>_{j}G(E_j)\frac{e^{-\frac{E_j}{K_bT} }}{Z} \; . 
+\label{order_param}
+\end{split} 
+\end{equation}
+Where $<a_i>_{j}$ is the arithemetic average of $a_i$ over all configurations with energy $E_j$. This equation (Eq. (\ref{order_param})) follows from that given the ordered set of configurations $\{\Sigma_i\}_\Omega$ with energies $e_1 \leq e_i \leq e_\Omega$ and correspnding order paramaters $a_1 ... a_i ... a_\Omega$, the order paramaters can be paritioned into groups based on like energy. With this notion and defining  $K(E_j)\equiv \sum_{l=0}^{j-1}G(E_l)$ (note that for convience: $G(E_0)\equiv 0$), Eq. (\ref{order_param}) can be written as,
+\begin{equation}
+\begin{split}
+&\langle a \rangle =  \sum_{j=1}^{\Pi} \sum_{k=1}^{G(E_j)}a_{K+k} \frac{e^{-\frac{E_J}{K_bT} }}{Z} = \\
+&   \sum_{j=1}^{\Pi} \frac{e^{-\frac{E_J}{K_bT} }}{Z} \sum_{k=1}^{G(E_j)}a_{K+k} \;. 
+\end{split}
+\label{deriveorder}
+\end{equation}
+From Eq. (\ref{deriveorder})  it is straight forward to rewrite the sum over $a_{K+k}$ in Eq. (\ref{deriveorder}) as, 
+\begin{equation}
+\sum_{k=1}^{G(E_j)}a_{K+k} =  G(E_j)<a_i>_{j} \;, 
+\end{equation}
+that being the number of states with energy $E_j$ times the average value of the order parameter  $a_i$ over those states. 
+If an average of the values visited  during the simulation is calculated then it is possible to calculate ensemble averaged order parameters over the entire temperature range.  To test this the B$_L$ENDER algorithm was applied to a 26$\times$26 ferromagnetic Ising model with zero field with $\mathcal{S}=$ 10 and 100 to calculate the ensemble average of the absolute value of the magnetization per lattice site $\langle |m| \rangle$. In Fig. \ref{avg_mag} (a) and (b) the results of five seperate simulations are shown for $\mathcal{S}=$ 10 and 100.  The results show that the known phase transition behavior of the ferromagnetic Ising model is well represented which indicates that this is a viable method for calculating ensemble averaged order parameters and that a larger value of $\mathcal{S}$ appears to reduce the variability between separate calculations.  This calculation is also evidence of B$_L$ENDER being applicable to larger systems, although this is still small compared to the 256$\times$256 model tested by Wang and Landau. The Wang and Landau algorithm is in fact formulated in a way that updates the  density of states by a multiplicative factor which allows for it to be formulated as a sum of logs, this is how they were able to use their algorithm for a system with such a large total number of states.  For the B$_L$ENDER algorithm there is a downside that it is formulated by updating the  density of states through addition and if using a large constant $C_o$  this can mean adding large numbers that over flow the real numbers for a typical programming language. In principle this can be overcome by using an  abrbitrary precision data type. 
+
+In summary the presented algorithm in this work has shown its effectiveness in accurately determining the density of states for the 2d square zero field Ising model.  The simulations suggest that within a decade using the B$_L$ENDER algorithm  it will be feasible on a state of the art super computer to calculate the partition function of a 3$\times$3$\times$3 135 atom model of disordered cubic Li$_2$OHCl at the static lattice internal energy level using  density functional to a high level of accuracy. At the present time the algorithm should be suitable for first principles methods with smaller system sizes, with model lattice Hamiltonians, or with models defined through classical potentials. The algorithm shows promise for first principles methods in particular because the calculation of the energies can be done as individual job submissions to compute nodes managed by a script running on a head node. This work also demonstrated that if during the simulation to determine the energy density of states, arithmetic  averages of order parameters are made for each energy level, then calculation of order parameters at any temperature is feasible.
+ 
+\begin{acknowledgments}
+This work was supported by the Center for Electrical Energy Storage: Tailored Interfaces, an Energy Frontier Research Center funded 
+by the US Department of Energy, Office of Science, Office of Basic Energy Sciences at Argonne National Laboratory under Contract DE-AC02-06CH11357.
+I would like to thank the Laboratory Computing Resource Center (LCRC) faculty of Argonne National Lab for their support and maintenance of the computing resources that made this project possible. 
+\end{acknowledgments}
+%\newcommand{\bibdir}{./}
+\bibliography{Bib}
+\bibliographystyle{unsrt}
+\end{document}
