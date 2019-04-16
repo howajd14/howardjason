@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Main_with_figures"] 1555427101 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1555428219
+["bibtex Main_with_figures"] 1555442642 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1555442677
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
   "Bib.bib" 1555426217 14731 93a0a5172f63427fcaaa3987bfef10eb ""
-  "Main_with_figures.aux" 1555427102 2117 baace678bf968fb2f1ee98456e91c204 ""
+  "Main_with_figures.aux" 1555442677 2189 8a1644dc5a5c37cc31ded0881223d4b3 ""
   "Main_with_figures.bcf" 0 -1 0 ""
-  "Main_with_figuresNotes.bib" 1555427102 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Main_with_figuresNotes.bib" 1555442676 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "Main_with_figures.bbl"
   "Main_with_figures.blg"
+  "Main_with_figures.bbl"
 ["latex"] 1551905995 "Main_with_figures.tex" "Main_with_figures.dvi" "Main_with_figures" 1551905995
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -66,11 +66,11 @@
   "Main_with_figures.aux" 1551905969 4005 52f6f560c160f7eaef08d80327b23fbe ""
   "Main_with_figures.tex" 1551905994 25299 c9afb630176dfad8edb9b477867bd9be ""
   (generated)
-  "Main_with_figures.dvi"
   "Main_with_figures.log"
   "Main_with_figures.aux"
+  "Main_with_figures.dvi"
   "Main_with_figuresNotes.bib"
-["pdflatex"] 1555427102 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1555428219
+["pdflatex"] 1555442676 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1555442677
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -146,11 +146,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1537205051 164837 f472f40ab643c6b1fa7fff8b04d446df ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540316973 946996 0df2ff670e2d66c6eb193e4f54f904b3 ""
-  "Main_with_figures.aux" 1555427102 2117 baace678bf968fb2f1ee98456e91c204 ""
-  "Main_with_figures.bbl" 1555427101 5495 b1ef45c22be39e8218f66b0942c0c259 "bibtex Main_with_figures"
-  "Main_with_figures.tex" 1555427099 18339 699e421dcca051359f9ad753f0b02d01 ""
+  "Main_with_figures.aux" 1555442677 2189 8a1644dc5a5c37cc31ded0881223d4b3 ""
+  "Main_with_figures.bbl" 1555442642 5495 9231171915aede1bda4f7f4763baa9c8 "bibtex Main_with_figures"
+  "Main_with_figures.tex" 1555442674 19804 92f56afa9e50b4d97cb137988e417a88 ""
+  "figures/thirtytwo_root0_1_varyS.png" 1555441167 12918 9a646430df268ab52c7c72260b878087 ""
   (generated)
-  "Main_with_figuresNotes.bib"
   "Main_with_figures.aux"
-  "Main_with_figures.pdf"
+  "Main_with_figuresNotes.bib"
   "Main_with_figures.log"
+  "Main_with_figures.pdf"

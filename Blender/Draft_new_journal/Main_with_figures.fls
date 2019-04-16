@@ -102,6 +102,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 OUTPUT Main_with_figures.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./figures/thirtytwo_root0_1_varyS.png
+INPUT ./figures/thirtytwo_root0_1_varyS.png
+INPUT ./figures/thirtytwo_root0_1_varyS.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Main_with_figures.bbl
 INPUT Main_with_figures.bbl

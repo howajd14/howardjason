@@ -72,13 +72,6 @@ T.~Vogel, Y.~W. Li, T.~W\"{u}st, and D.~Landau.
   sampling.
 \newblock 110:210603, 05 2013.
 
-\bibitem{partition}
-J.~D. Howard and N.~A.~W. Holzwarth.
-\newblock First-principles estimation of partition functions representing
-  disordered lattices such as the cubic phases of
-  ${\mathrm{li}}_{2}\mathrm{OHCl}$ and ${\mathrm{li}}_{2}\mathrm{OHBr}$.
-\newblock {\em Phys. Rev. B}, 99:014109, Jan 2019.
-
 \bibitem{exact_statistical}
 R.~J. Baxter.
 \newblock {\em Exactly Solved Models in Statistical Mechanics}.
@@ -100,6 +93,13 @@ B.~M. McCoy and T.~T. Wu.
 P.~D. Beale.
 \newblock Exact distribution of energies in the two-dimensional ising model.
 \newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
+
+\bibitem{partition}
+J.~D. Howard and N.~A.~W. Holzwarth.
+\newblock First-principles estimation of partition functions representing
+  disordered lattices such as the cubic phases of
+  ${\mathrm{li}}_{2}\mathrm{OHCl}$ and ${\mathrm{li}}_{2}\mathrm{OHBr}$.
+\newblock {\em Phys. Rev. B}, 99:014109, Jan 2019.
 
 \bibitem{Vasp1}
 G.~Kresse and J.~Hafner.
