@@ -1,8 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: Partitionman.aux
+The top-level auxiliary file: Main_with_figures.aux
 The style file: unsrt.bst
-Database file #1: PartitionmanNotes.bib
+Database file #1: Main_with_figuresNotes.bib
 Database file #2: Bib.bib
 I was expecting a `,' or a `}'---line 283 of file Bib.bib
  : 
@@ -12,7 +12,7 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in Hframe_Wang_Landau
 You've used 25 entries,
             1791 wiz_defined-function locations,
-            628 strings with 7818 characters,
+            628 strings with 7833 characters,
 and the built_in function-call counts, 6323 in all, are:
 = -- 582
 > -- 267

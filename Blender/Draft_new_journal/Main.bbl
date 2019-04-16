@@ -4,7 +4,8 @@
 Z.~D. Hood, H.~Wang, A.~S.~Pandian, J.~K. Keum, and C.~Liang.
 \newblock $\mathrm{Li}_2\mathrm{O}\mathrm{H}\mathrm{Cl}$ crystalline
   electrolyte for stable metallic lithium anodes.
-\newblock {\em J. Am. Chem. Soc.}, 138(6):1768--1771, 2016.
+\newblock {\em Journal of the American Chemical Society}, 138(6):1768--1771,
+  2016.
 
 \bibitem{Goodenough}
 Y.~Li, W.~Zhou, S.~Xin, S.~Li, X.~Zhu, J.and~Lü, Z.~Cui, Q.~Jia, J.~Zhou,
@@ -33,17 +34,17 @@ A.~Y. Song, Y.~Xiao, K.~Turcheniuk, P.~Upadhya, A.~Ramanujapuram, J.~Benson,
   A.~Magasinski, M.~Olguin, L.~Meda, O.~Borodin, and G.~Yushin.
 \newblock Protons enhance conductivities in lithium halide hydroxide/lithium
   oxyhalide solid electrolytes by forming rotating hydroxy groups.
-\newblock {\em Adv. Energy Mater.}, page 1700971, 2018.
+\newblock {\em Advanced Energy Materials}, page 1700971, 2018.
 
 \bibitem{kohn:1965}
 W.~Kohn and L.~J. Sham.
 \newblock Self-consistent equations including exchange and correlation effects.
-\newblock {\em Phys. Rev.}, 140:A1133--A1138, 1965.
+\newblock {\em Physical Review}, 140:A1133--A1138, 1965.
 
 \bibitem{metropolis_equation_1953}
 N.~Metropolis, A.~W. Rosenbluth, M.~N. Rosenbluth, A.~H. Teller, and E.~Teller.
 \newblock Equation of state calculations by fast computing machines.
-\newblock {\em J. Chem. Phys.}, 21(6):1087--1092, 1953.
+\newblock {\em The Journal of Chemical Physics}, 21(6):1087--1092, 1953.
 
 \bibitem{landau_MC_simulations}
 D.~P. Landau and K.~Binder.
@@ -59,12 +60,12 @@ F.~Wang and D.~P. Landau.
 \bibitem{MP_Wang_Landau}
 J.~Yin and D.~P. Landau.
 \newblock Massively parallel wang–landau sampling on multiple gpus.
-\newblock {\em Comput. Phys. Commun.}, 183(8):1568 -- 1573, 2012.
+\newblock {\em Computer Physics Communications}, 183(8):1568 -- 1573, 2012.
 
 \bibitem{P_imp_Wang_Landau}
 L.~Zhan.
 \newblock A parallel implementation of the wang–landau algorithm.
-\newblock {\em Comput. Phys. Commun.}, 179(5):339 -- 344, 2008.
+\newblock {\em Computer Physics Communications}, 179(5):339 -- 344, 2008.
 
 \bibitem{Hframe_Wang_Landau}
 T.~Vogel, Y.~W. Li, T.~W\"{u}st, and D.~Landau.

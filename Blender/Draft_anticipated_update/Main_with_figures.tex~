@@ -43,7 +43,7 @@
 
 
 %\title{Fully parallel methods for calculation of partition functions for systems with known number of states with application to crystalline Li$_2$OHCl and Li$_2$OHBr}
-\title{ Naturally   parallelizable  Monte Carlo  algorithm for calculation of energy density of states}
+\title{ Naturally   parallelizable and self consisent Wang and Landau non-Markov Chain  Monte-Carlo  algorithm with memory for calculation of energy density of states}
 
 \author{Jason D. Howard}
 \affiliation{Materials Science Division, Argonne National Lab, Lemont, IL, 60439, USA}
@@ -78,14 +78,15 @@ The B$_{L}$ENDER algorithm proposed in this work  is given as follows. It is not
 \begin{split}
 &1.\hspace{0.125cm} H(E_j)^I ,\hspace{0.15cm}  \{\Sigma_{s},e_s\}_{\mathcal{S}}^I\\
 &2. \hspace{0.125cm}\{\Sigma_{s},e_s\}_{\mathcal{S}}^I \rightarrow  \{\Sigma_{s}^{'},e_s^{'}\}_{\mathcal{S}}^I\\
-&3. \hspace{0.125cm} \Sigma_{s}^{'I}, e_s^{'I} \rightarrow \Sigma_{s}^{I+1},e_s^{I+1}   \hspace{0.125cm} P = \hspace{0.075cm} min (1, H(e_s)^{I}/H(e_s^{'})^{I})\\
+&3. \hspace{0.125cm} \Sigma_{s}^{'I}, e_s^{'I} \rightarrow \Sigma_{s}^{I+1},e_s^{I+1}   \hspace{0.125cm} P = \hspace{0.075cm} min [1, H(e_s)^{I}/H(e_s^{'})^{I}]\\
 & \hspace{0.125cm}else  \hspace{0.15cm} \Sigma_{s}^I, e_s^I \rightarrow \Sigma_{s}^{I+1}, e_s^{I+1}\\
 &4. \hspace{0.125cm} H(E_j)^{I+1} =  \\
-& H(E_j)^{I} + \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ (\sum_j H(E_j)^{I})^{\frac{1}{N} } }H(E_j)^{I} = \\
-& H(E_j)^{I}( 1 +  \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ (\sum_j H(E_j)^{I})^{\frac{1}{N} } } )\\
+& H(E_j)^{I} + \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ [\sum_j H(E_j)^{I}]^{\frac{1}{N} } }H(E_j)^{I} = \\
+& H(E_j)^{I}( 1 +  \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ [\sum_j H(E_j)^{I}]^{\frac{1}{N} } } )\\
 \end{split}
+\label{blender}
 \end{equation}
-Where  $H(E_j)^0 \equiv 1 +  \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^0)$ with $\mathcal{H}(E_j,\{e_s\}_{\mathcal{S}})$ being a histogram function that counts the number of energies $E_j$ in the set $\{e_s\}_{\mathcal{S}}$. In this work $\{\Sigma_{s},e_s\}_{\mathcal{S}}^0$  is a randomly(uniformly) drawn set from the configuration space $\{ \Sigma_i, e_i \}_\Omega $. In the second step  a random change is applied to each element of the sampled set $\{\Sigma_{s},e_s\}_{\mathcal{S}}^I$ to produced a ``perturbed" set $ \{\Sigma_{s}^{'},e_s^{'}\}_{\mathcal{S}}^I$ , for the Ising model this could be randomly flipping a spin.  In the fourth step a random number is drawn between zero and one for every sampled configuration, if this number is less then the ratio of the current density of states $H(e_s)^{I}/H(e_s^{'})^{I}$ then the perturbed configuration and energy  $\Sigma_{s}^{'I},e_s^{'I}$  goes to $\Sigma_{s}^{I+1},e_s^{I+1}$,  else the unperturbed configuration and energy $\Sigma_{s}^{I},e_s^I$  goes to $\Sigma_{s}^{I+1},e_s^{I+1}$. This step (fourth) is dervied from the Wang and Landau method of sampling with probablity proportional to the inverse of the density of states.  In the fifth step a histogram of the updated $\{ e_s \}^{I+1}_{\mathcal{S}}$ energies is made and added (blended) in to the current density of states $H(E_j)^I$   by multiplying  by a constant $C_{o}$(which affects the convergence properties) and the relative probability of each energy $E_j$ in the  intermediary density of states $H(E_j)^{I}$. In this work it was found  $C_{o}=\Omega^{\frac{1}{N}}$ was computationally efficient. After the algorithm is deemed to be complete it is necessary to re-normalize the iterated relative density of states $H(E_j)^f$ at the final iteration $I=f$ as follows, 
+Where  $H(E_j)^0 \equiv [1 +  \frac{C_o}{S}\mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^0)]$ with $\mathcal{H}(E_j,\{e_s\}_{\mathcal{S}})$ being a histogram function that counts the number of energies $E_j$ in the set $\{e_s\}_{\mathcal{S}}$. In this work $\{\Sigma_{s},e_s\}_{\mathcal{S}}^0$  is a randomly(uniformly) drawn set from the configuration space $\{ \Sigma_i, e_i \}_\Omega $. In the second step  a random change is applied to each element of the sampled set $\{\Sigma_{s},e_s\}_{\mathcal{S}}^I$ to produced a ``perturbed" set $ \{\Sigma_{s}^{'},e_s^{'}\}_{\mathcal{S}}^I$ , for the Ising model this could be randomly flipping a spin.  In the third step a random number is drawn between zero and one for every sampled configuration, if this number is less then the ratio of the current density of states $H(e_s)^{I}/H(e_s^{'})^{I}$ then the perturbed configuration and energy  $\Sigma_{s}^{'I},e_s^{'I}$  goes to $\Sigma_{s}^{I+1},e_s^{I+1}$,  else the unperturbed configuration and energy $\Sigma_{s}^{I},e_s^I$  goes to $\Sigma_{s}^{I+1},e_s^{I+1}$. This step (third) is dervied from the Wang and Landau method of sampling with probablity proportional to the inverse of the density of states.  In the fourth step a histogram of the updated $\{ e_s \}^{I+1}_{\mathcal{S}}$ energies is made and added (blended) in to the current density of states $H(E_j)^I$   by multiplying  by a constant $C_{o}$(which affects the convergence properties) and the relative probability of each energy $E_j$ in the  intermediary density of states $H(E_j)^{I}$. The fourth step is also shown in terms of multiplication which is discussed later. In this work it was found  $C_{o}=\Omega^{\frac{1}{N}}$ was computationally efficient. After the algorithm is deemed to be complete it is necessary to re-normalize the iterated relative density of states $H(E_j)^f$ at the final iteration $I=f$ as follows, 
 \begin{equation}
 \begin{split}
 &1. \hspace{0.125cm} A = \sum_jH(E_j)^f\\
@@ -93,7 +94,27 @@ Where  $H(E_j)^0 \equiv 1 +  \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^0)$ with $\ma
 \end{split}
 \end{equation}
 to produce the properly normalized estimated value of $G(E_j)$. 
-An important point of discussion of the algorithm (Eq \ref{}he update of the relative density(step four) of state presented as addition and multiplication. In the addition form the self consisten nature of the update is clear, in the sense that the  density of states is updated by adding a  piece proportional to the counts in the histogram of the random set times the relative proportion of a that energy in the current estimate of the density of states. In the typical Wang and Landau sampling the update of the density of states is preformed by multiplication combined with a periodic reduction of the multiplication factor. In multiplication form of step four of this algorithm it is seen that the dependence on 1 over the sum of the density of states serves to naturall reduce the multiplication factor as the simulation progresses.  
+
+An important discussion point of this algorithm (Eq \ref{blender}) is the update of the relative density(step four) of states being presented as addition and multiplication. In the addition form the self consistent nature of the update is clear, in the sense that the  density of states is updated by adding a  piece proportional to the counts in the histogram of the random set times the relative proportion of  that energy level in the current estimate of the density of states.  In the typical Wang and Landau sampling the update of the density of states is preformed by multiplication combined with a periodic reduction of the multiplication factor. In the multiplication form of step four of this algorithm (Eq \ref{blender}) it is seen that the dependence on one over the sum of the density of states serves to naturally reduce the multiplication factor as the simulation progresses. The multiplication form is also useful when $\Omega$ is large and the sum of the density of states is larger than a typical floating point number. In this case the log of the density of states can be stored and the update performed through addition of logs. Taking $H_M \equiv  max[H(E_j)]$ the log of $\sum_j H(E_j)^{I}$ can be written as, 
+\begin{equation}
+\begin{split}
+&H_{LS} \equiv \log[\sum_j H(E_j)^{I}] = \log[H_M \frac{\sum_j H(E_j)^{I}}{H_M}]=\\
+&\log[H_M] + \log[\sum_j e^{\ln[H(E_j)] - \ln[H_M]} ] \;.
+\end{split}
+\label{Hls}
+\end{equation} 
+With $H_{LS}$ from Eq \ref{Hls} the $\log$ update form of step four of the algorithm (Eq \ref{blender}) can be written as the following, 
+\begin{equation}
+\begin{split}
+& \log[ H(E_j)^{I}( 1 +  \frac{C_o \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1}) }{ [\sum_j H(E_j)^{I}]^{\frac{1}{N} } } ) ]=\\
+& \log[ H(E_j)^{I} ] + \log[1 +   \mathcal{H}(E_j,\{e_s\}_{\mathcal{S}}^{I+1})e^{\ln[C_o]-\frac{1}{N}H_{LS}}] \;.
+\end{split}
+\end{equation}
+In this form  the alogrithm can be implemented even when $\Omega$ is large. To implement the ratio of the density of states in step two of the algorithm, 
+\begin{equation}
+e^{\ln[H(e_s)^{I}] - \ln[H(e_s^{'})^{I}]} \;,
+\end{equation}
+can be used.
 
 In this work the algorithm discussed is tested using the 2d square zero field  Ising model with lattice dimension of even number\cite{exact_statistical,Onsager,Ising}.  The configurations $\Sigma_i$ and energies $e_i$ of the 2d Ising model are inherently defined by the lattice site spin variables and coupling constant $J$. In a previous study\cite{partition} uniform sampling was used with first principles simulations to approximate the partition function for a $2\times 2\times 2$ supercell  of disordered cubic Li$_2$OHCl. In going to just a $3\times 3\times 3$ supercell the value of $\Omega$ would jump from $\sim 1e7$ to  $\sim 1e27$. So computing the partition function for the $3\times 3\times 3$ system of disordered cubic Li$_2$OHCl is completely intractable from uniform sampling. In this work a $10X10$ 2d Ising model with $\Omega = 1.3e30$ is used as an analogous system to predict the computational effort needed for the B$_L$ENDER algorithm to compute the partition function of a  $3\times 3\times 3$ supercell of disordered cubic Li$_2$OHCl.  The first test is a test to show the convergence of the algorithm in terms of the number of samples $\mathcal{S}$ and the number of iterations of the algorithm $I$. To test the accuracy of the simulations the results will be compared to the exact result solved by Beale \cite{Beale_2d_ising}. The accuracy of the simulation will be determined by the average of errors given as, 
 \begin{equation}

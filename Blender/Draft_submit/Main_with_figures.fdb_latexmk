@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex Main_with_figures"] 1549663544 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1551823509
+["bibtex Main_with_figures"] 1549663544 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1551899241
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
   "Bib.bib" 1549663508 14731 93a0a5172f63427fcaaa3987bfef10eb ""
   "Main_with_figures.aux" 1549663761 3943 cf393ff85bca560143b8c0858f0e9911 ""
@@ -8,7 +8,7 @@
   (generated)
   "Main_with_figures.bbl"
   "Main_with_figures.blg"
-["pdflatex"] 1549663761 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1551823509
+["pdflatex"] 1549663761 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1551899241
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -89,9 +89,9 @@
   "Fig4b.png" 1548107478 7300 348f1dd5ad474a2ab0f8bd96331e61cb ""
   "Main_with_figures.aux" 1549663761 3943 cf393ff85bca560143b8c0858f0e9911 ""
   "Main_with_figures.bbl" 1549663544 5495 b1ef45c22be39e8218f66b0942c0c259 "bibtex Main_with_figures"
-  "Main_with_figures.tex" 1551823509 23787 f651534cb8b38c5419d9053d2ee0d22a ""
+  "Main_with_figures.tex" 1551899241 23787 f651534cb8b38c5419d9053d2ee0d22a ""
   (generated)
+  "Main_with_figures.log"
   "Main_with_figuresNotes.bib"
   "Main_with_figures.aux"
   "Main_with_figures.pdf"
-  "Main_with_figures.log"

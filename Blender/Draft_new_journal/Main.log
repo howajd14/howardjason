@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  20 MAR 2019 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  8 FEB 2019 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Main_with_figures.tex
-(./Main_with_figures.tex
+**Main.tex
+(./Main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 9 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
@@ -280,9 +280,8 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 40.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 40.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 40.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 40.
-
-(./Main_with_figures.aux)
-\openout1 = `Main_with_figures.aux'.
+ (./Main.aux)
+\openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -311,51 +310,60 @@ LaTeX Font Info:    ... okay on input line 40.
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
 )
-\openout3 = `Main_with_figuresNotes.bib'.
+\openout3 = `MainNotes.bib'.
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<Fig1a.png, id=25, 794.97pt x 614.295pt>
+
+Overfull \hbox (1.68777pt too wide) detected at line 88
+[]
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<Fig1a.png, id=21, 794.97pt x 614.295pt>
 File: Fig1a.png Graphic file (type png)
 <use Fig1a.png>
-Package pdftex.def Info: Fig1a.png  used on input line 128.
+Package pdftex.def Info: Fig1a.png  used on input line 107.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-<Fig1b.png, id=26, 794.97pt x 614.295pt>
+<Fig1b.png, id=22, 794.97pt x 614.295pt>
 File: Fig1b.png Graphic file (type png)
 <use Fig1b.png>
-Package pdftex.def Info: Fig1b.png  used on input line 130.
+Package pdftex.def Info: Fig1b.png  used on input line 109.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-<Fig2.png, id=27, 794.97pt x 614.295pt>
+<Fig2.png, id=23, 794.97pt x 614.295pt>
 File: Fig2.png Graphic file (type png)
 <use Fig2.png>
-Package pdftex.def Info: Fig2.png  used on input line 135.
+Package pdftex.def Info: Fig2.png  used on input line 114.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-<Fig3.png, id=28, 794.97pt x 614.295pt>
+<Fig3.png, id=24, 794.97pt x 614.295pt>
 File: Fig3.png Graphic file (type png)
 <use Fig3.png>
-Package pdftex.def Info: Fig3.png  used on input line 139.
+Package pdftex.def Info: Fig3.png  used on input line 118.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
 
-Underfull \hbox (badness 3547) in paragraph at lines 125--143
+Underfull \hbox (badness 3547) in paragraph at lines 104--122
  \OT1/cmr/m/n/10 Where $\OML/cmm/m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E
 []\OT1/cmr/m/n/10 )$ is the ex-act den-sity of states,
  []
 
-[3 <./Fig1a.png> <./Fig1b.png> <./Fig2.png> <./Fig3.png>]
-<Fig4a.png, id=37, 794.97pt x 614.295pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 122.
+
+<Fig4a.png, id=28, 794.97pt x 614.295pt>
 File: Fig4a.png Graphic file (type png)
 <use Fig4a.png>
-Package pdftex.def Info: Fig4a.png  used on input line 147.
+Package pdftex.def Info: Fig4a.png  used on input line 126.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-<Fig4b.png, id=38, 794.97pt x 614.295pt>
+<Fig4b.png, id=29, 794.97pt x 614.295pt>
 File: Fig4b.png Graphic file (type png)
 <use Fig4b.png>
-Package pdftex.def Info: Fig4b.png  used on input line 149.
+Package pdftex.def Info: Fig4b.png  used on input line 128.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
- [4 <./Fig4a.png> <./Fig4b.png>] (./Main_with_figures.bbl
-Underfull \hbox (badness 1215) in paragraph at lines 4--8
- \OT1/cmr/m/n/9 and C. Liang.  $[][]OH[]$ crys-talline elec-trolyte for
- []
-
+[3 <./Fig1a.png> <./Fig1b.png> <./Fig2.png> <./Fig3.png>] [4 <./Fig4a.png> <./F
+ig4b.png>] (./Main.bbl
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¼ in font cmr9!
 Missing character: There is no â in font cmr9!
@@ -364,39 +372,37 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
-[5]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¼ in font cmr9!
-) [6] (./Main_with_figures.aux) ) 
+ [5]) [6] (./Main.aux) ) 
 Here is how much of TeX's memory you used:
  4313 strings out of 494805
- 58080 string characters out of 6177999
- 142581 words of memory out of 5000000
+ 57930 string characters out of 6177999
+ 144553 words of memory out of 5000000
  7589 multiletter control sequences out of 15000+600000
  7319 words of font info for 27 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 42i,17n,25p,2244b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Main_with_figures.pdf (6 pages, 264782 bytes).
+ 42i,17n,25p,2329b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Main.pdf (6 pages, 251241 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
