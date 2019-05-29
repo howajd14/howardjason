@@ -2,7 +2,7 @@
 @article{Wang_and_Landua_AAPT,
 author = {Landau,D. P.  and Tsai,S. H. and Exler,M. },
 title = {A new approach to Monte Carlo simulations in statistical physics: Wang-Landau sampling},
-journal = {American Journal of Physics},
+journal = {Am. J.  Phys.},
 volume = {72},
 number = {10},
 pages = {1294-1302},
@@ -71,7 +71,7 @@ eprint = {
 
 %Monte Carlo simulations book
 @book{landau_MC_simulations,
-  author={D. P. Landau and K.Binder},
+  author={D. P. Landau and K. Binder},
   title={A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics},
   edition={Fourth Edition},
   publisher={Cambridge University Press},
@@ -85,7 +85,7 @@ eprint = {
 	doi = {10.1063/1.1699114},
 	pages = {1087--1092},
 	number = {6},
-	journal = {The Journal of Chemical Physics},
+	journal = {J.  Chem. Phys.},
 	author = {Metropolis, N. and Rosenbluth, A. W. 
          and Rosenbluth, M. N. and Teller, A. H. and 
           Teller, E.},
@@ -134,7 +134,7 @@ package maintained at the webpage
 %Massively parallel Wang and Landau
 @article{MP_Wang_Landau,
 title = "Massively parallel Wang–Landau sampling on multiple GPUs",
-journal = "Computer Physics Communications",
+journal = "Comput. Phys. Commun.",
 volume = "183",
 number = "8",
 pages = "1568 - 1573",
@@ -149,7 +149,7 @@ keywords = "Wang–Landau sampling, GPU computing, Water clusters, Phase transit
 %Parallel Wang and Landau
 @article{P_imp_Wang_Landau,
 title = "A parallel implementation of the Wang–Landau algorithm",
-journal = "Computer Physics Communications",
+journal = "Comput. Phys. Commun.",
 volume = "179",
 number = "5",
 pages = "339 - 344",
@@ -169,7 +169,7 @@ month = {05},
 pages = {210603},
 title = {Generic, Hierarchical Framework for Massively Parallel Wang-Landau Sampling},
 volume = {110},
-booktitle = {Physical review letters}
+booktitle = {Phys. Rev. Lett.}
 }
 
 
@@ -177,7 +177,7 @@ booktitle = {Physical review letters}
 @article{Hood,
 author = {Hood, Z. D. and Wang, H. and S. Pandian, A. and Keum, J. K. and Liang, C.},
 title = {$\mathrm{Li}_2\mathrm{O}\mathrm{H}\mathrm{Cl}$ Crystalline Electrolyte for Stable Metallic Lithium Anodes},
-journal = {Journal of the American Chemical Society},
+journal = {J.  Am. Chem. Soc.},
 volume = {138},
 number = {6},
 pages = {1768-1771},
@@ -207,7 +207,7 @@ year = {2003},
 %our reference 
 @article{Holzwarth_group ,
   title = { Fundamental aspects of the structural and electrolyte properties of $  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment} ,
-  author = {Howard, J. D. and Hood, Z D. and Holzwarth, N. A. W.},
+  author = {Howard, J. D. and Hood, Z. D. and Holzwarth, N. A. W.},
   journal = {Phys. Rev. Materials},
   volume = {1},
   issue = {7},
@@ -222,9 +222,9 @@ year = {2003},
 
 %Songs paper (Borodin)
 ﻿@article {Song_Borodin,
-author = {Song, A.-Y. and Xiao, Y. and Turcheniuk, K. and Upadhya, P. and Ramanujapuram, A. and Benson, J. and Magasinski, A. and Olguin, M. and Meda, L. and Borodin, O. and Yushin, G.},
+author = {Song, A. Y. and Xiao, Y. and Turcheniuk, K. and Upadhya, P. and Ramanujapuram, A. and Benson, J. and Magasinski, A. and Olguin, M. and Meda, L. and Borodin, O. and Yushin, G.},
 title = {Protons Enhance Conductivities in Lithium Halide Hydroxide/Lithium Oxyhalide Solid Electrolytes by Forming Rotating Hydroxy Groups},
-journal = {Advanced Energy Materials},
+journal = {Adv. Energy Mater.},
 issn = {1614-6840},
 url = {http://dx.doi.org/10.1002/aenm.201700971},
 doi = {10.1002/aenm.201700971},
@@ -292,7 +292,7 @@ year = {2016},
  @article{kohn:1965,
  author ={W. Kohn and L. J. Sham},
  title  ={Self-consistent equations including exchange and correlation effects},
- journal    ={Physical Review},
+ journal    ={Phys. Rev.},
  volume =140,
  pages  ={A1133--A1138},
 year =1965}
@@ -410,7 +410,7 @@ abstract = "We present a detailed description and comparison of algorithms for p
 
 %PBEerratum
 @article{PBEerratum,
-  title = {Generalized Gradient Approximation Made Simple [Phys. Rev. Lett. 77, 3865 (1996)]},
+  title = {Generalized Gradient Approximation Made Simple },
   author = {Perdew, J. P. and Burke, K.and Ernzerhof, M.},
   journal = {Phys. Rev. Lett.},
   volume = {78},
@@ -422,4 +422,66 @@ abstract = "We present a detailed description and comparison of algorithms for p
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevLett.78.1396},
   url = {https://link.aps.org/doi/10.1103/PhysRevLett.78.1396}
+}
+
+%Li La ordering compuational
+@article{Li_La_ordering_computational,
+author = {Catti, Michele},
+title = {First-Principles Modeling of Lithium Ordering in the LLTO (LixLa2/3-x/3TiO3) Superionic Conductor},
+journal = {Chemistry of Materials},
+volume = {19},
+number = {16},
+pages = {3963-3972},
+year = {2007},
+doi = {10.1021/cm0709469},
+
+URL = { 
+        https://doi.org/10.1021/cm0709469
+    
+},
+eprint = { 
+        https://doi.org/10.1021/cm0709469
+    
+}
+
+}
+
+
+%LLTO review 
+
+@article{LLTO_review,
+author = {Stramare, S. and Thangadurai, V. and Weppner, W.},
+title = {Lithium Lanthanum Titanates:  A Review},
+journal = {Chemistry of Materials},
+volume = {15},
+number = {21},
+pages = {3974-3990},
+year = {2003},
+doi = {10.1021/cm0300516},
+
+URL = { 
+        https://doi.org/10.1021/cm0300516
+    
+},
+eprint = { 
+        https://doi.org/10.1021/cm0300516
+    
+}
+
+}
+
+%Influence on conducitivty on strucuture of Li0.5La0.5TiO3
+@article{P4mmm_strucuture,
+title = "Influence of composition on the structure and conductivity of the fast ionic conductors La2/3−xLi3xTiO3 (0.03≤x≤0.167)",
+journal = "Solid State Ionics",
+volume = "134",
+number = "3",
+pages = "219 - 228",
+year = "2000",
+issn = "0167-2738",
+doi = "https://doi.org/10.1016/S0167-2738(00)00761-X",
+url = "http://www.sciencedirect.com/science/article/pii/S016727380000761X",
+author = "J Ibarra and A Várez and C León and J Santamarı́a and L.M Torres-Martı́nez and J Sanz",
+keywords = "Li NMR, Ionic conductivity, Perovskite structure, Lithium mobility",
+abstract = "The solid solution La2/3−xLi3xTiO3 (0.03<x<0.167) has been investigated by powder X-ray diffraction (XRD), impedance spectroscopy (IS) and 7Li nuclear magnetic resonance (NMR) techniques. In these samples, a change of symmetry from tetragonal to orthorhombic is observed when the lithium content is decreased below x=0.06. Structural modifications produced are mainly due to cation vacancies ordering along the c-axis, which disappear gradually when the Li content increases. Two Li signals with different quadrupole constants are detected in 7Li NMR spectra of orthorhombic/tetragonal perovskites, which have been associated with two crystallographic sites. In La0.5Li0.5TiO3 perovskite, prepared by quenching from 1300°C into liquid nitrogen, an important mobility for Li was detected in 7Li NMR spectra. In perovskites analysed, the dependence of electrical conductivity on Li content departs from that expected on the basis of a random distribution of La and Li in A sites. Dc conductivity increases quickly with the Li content in orthorhombic samples, but changes much more smoothly in tetragonal ones, where vacancies distribution becomes progressively disordered. In all perovskites analysed, the dependence of dc-conductivity with temperature displays a non-Arrhenius behaviour, with activation energies of 0.39±0.02 and 0.29±0.02 eV in 160–250 and 250–360 K temperature ranges respectively."
 }

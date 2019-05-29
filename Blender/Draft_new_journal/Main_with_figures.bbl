@@ -1,40 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Hood}
-Z.~D. Hood, H.~Wang, A.~S.~Pandian, J.~K. Keum, and C.~Liang.
-\newblock $\mathrm{Li}_2\mathrm{O}\mathrm{H}\mathrm{Cl}$ crystalline
-  electrolyte for stable metallic lithium anodes.
-\newblock {\em J. Am. Chem. Soc.}, 138(6):1768--1771, 2016.
-
-\bibitem{Goodenough}
-Y.~Li, W.~Zhou, S.~Xin, S.~Li, X.~Zhu, J.and~Lü, Z.~Cui, Q.~Jia, J.~Zhou,
-  Y.~Zhao, and J.~B. Goodenough.
-\newblock Fluorine-doped antiperovskite electrolyte for all-solid-state
-  lithium-ion batteries.
-\newblock {\em Angewandte Chemie International Edition}, 55(34):9965--9968,
-  2016.
-
-\bibitem{Schwering}
-G.~Schwering, A.~H\"{o}nnerscheid, L.~v.~W\"{u}llen, and M.~Jansen.
-\newblock High lithium ionic conductivity in the lithium halide hydrates
-  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and
-  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at ambient
-  temperatures.
-\newblock {\em ChemPhysChem}, 4(4):343--348, 2003.
-
-\bibitem{Holzwarth_group}
-J.~D. Howard, Z.~D. Hood, and N.~A.~W. Holzwarth.
-\newblock Fundamental aspects of the structural and electrolyte properties of $
-  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment.
-\newblock {\em Phys. Rev. Materials}, 1:075406, Dec 2017.
-
-\bibitem{Song_Borodin}
-A.~Y. Song, Y.~Xiao, K.~Turcheniuk, P.~Upadhya, A.~Ramanujapuram, J.~Benson,
-  A.~Magasinski, M.~Olguin, L.~Meda, O.~Borodin, and G.~Yushin.
-\newblock Protons enhance conductivities in lithium halide hydroxide/lithium
-  oxyhalide solid electrolytes by forming rotating hydroxy groups.
-\newblock {\em Adv. Energy Mater.}, page 1700971, 2018.
-
 \bibitem{kohn:1965}
 W.~Kohn and L.~J. Sham.
 \newblock Self-consistent equations including exchange and correlation effects.
@@ -93,5 +58,17 @@ B.~M. McCoy and T.~T. Wu.
 P.~D. Beale.
 \newblock Exact distribution of energies in the two-dimensional ising model.
 \newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
+
+\bibitem{LLTOreview}
+S.~Stramare, V.~Thangadurai, and W.~Weppner.
+\newblock Lithium lanthanum titanates:  a review.
+\newblock {\em Chemistry of Materials}, 15(21):3974--3990, 2003.
+
+\bibitem{P4mmmstrucuture}
+J~Ibarra, A~Várez, C~León, J~Santamarı́a, L.M Torres-Martı́nez, and
+  J~Sanz.
+\newblock Influence of composition on the structure and conductivity of the
+  fast ionic conductors la2/3−xli3xtio3 (0.03≤x≤0.167).
+\newblock {\em Solid State Ionics}, 134(3):219 -- 228, 2000.
 
 \end{thebibliography}

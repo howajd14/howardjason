@@ -1,10 +1,10 @@
 # Fdb version 3
-["bibtex Main_with_figures"] 1557955284 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1558032117
+["bibtex Main_with_figures"] 1559147725 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1559147943
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Bib.bib" 1555426217 14731 93a0a5172f63427fcaaa3987bfef10eb ""
-  "Main_with_figures.aux" 1558032117 2720 a0efebdd274ced63ae5d989116f9f6e5 ""
+  "Bib.bib" 1558642363 17673 10d75565c988c741286fadb3569eaf98 ""
+  "Main_with_figures.aux" 1559147943 3128 5885197c7890176287e6d9d55948249e ""
   "Main_with_figures.bcf" 0 -1 0 ""
-  "Main_with_figuresNotes.bib" 1558032117 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Main_with_figuresNotes.bib" 1559147943 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Main_with_figures.blg"
   "Main_with_figures.bbl"
@@ -67,10 +67,10 @@
   "Main_with_figures.tex" 1551905994 25299 c9afb630176dfad8edb9b477867bd9be ""
   (generated)
   "Main_with_figures.aux"
+  "Main_with_figuresNotes.bib"
   "Main_with_figures.log"
   "Main_with_figures.dvi"
-  "Main_with_figuresNotes.bib"
-["pdflatex"] 1558032117 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1558032117
+["pdflatex"] 1559147943 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1559147943
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -92,7 +92,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1480098733 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1480098733 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1480098733 36281 c355509802a035cadc5f15869451dcee ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1480098733 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1480098733 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1480098733 32734 69e00a6b65cedb993666e42eedb3d48f ""
@@ -100,9 +99,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1480098733 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1480098733 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1480098733 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1480098733 32716 08e384dc442464e7285e891af9f45947 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1480098733 32442 c975af247b6702f7ca0c299af3616b80 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1480098733 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1480098815 7612 729a8cc22a1ee0029997c7f74717ae05 ""
@@ -146,14 +143,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1537205051 164837 f472f40ab643c6b1fa7fff8b04d446df ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540316973 946996 0df2ff670e2d66c6eb193e4f54f904b3 ""
-  "Main_with_figures.aux" 1558032117 2720 a0efebdd274ced63ae5d989116f9f6e5 ""
-  "Main_with_figures.bbl" 1557955284 3684 cd4c1851642b1875c27bc71b61391153 "bibtex Main_with_figures"
-  "Main_with_figures.tex" 1558032117 23170 97e930a5b346e437ab54377e93472d41 ""
+  "Main_with_figures.aux" 1559147943 3128 5885197c7890176287e6d9d55948249e ""
+  "Main_with_figures.bbl" 1559147725 2581 9d0ef5fa181275364f43a1d2149622dc "bibtex Main_with_figures"
+  "Main_with_figures.tex" 1559147795 27679 0bd0234985a71e0a81075ce51471b311 ""
   "figures/10X10_root1_varyS.png" 1557847137 13642 8fef30ecda9bca47019f38669bca8891 ""
   "figures/randN_3232_1010_S100.png" 1557866386 8977 0beb04a8fd63a6b20c03eab737a58dc4 ""
+  "figures/test_GE_div_Gr.png" 1559147935 15192 abf76125b22b987839672177258d6ce2 ""
   "figures/thirtytwo_root0_1_varyS.png" 1557847409 13631 3f2810034ce9afeb460dd16ae3e838d5 ""
+  "figures/unit_cell_P4mmm_cropped.png" 1558641814 70577 e9879096d07719c6744a871f209675c7 ""
   (generated)
-  "Main_with_figures.log"
   "Main_with_figures.pdf"
+  "Main_with_figures.log"
   "Main_with_figuresNotes.bib"
   "Main_with_figures.aux"
