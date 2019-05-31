@@ -449,7 +449,7 @@ eprint = {
 
 %LLTO review 
 
-@article{LLTO_review,
+@article{LLTOreview,
 author = {Stramare, S. and Thangadurai, V. and Weppner, W.},
 title = {Lithium Lanthanum Titanates:  A Review},
 journal = {Chemistry of Materials},
@@ -471,7 +471,7 @@ eprint = {
 }
 
 %Influence on conducitivty on strucuture of Li0.5La0.5TiO3
-@article{P4mmm_strucuture,
+@article{P4mmmstrucuture,
 title = "Influence of composition on the structure and conductivity of the fast ionic conductors La2/3−xLi3xTiO3 (0.03≤x≤0.167)",
 journal = "Solid State Ionics",
 volume = "134",
@@ -484,4 +484,35 @@ url = "http://www.sciencedirect.com/science/article/pii/S016727380000761X",
 author = "J Ibarra and A Várez and C León and J Santamarı́a and L.M Torres-Martı́nez and J Sanz",
 keywords = "Li NMR, Ionic conductivity, Perovskite structure, Lithium mobility",
 abstract = "The solid solution La2/3−xLi3xTiO3 (0.03<x<0.167) has been investigated by powder X-ray diffraction (XRD), impedance spectroscopy (IS) and 7Li nuclear magnetic resonance (NMR) techniques. In these samples, a change of symmetry from tetragonal to orthorhombic is observed when the lithium content is decreased below x=0.06. Structural modifications produced are mainly due to cation vacancies ordering along the c-axis, which disappear gradually when the Li content increases. Two Li signals with different quadrupole constants are detected in 7Li NMR spectra of orthorhombic/tetragonal perovskites, which have been associated with two crystallographic sites. In La0.5Li0.5TiO3 perovskite, prepared by quenching from 1300°C into liquid nitrogen, an important mobility for Li was detected in 7Li NMR spectra. In perovskites analysed, the dependence of electrical conductivity on Li content departs from that expected on the basis of a random distribution of La and Li in A sites. Dc conductivity increases quickly with the Li content in orthorhombic samples, but changes much more smoothly in tetragonal ones, where vacancies distribution becomes progressively disordered. In all perovskites analysed, the dependence of dc-conductivity with temperature displays a non-Arrhenius behaviour, with activation energies of 0.39±0.02 and 0.29±0.02 eV in 160–250 and 250–360 K temperature ranges respectively."
+}
+
+
+
+@article{understand_improve,
+  title = {Understanding and improving the Wang-Landau algorithm},
+  author = {Zhou, Chenggang and Bhatt, R. N.},
+  journal = {Phys. Rev. E},
+  volume = {72},
+  issue = {2},
+  pages = {025701},
+  numpages = {4},
+  year = {2005},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.72.025701},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.72.025701}
+}
+
+@article{imaginary_phonons,
+title = "Domain boundaries and their influence on Li migration in solid-state electrolyte (La,Li)TiO3",
+journal = "Journal of Power Sources",
+volume = "276",
+pages = "203 - 207",
+year = "2015",
+issn = "0378-7753",
+doi = "https://doi.org/10.1016/j.jpowsour.2014.11.139",
+url = "http://www.sciencedirect.com/science/article/pii/S0378775314020060",
+author = "Hiroki Moriwake and Xiang Gao and Akihide Kuwabara and Craig A.J. Fisher and Teiichi Kimura and Yumi H. Ikuhara and Keiichi Kohama and Takeshi Tojigamori and Yuichi Ikuhara",
+keywords = "First-principles calculations, Lithium-ion battery, Solid electrolyte, Lanthanum lithium titanate, Scanning transmission electron microscopy, Domain boundary",
+abstract = "The influence of 90° domain boundaries in (La,Li)TiO3 (LLTO) on the Li conduction mechanism has been examined by a combination of state-of-the-art electron microscopy techniques and first-principles calculations. The atomistic structure of 90° domain boundaries in LLTO was determined from aberration-corrected scanning transmission electron microscopy images. At 90° domain boundaries, each perovskite unit of one domain is connected by an La-rich layer to units of the neighboring domain. First-principles calculations of a model domain boundary show that Li migration through the La layer has a very high activation energy, Ea, of 3.58 eV, indicating that La layers serve to block Li migration. However, if La vacancies are present within La layers, the migration energy decreases significantly to 0.58 eV, a value more in line with experimental observation. The results show that Li conduction in LLTO is strongly influenced by 90° domain boundaries. The activation energy in a single crystal (Ea = 0.19 eV) is much lower, suggesting that if 90° domain boundaries could be eliminated, an increase in conductivity of approximately three orders of magnitude compared with conventional LLTO could be achieved."
 }

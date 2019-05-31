@@ -10,45 +10,45 @@ I was expecting a `,' or a `}'---line 283 of file Bib.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty journal in Hframe_Wang_Landau
-You've used 13 entries,
+You've used 20 entries,
             1791 wiz_defined-function locations,
-            546 strings with 5573 characters,
-and the built_in function-call counts, 3051 in all, are:
-= -- 277
-> -- 118
+            595 strings with 7212 characters,
+and the built_in function-call counts, 4959 in all, are:
+= -- 425
+> -- 239
 < -- 0
-+ -- 45
-- -- 32
-* -- 226
-:= -- 489
-add.period$ -- 40
-call.type$ -- 13
-change.case$ -- 11
++ -- 88
+- -- 68
+* -- 397
+:= -- 811
+add.period$ -- 61
+call.type$ -- 20
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 120
-empty$ -- 308
-format.name$ -- 32
-if$ -- 668
+cite$ -- 21
+duplicate$ -- 183
+empty$ -- 477
+format.name$ -- 68
+if$ -- 1075
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 16
-newline$ -- 69
-num.names$ -- 13
-pop$ -- 31
+int.to.str$ -- 20
+missing$ -- 23
+newline$ -- 104
+num.names$ -- 20
+pop$ -- 38
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 40
+skip$ -- 63
 stack$ -- 0
-substring$ -- 275
-swap$ -- 12
+substring$ -- 434
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 28
-width$ -- 15
-write$ -- 144
+while$ -- 42
+width$ -- 22
+write$ -- 221
 (There was 1 error message)

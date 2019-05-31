@@ -37,6 +37,63 @@ T.~Vogel, Y.~W. Li, T.~W\"{u}st, and D.~Landau.
   sampling.
 \newblock 110:210603, 05 2013.
 
+\bibitem{saturation}
+R.~E. Belardinelli and V.~D. Pereyra.
+\newblock Wang-landau algorithm: A theoretical analysis of the saturation of
+  the error.
+\newblock {\em The Journal of Chemical Physics}, 127(18):184105, 2007.
+
+\bibitem{domainboundaries}
+Xiang Gao, Craig A.~J. Fisher, Teiichi Kimura, Yumi~H. Ikuhara, Akihide
+  Kuwabara, Hiroki Moriwake, Hideki Oki, Takeshi Tojigamori, Keiichi Kohama,
+  and Yuichi Ikuhara.
+\newblock Domain boundary structures in lanthanum lithium titanates.
+\newblock {\em J. Mater. Chem. A}, 2:843--852, 2014.
+
+\bibitem{P4mmmstrucuture}
+J~Ibarra, A~Várez, C~León, J~Santamarı́a, L.M Torres-Martı́nez, and
+  J~Sanz.
+\newblock Influence of composition on the structure and conductivity of the
+  fast ionic conductors la2/3−xli3xtio3 (0.03≤x≤0.167).
+\newblock {\em Solid State Ionics}, 134(3):219 -- 228, 2000.
+
+\bibitem{imaginary_phonons}
+Hiroki Moriwake, Xiang Gao, Akihide Kuwabara, Craig~A.J. Fisher, Teiichi
+  Kimura, Yumi~H. Ikuhara, Keiichi Kohama, Takeshi Tojigamori, and Yuichi
+  Ikuhara.
+\newblock Domain boundaries and their influence on li migration in solid-state
+  electrolyte (la,li)tio3.
+\newblock {\em Journal of Power Sources}, 276:203 -- 207, 2015.
+
+\bibitem{GENG2009555}
+H.X. Geng, A.~Mei, C.~Dong, Y.H. Lin, and C.W. Nan.
+\newblock Investigation of structure and electrical properties of
+  li0.5la0.5tio3 ceramics via microwave sintering.
+\newblock {\em Journal of Alloys and Compounds}, 481(1):555 -- 558, 2009.
+
+\bibitem{peculiarities}
+Anatolii Belous, Oleg Yanchevskiy, Oleg V'yunov, Odile Bohnke, Claude Bohnke,
+  Françoise Le~Berre, and Jean-Louis Fourquet.
+\newblock Peculiarities of li0.5la0.5tio3 formation during the synthesis by
+  solid-state reaction or precipitation from solutions.
+\newblock {\em Chemistry of Materials}, 16(3):407--417, 2004.
+
+\bibitem{LLTOreview}
+S.~Stramare, V.~Thangadurai, and W.~Weppner.
+\newblock Lithium lanthanum titanates:  a review.
+\newblock {\em Chemistry of Materials}, 15(21):3974--3990, 2003.
+
+\bibitem{Li_La_ordering_computational}
+Michele Catti.
+\newblock First-principles modeling of lithium ordering in the llto
+  (lixla2/3-x/3tio3) superionic conductor.
+\newblock {\em Chemistry of Materials}, 19(16):3963--3972, 2007.
+
+\bibitem{understand_improve}
+Chenggang Zhou and R.~N. Bhatt.
+\newblock Understanding and improving the wang-landau algorithm.
+\newblock {\em Phys. Rev. E}, 72:025701, Aug 2005.
+
 \bibitem{exact_statistical}
 R.~J. Baxter.
 \newblock {\em Exactly Solved Models in Statistical Mechanics}.
@@ -58,17 +115,5 @@ B.~M. McCoy and T.~T. Wu.
 P.~D. Beale.
 \newblock Exact distribution of energies in the two-dimensional ising model.
 \newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
-
-\bibitem{LLTOreview}
-S.~Stramare, V.~Thangadurai, and W.~Weppner.
-\newblock Lithium lanthanum titanates:  a review.
-\newblock {\em Chemistry of Materials}, 15(21):3974--3990, 2003.
-
-\bibitem{P4mmmstrucuture}
-J~Ibarra, A~Várez, C~León, J~Santamarı́a, L.M Torres-Martı́nez, and
-  J~Sanz.
-\newblock Influence of composition on the structure and conductivity of the
-  fast ionic conductors la2/3−xli3xtio3 (0.03≤x≤0.167).
-\newblock {\em Solid State Ionics}, 134(3):219 -- 228, 2000.
 
 \end{thebibliography}

@@ -1,10 +1,10 @@
 # Fdb version 3
-["bibtex Main_with_figures"] 1559147725 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1559147943
+["bibtex Main_with_figures"] 1559317131 "Main_with_figures.aux" "Main_with_figures.bbl" "Main_with_figures" 1559320383
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1480098433 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Bib.bib" 1558642363 17673 10d75565c988c741286fadb3569eaf98 ""
-  "Main_with_figures.aux" 1559147943 3128 5885197c7890176287e6d9d55948249e ""
+  "Bib.bib" 1559241251 24913 51620e06f782c32ff84e65ed2aead45e ""
+  "Main_with_figures.aux" 1559320383 3693 5e76d11a11fc0c3782862abe8b7a699c ""
   "Main_with_figures.bcf" 0 -1 0 ""
-  "Main_with_figuresNotes.bib" 1559147943 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Main_with_figuresNotes.bib" 1559320383 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "Main_with_figures.blg"
   "Main_with_figures.bbl"
@@ -66,11 +66,11 @@
   "Main_with_figures.aux" 1551905969 4005 52f6f560c160f7eaef08d80327b23fbe ""
   "Main_with_figures.tex" 1551905994 25299 c9afb630176dfad8edb9b477867bd9be ""
   (generated)
-  "Main_with_figures.aux"
   "Main_with_figuresNotes.bib"
-  "Main_with_figures.log"
+  "Main_with_figures.aux"
   "Main_with_figures.dvi"
-["pdflatex"] 1559147943 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1559147943
+  "Main_with_figures.log"
+["pdflatex"] 1559320383 "Main_with_figures.tex" "Main_with_figures.pdf" "Main_with_figures" 1559320383
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -143,9 +143,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1537205051 164837 f472f40ab643c6b1fa7fff8b04d446df ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540316973 946996 0df2ff670e2d66c6eb193e4f54f904b3 ""
-  "Main_with_figures.aux" 1559147943 3128 5885197c7890176287e6d9d55948249e ""
-  "Main_with_figures.bbl" 1559147725 2581 9d0ef5fa181275364f43a1d2149622dc "bibtex Main_with_figures"
-  "Main_with_figures.tex" 1559147795 27679 0bd0234985a71e0a81075ce51471b311 ""
+  "Main_with_figures.aux" 1559320383 3693 5e76d11a11fc0c3782862abe8b7a699c ""
+  "Main_with_figures.bbl" 1559317131 4500 7aab599d1d62f4a09b2929ab902b304b "bibtex Main_with_figures"
+  "Main_with_figures.tex" 1559320382 32780 6264ce184d7134f468c98bdac2f2e067 ""
   "figures/10X10_root1_varyS.png" 1557847137 13642 8fef30ecda9bca47019f38669bca8891 ""
   "figures/randN_3232_1010_S100.png" 1557866386 8977 0beb04a8fd63a6b20c03eab737a58dc4 ""
   "figures/test_GE_div_Gr.png" 1559147935 15192 abf76125b22b987839672177258d6ce2 ""
@@ -154,5 +154,5 @@
   (generated)
   "Main_with_figures.pdf"
   "Main_with_figures.log"
-  "Main_with_figuresNotes.bib"
   "Main_with_figures.aux"
+  "Main_with_figuresNotes.bib"
