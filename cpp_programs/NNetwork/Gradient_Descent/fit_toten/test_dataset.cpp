@@ -101,7 +101,7 @@ for(int x=1; x<=num_its; x++)
 }
 
 
- string cfilename = "FinalNN"; 
+string cfilename = "FinalNN"; 
 myNN.make_NN(cfilename);
      
 
@@ -113,7 +113,7 @@ double xscore(const vector<double> calc,  const dataset & mydata, int wds)
 {
 	double Sc = 0; 
 	int x=1; 
-	double  diff = calc[x-1]-mydata.get_od(wds,x)/10.0;
+	double  diff = calc[x-1]-mydata.get_od(wds,x);
 	Sc = diff*diff ;
 	return Sc; 
 }

@@ -15,6 +15,17 @@ D.~P. Landau and K.~Binder.
 \newblock {\em A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics}.
 \newblock Cambridge University Press, fourth edition edition, 2015.
 
+\bibitem{Multi_Canonical}
+Bernd~A. Berg and Thomas Neuhaus.
+\newblock Multicanonical ensemble: A new approach to simulate first-order phase
+  transitions.
+\newblock {\em Phys. Rev. Lett.}, 68:9--12, Jan 1992.
+
+\bibitem{Entropic_Sampling}
+Jooyoung Lee.
+\newblock New monte carlo algorithm: Entropic sampling.
+\newblock {\em Phys. Rev. Lett.}, 71:211--214, Jul 1993.
+
 \bibitem{WL_phys_rev_lett}
 F.~Wang and D.~P. Landau.
 \newblock Efficient, multiple-range random walk algorithm to calculate the
@@ -37,11 +48,29 @@ T.~Vogel, Y.~W. Li, T.~W\"{u}st, and D.~Landau.
   sampling.
 \newblock 110:210603, 05 2013.
 
+\bibitem{Eisenbach}
+M.~Eisenbach, D.~M. Nicholson, A.~Rusanu, and G.~Brown.
+\newblock First principles calculation of finite temperature magnetism in fe
+  and fe3c.
+\newblock {\em Journal of Applied Physics}, 109(7):07E138, 2011.
+
+\bibitem{FP_Wang_Landau_CuZn}
+S.~N. Khan and Markus Eisenbach.
+\newblock Density-functional monte-carlo simulation of cuzn order-disorder
+  transition.
+\newblock {\em Phys. Rev. B}, 93:024203, Jan 2016.
+
 \bibitem{saturation}
 R.~E. Belardinelli and V.~D. Pereyra.
 \newblock Wang-landau algorithm: A theoretical analysis of the saturation of
   the error.
 \newblock {\em The Journal of Chemical Physics}, 127(18):184105, 2007.
+
+\bibitem{Optimal_modification}
+Chenggang Zhou and Jia Su.
+\newblock Optimal modification factor and convergence of the wang-landau
+  algorithm.
+\newblock {\em Phys. Rev. E}, 78:046705, Oct 2008.
 
 \bibitem{domainboundaries}
 Xiang Gao, Craig A.~J. Fisher, Teiichi Kimura, Yumi~H. Ikuhara, Akihide
@@ -88,6 +117,11 @@ Michele Catti.
 \newblock First-principles modeling of lithium ordering in the llto
   (lixla2/3-x/3tio3) superionic conductor.
 \newblock {\em Chemistry of Materials}, 19(16):3963--3972, 2007.
+
+\bibitem{Convergence_of_WL}
+G.~Brown, Kh. Odbadrakh, D.~M. Nicholson, and M.~Eisenbach.
+\newblock Convergence for the wang-landau density of states.
+\newblock {\em Phys. Rev. E}, 84:065702, Dec 2011.
 
 \bibitem{understand_improve}
 Chenggang Zhou and R.~N. Bhatt.

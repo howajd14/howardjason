@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  31 MAY 2019 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  1 AUG 2019 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,79 +314,172 @@ LaTeX Font Info:    ... okay on input line 40.
 \openout3 = `Main_with_figuresNotes.bib'.
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 \OT1/cmr/m/n/10 Where $\OML/cmm/m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[
 ]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^Q \OT1/cmr/m/n/10 [1 + []\OMS/cmsy/m/n/
 10 H\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 e
 []\OMS/cmsy/m/n/10 g[]\OT1/cmr/m/n/10 )]$ with
  []
 
-[2]
-Underfull \hbox (badness 3229) in paragraph at lines 174--175
+
+Underfull \hbox (badness 1122) in paragraph at lines 98--100
+\OT1/cmr/m/n/10 con-fig-u-ra-tion and en-ergy $^^F[]\OML/cmm/m/it/10 ; e[]$ \OT
+1/cmr/m/n/10 goes to $^^F[]\OML/cmm/m/it/10 ; e[]$\OT1/cmr/m/n/10 .
+ []
+
+[2] [3]
+Underfull \hbox (badness 3229) in paragraph at lines 181--182
 []\OT1/cmr/m/n/10 Where $\OML/cmm/m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
 E[]\OT1/cmr/m/n/10 )$ is the ex-act den-sity of states,
  []
 
-[3]
 <./figures/thirtytwo_root0_1_varyS.png, id=28, 794.97pt x 614.295pt>
 File: ./figures/thirtytwo_root0_1_varyS.png Graphic file (type png)
 <use ./figures/thirtytwo_root0_1_varyS.png>
 Package pdftex.def Info: ./figures/thirtytwo_root0_1_varyS.png  used on input l
-ine 184.
+ine 193.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
 <./figures/10X10_root1_varyS.png, id=29, 794.97pt x 614.295pt>
 File: ./figures/10X10_root1_varyS.png Graphic file (type png)
 <use ./figures/10X10_root1_varyS.png>
-Package pdftex.def Info: ./figures/10X10_root1_varyS.png  used on input line 18
-6.
+Package pdftex.def Info: ./figures/10X10_root1_varyS.png  used on input line 19
+5.
 (pdftex.def)             Requested size: 227.62204pt x 175.89137pt.
-<./figures/randN_3232_1010_S100.png, id=30, 794.97pt x 614.295pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 200.
+
+<./figures/randN_3232_1010_S100.png, id=33, 794.97pt x 614.295pt>
 File: ./figures/randN_3232_1010_S100.png Graphic file (type png)
 <use ./figures/randN_3232_1010_S100.png>
 Package pdftex.def Info: ./figures/randN_3232_1010_S100.png  used on input line
- 193.
+ 202.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figures/optimalCo.png, id=34, 794.97pt x 614.295pt>
+File: ./figures/optimalCo.png Graphic file (type png)
+<use ./figures/optimalCo.png>
+Package pdftex.def Info: ./figures/optimalCo.png  used on input line 207.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
 \OT1/cmr/m/n/10 The agree-ment be-tween the-ory and ex-
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 200--202
+Underfull \hbox (badness 1648) in paragraph at lines 215--217
 \OT1/cmr/m/n/10 perimet(numerical) is seen to be ex-act within the
  []
 
-<./figures/test_GE_div_Gr.png, id=31, 794.97pt x 614.295pt>
+<./figures/test_GE_div_Gr.png, id=35, 794.97pt x 614.295pt>
 File: ./figures/test_GE_div_Gr.png Graphic file (type png)
 <use ./figures/test_GE_div_Gr.png>
-Package pdftex.def Info: ./figures/test_GE_div_Gr.png  used on input line 204.
+Package pdftex.def Info: ./figures/test_GE_div_Gr.png  used on input line 219.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-[4 <./figures/thirtytwo_root0_1_varyS.png> <./figures/10X10_root1_varyS.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./figures/thirtytwo_root0_1_varyS.png> <./figures/10X10_root1_varyS.png> <.
+/figures/randN_3232_1010_S100.png> <./figures/optimalCo.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 210.
+ on input line 225.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 212.
+LaTeX Warning: Command \r invalid in math mode on input line 227.
 
-<./figures/unit_cell_P4mmm_cropped.png, id=37, 523.9575pt x 537.00626pt>
+<./figures/unit_cell_P4mmm_cropped.png, id=45, 523.9575pt x 537.00626pt>
 File: ./figures/unit_cell_P4mmm_cropped.png Graphic file (type png)
 <use ./figures/unit_cell_P4mmm_cropped.png>
 Package pdftex.def Info: ./figures/unit_cell_P4mmm_cropped.png  used on input l
-ine 214.
+ine 231.
 (pdftex.def)             Requested size: 213.39566pt x 218.70724pt.
-[5 <./figures/randN_3232_1010_S100.png> <./figures/test_GE_div_Gr.png> <./figur
-es/unit_cell_P4mmm_cropped.png (PNG copy)>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 220.
+LaTeX Warning: Command \r invalid in math mode on input line 237.
 
-(./Main_with_figures.bbl [6]
+[6 <./figures/test_GE_div_Gr.png> <./figures/unit_cell_P4mmm_cropped.png (PNG c
+opy)>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 239.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 253--256
+\OT1/cmr/m/n/10 that nor-mal-iza-tion of the rel-a-tive den-sity of states
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 253--256
+\OT1/cmr/m/n/10 to the ap-pro-pri-ate num-ber of con-fig-u-ra-tions is not
+ []
+
+<./figures/GE_fig_150.png, id=50, 794.97pt x 614.295pt>
+File: ./figures/GE_fig_150.png Graphic file (type png)
+<use ./figures/GE_fig_150.png>
+Package pdftex.def Info: ./figures/GE_fig_150.png  used on input line 259.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+<./figures/GE_fig_300.png, id=51, 794.97pt x 614.295pt>
+File: ./figures/GE_fig_300.png Graphic file (type png)
+<use ./figures/GE_fig_300.png>
+Package pdftex.def Info: ./figures/GE_fig_300.png  used on input line 261.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+<./figures/GE_fig_600.png, id=52, 794.97pt x 614.295pt>
+File: ./figures/GE_fig_600.png Graphic file (type png)
+<use ./figures/GE_fig_600.png>
+Package pdftex.def Info: ./figures/GE_fig_600.png  used on input line 263.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 270.
+
+<./figures/avg_OP_La1c.png, id=57, 794.97pt x 614.295pt>
+File: ./figures/avg_OP_La1c.png Graphic file (type png)
+<use ./figures/avg_OP_La1c.png>
+Package pdftex.def Info: ./figures/avg_OP_La1c.png  used on input line 273.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+<./figures/avg_OP_La1ab.png, id=58, 794.97pt x 614.295pt>
+File: ./figures/avg_OP_La1ab.png Graphic file (type png)
+<use ./figures/avg_OP_La1ab.png>
+Package pdftex.def Info: ./figures/avg_OP_La1ab.png  used on input line 275.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+[8 <./figures/GE_fig_150.png> <./figures/GE_fig_300.png> <./figures/GE_fig_600.
+png> <./figures/avg_OP_La1c.png> <./figures/avg_OP_La1ab.png>]
+<./figures/OP_ensemble_avg.png, id=67, 794.97pt x 614.295pt>
+File: ./figures/OP_ensemble_avg.png Graphic file (type png)
+<use ./figures/OP_ensemble_avg.png>
+Package pdftex.def Info: ./figures/OP_ensemble_avg.png  used on input line 282.
+
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+<./figures/Cv.png, id=68, 794.97pt x 614.295pt>
+File: ./figures/Cv.png Graphic file (type png)
+<use ./figures/Cv.png>
+Package pdftex.def Info: ./figures/Cv.png  used on input line 287.
+(pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
+
+(./Main_with_figures.bbl
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
+
+Underfull \hbox (badness 2020) in paragraph at lines 52--56
+ []\OT1/cmr/m/n/9 M. Eisen-bach, D. M. Nichol-son, A. Ru-sanu, and
+ []
+
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¡ in font cmr9!
 Missing character: There is no Ã in font cmr9!
@@ -408,8 +501,8 @@ Missing character: There is no ¤ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no ‰ in font cmr9!
 Missing character: There is no ¤ in font cmr9!
-
-Underfull \hbox (badness 3343) in paragraph at lines 61--67
+[9 <./figures/OP_ensemble_avg.png> <./figures/Cv.png>]
+Underfull \hbox (badness 3343) in paragraph at lines 90--96
  []\OT1/cmr/m/n/9 Hiroki Mori-wake, Xi-ang Gao, Ak-i-hide Kuwabara,
  []
 
@@ -418,35 +511,41 @@ Missing character: There is no § in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ‰ in font cmr9!
-) [7] (./Main_with_figures.aux) ) 
+
+Underfull \hbox (badness 1158) in paragraph at lines 122--125
+ []\OT1/cmr/m/n/9 G. Brown, Kh. Odbadrakh, D. M. Nichol-son, and
+ []
+
+) [10] (./Main_with_figures.aux) ) 
 Here is how much of TeX's memory you used:
- 4295 strings out of 494805
- 58694 string characters out of 6177999
- 148882 words of memory out of 5000000
- 7570 multiletter control sequences out of 15000+600000
+ 4368 strings out of 494805
+ 60399 string characters out of 6177999
+ 142787 words of memory out of 5000000
+ 7635 multiletter control sequences out of 15000+600000
  7627 words of font info for 28 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 42i,17n,25p,2108b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-
-Output written on Main_with_figures.pdf (7 pages, 334245 bytes).
+ 42i,17n,25p,2111b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Main_with_figures.pdf (10 pages, 416626 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

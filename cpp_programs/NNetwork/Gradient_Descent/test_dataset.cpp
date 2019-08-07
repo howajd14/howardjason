@@ -70,10 +70,8 @@ for(int x=1; x<=num_its; x++)
          scr = scr + xscore(calc_val, myds, ii);
      }
      scr = scr/myds.get_nsets(); 
-     if(x%10==0){cout << "\n" << x << "\t" << scr; }
-                                 
-
-     	     
+     if(x%100==0){cout << "\n" << x << "\t" << scr; }
+   
      grad(gradNN, myNN, myds, del); 
      gradD(gradNN,myNN,del);  
      
