@@ -140,4 +140,45 @@ P.~D. Beale.
 \newblock Exact distribution of energies in the two-dimensional ising model.
 \newblock {\em Phys. Rev. Lett.}, 76:78--81, Jan 1996.
 
+\bibitem{Vasp1}
+G.~Kresse and J.~Hafner.
+\newblock Ab initio molecular dynamics for liquid metals.
+\newblock {\em Phys. Rev. B}, 47:558--561, Jan 1993.
+
+\bibitem{Vasp2}
+G.~Kresse and J.~Hafner.
+\newblock Ab initio molecular-dynamics simulation of the
+  liquid-metal--amorphous-semiconductor transition in germanium.
+\newblock {\em Phys. Rev. B}, 49:14251--14269, May 1994.
+
+\bibitem{Vasp3}
+G.~Kresse and J.~Furthmüller.
+\newblock Efficiency of ab-initio total energy calculations for metals and
+  semiconductors using a plane-wave basis set.
+\newblock {\em Computational Materials Science}, 6(1):15 -- 50, 1996.
+
+\bibitem{Vasp4}
+G.~Kresse and J.~Furthm\"uller.
+\newblock Efficient iterative schemes for ab initio total-energy calculations
+  using a plane-wave basis set.
+\newblock {\em Phys. Rev. B}, 54:11169--11186, Oct 1996.
+
+\bibitem{Blochl}
+P.~E. Bl\"ochl.
+\newblock Projector augmented-wave method.
+\newblock {\em Phys. Rev. B}, 50:17953--17979, Dec 1994.
+
+\bibitem{PBE}
+J.~P. Perdew, K.~Burke, and M.~Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys. Rev. Lett.}, 77:3865--3868, Oct 1996.
+
+\bibitem{Asitedistribution}
+Xiang Gao, Craig A.~J. Fisher, Teiichi Kimura, Yumi~H. Ikuhara, Hiroki
+  Moriwake, Akihide Kuwabara, Hideki Oki, Takeshi Tojigamori, Rong Huang, and
+  Yuichi Ikuhara.
+\newblock Lithium atom and a-site vacancy distributions in lanthanum lithium
+  titanate.
+\newblock {\em Chemistry of Materials}, 25(9):1607--1614, 2013.
+
 \end{thebibliography}

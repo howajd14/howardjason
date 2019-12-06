@@ -1,0 +1,72 @@
+% ****** Start of file aipsamp.tex ******
+%
+%   This file is part of the AIP files in the AIP distribution for REVTeX 4.
+%   Version 4.1 of REVTeX, October 2009
+%
+%   Copyright (c) 2009 American Institute of Physics.
+%
+%   See the AIP README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+% 
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex  aipsamp
+%  2)  bibtex aipsamp
+%  3)  latex  aipsamp
+%  4)  latex  aipsamp
+%
+% Use this file as a source of example code for your aip document.
+% Use the file aiptemplate.tex as a template for your document.
+\documentclass[ aip,jmp,bmf,sd,rsi, amsmath,amssymb,preprint, reprint,author-year,author-numerical, Conference Proceedings]{revtex4-1}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+
+\begin{document}
+
+\preprint{AIP/123-QED}
+
+\title[Sample title]{First principles calculation of configurational energy density of states for LLTO with new Wang and Landau algorithm variant}
+% Force line breaks with \\
+
+\author{Jason D. Howard}
+ \altaffiliation[Also at ]{Argonne National Laboratory}%Lines break automatically or can be forced with \\
+
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+In this work  a variant of the Wang and Landau algorithm   for calculation of  the configurational energy density of states is proposed. The algorithm is referred to as B$_L$ENDER, which is an acronym for B$_L$end Each New Density Each Round and an  adjective for  how it was created and functions. The algorithm was developed for the purpose of working towards the goal of using first principles simulations, such as density functional theory, to calculate the partition function of disordered sub lattices in crystal materials. The expensive calculations of first principles methods make a parellel aglorithm necessary for a practical compuation of the configurational energy density of states within a supercell approximation of a solid state material. The developed algorithm is natural to paralleize, is developed from a self consistent perspective, and was developed purposely for lattice based problems encountered in the study of disordered crystal sublattices.  The algorithm develped in this work is tested with the 2d Ising model to bench mark the algorithm and to help provide insight for implementing the algorithm to a materials science application. The algorithm is then applied to the lithium and lanthanum sublattice of the solid state lihithium ion conductor Li$_{0.5}$La$_{0.5}$TiO$_{3}$. This was done to help understand the disordered nature of the lithium and lanthanum. The results find overall that the algorithm performs very well for the 2-d Ising model and that the results for Li$_{0.5}$La$_{0.5}$TiO$_{3}$ are consistent with experiment while providing additional insight into the lithium and lanthunum ordering in the material. 
+\end{abstract}
+
+\maketitle
+\section{Introduction}
+For crystalline  materials  with disordered sub-lattices such as the Li-ion solid state electrolyte LLTO it is desirable to calculate from first principles methods(such as density functional theory\cite{kohn:1965}) the configurational  energy density states $G(E_j)$. Here the energy density of states refers to the energies of the distinct lattice configurations. With the energy density of states the partition function,
+\begin{equation}
+\begin{split}
+Z = \sum_{i}^{\Omega}e^{\frac{-e_i}{k_B T} }= \sum_{j}^{\Pi}G(E_j)e^{\frac{-E_j}{k_BT}} \;,
+\end{split}
+\label{partition}
+\end{equation}
+can be  determined and from it many important thermodynamics properties such as the free energy, entropy, specific heat, and ensemble averages calculated. In Eq. (\ref{partition}), $\Omega$ corresponds to the number of possible configurations and energies in the set $\{\Sigma_i,e_i\}_\Omega$, $\Pi$ to number of possible distinct energies $E_j$, $k_B$ is Boltzman's constant, and $T$ is 
+the temperature. One method to solve this problem could be temperature dependent simulations involving the  Metropolis algorithm an sampling with probality proportional  to $exp(\frac{-e_i}{k_B T})$ 
+and histogram re-weighting techniques\cite{metropolis_equation_1953, landau_MC_simulations}. Another more adanved method is the multi-canonical method proposed by Berg et al. \cite{Multi_Canonical}. A variant of multicanaonical sampling that samples the density of states directly known as entropic sampling developed by Lee \cite{Entropic_Sampling} could also be used. 
+These algorithms require a good estimate of the density of states to be effective.  Another algorithm called the  Wang and Landau algorithm \cite{WL_phys_rev_lett} has been developed which is temperature independent and is based on a random walk in energy space and builds up the density of states as the algorithm progresses.  An issue with these algorithms(if using a single walker) in use with first principles methods such as density functional theory is the large number of iterations needed which would require a prohibitively long wall time at the current performance power of computers.  In this paper an algorithm is proposed that combines the use of random sets along with the importance sampling method of the Wang and Landau algorithm, this importance sampling is similar to the entropic sampling proposed by Lee \cite{Entropic_Sampling}. The algorithm also used the philosophy of the Wang and Landau algorithm to build up a estimate of the density of states as the algorithm progresses.  The proposed algorithm is meant to work towards the goal of a highly parallel importance sampling algorithm that directly calculates the density of states, meshes well with high performance computing architectures, and has a minimum of parmaters for implementation. The algorithm developed in this work is referred to as the B$_{L}$ENDER (B$_{L}$end Each New Density Each Round) algorithm. 
+
+
+%\nocite{*}
+\bibliography{Bib}
+
+\end{document}
+%
+% ****** End of file aipsamp.tex ******
