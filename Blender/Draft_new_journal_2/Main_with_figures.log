@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  6 DEC 2019 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  7 JAN 2020 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,7 +365,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 /figures/randN_3232_1010_S100.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 180.
+ on input line 177.
 
 <./figures/Avg_F_8X8.png, id=40, 794.97pt x 614.295pt>
 File: ./figures/Avg_F_8X8.png Graphic file (type png)
@@ -382,12 +382,12 @@ Package pdftex.def Info: ./figures/Avg_error_8X8.png  used on input line 191.
 
 LaTeX Warning: Command \r invalid in math mode on input line 199.
 
-<./figures/unit_cell_P4mmm_cropped.png, id=48, 523.9575pt x 537.00626pt>
+<./figures/unit_cell_P4mmm_cropped.png, id=48, 475.7775pt x 497.86pt>
 File: ./figures/unit_cell_P4mmm_cropped.png Graphic file (type png)
 <use ./figures/unit_cell_P4mmm_cropped.png>
 Package pdftex.def Info: ./figures/unit_cell_P4mmm_cropped.png  used on input l
 ine 203.
-(pdftex.def)             Requested size: 213.39566pt x 218.70724pt.
+(pdftex.def)             Requested size: 213.39566pt x 223.29803pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -429,19 +429,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [7]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 247.
+ on input line 245.
 
-<./figures/avg_OP.png, id=59, 794.97pt x 614.295pt>
+[8 <./figures/GE_fig_500.png> <./figures/GE_fig_1000.png> <./figures/GE_fig_300
+0.png>]
+<./figures/avg_OP.png, id=65, 794.97pt x 614.295pt>
 File: ./figures/avg_OP.png Graphic file (type png)
 <use ./figures/avg_OP.png>
 Package pdftex.def Info: ./figures/avg_OP.png  used on input line 252.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-<./figures/OPcounts.png, id=60, 794.97pt x 614.295pt>
+<./figures/OPcounts.png, id=66, 794.97pt x 614.295pt>
 File: ./figures/OPcounts.png Graphic file (type png)
 <use ./figures/OPcounts.png>
 Package pdftex.def Info: ./figures/OPcounts.png  used on input line 254.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-<./figures/OP_ensemble_avg.png, id=61, 794.97pt x 614.295pt>
+<./figures/OP_ensemble_avg.png, id=67, 794.97pt x 614.295pt>
 File: ./figures/OP_ensemble_avg.png Graphic file (type png)
 <use ./figures/OP_ensemble_avg.png>
 Package pdftex.def Info: ./figures/OP_ensemble_avg.png  used on input line 259.
@@ -463,7 +465,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./figures/it326_run6_lowest_en-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./figures/it326_run6_lowest_en-eps-converted-to.pdf, id=62, 769.87625pt x 473.
+<./figures/it326_run6_lowest_en-eps-converted-to.pdf, id=68, 769.87625pt x 473.
 77pt>
 File: ./figures/it326_run6_lowest_en-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -488,7 +490,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./figures/it1575_run1_second_lowest_en-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<./figures/it1575_run1_second_lowest_en-eps-converted-to.pdf, id=63, 714.67pt x
+<./figures/it1575_run1_second_lowest_en-eps-converted-to.pdf, id=69, 714.67pt x
  468.75125pt>
 File: ./figures/it1575_run1_second_lowest_en-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -496,23 +498,17 @@ File: ./figures/it1575_run1_second_lowest_en-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: ./figures/it1575_run1_second_lowest_en-eps-converted-t
 o.pdf  used on input line 267.
 (pdftex.def)             Requested size: 213.39566pt x 139.96126pt.
-<./figures/Htot.png, id=64, 794.97pt x 614.295pt>
+<./figures/Htot.png, id=70, 794.97pt x 614.295pt>
 File: ./figures/Htot.png Graphic file (type png)
 <use ./figures/Htot.png>
 Package pdftex.def Info: ./figures/Htot.png  used on input line 272.
 (pdftex.def)             Requested size: 213.39566pt x 164.89641pt.
-[8 <./figures/GE_fig_500.png> <./figures/GE_fig_1000.png> <./figures/GE_fig_300
-0.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 278.
-
 [9 <./figures/avg_OP.png> <./figures/OPcounts.png> <./figures/OP_ensemble_avg.p
 ng> <./figures/it326_run6_lowest_en-eps-converted-to.pdf> <./figures/it1575_run
 1_second_lowest_en-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 283.
+ on input line 278.
 
 (./Main_with_figures.bbl
 Missing character: There is no â in font cmr9!
@@ -557,22 +553,23 @@ Missing character: There is no § in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ‰ in font cmr9!
+[10 <./figures/Htot.png>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¼ in font cmr9!
-[10 <./figures/Htot.png>]
+
 Underfull \hbox (badness 1210) in paragraph at lines 177--183
  \OT1/cmr/m/n/9 Oki, Takeshi To-jig-amori, Rong Huang, and Yuichi
  []
 
 ) [11] (./Main_with_figures.aux) ) 
 Here is how much of TeX's memory you used:
- 4404 strings out of 494805
- 61246 string characters out of 6177999
- 142823 words of memory out of 5000000
- 7667 multiletter control sequences out of 15000+600000
+ 4403 strings out of 494805
+ 61235 string characters out of 6177999
+ 141823 words of memory out of 5000000
+ 7666 multiletter control sequences out of 15000+600000
  7627 words of font info for 28 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 42i,17n,25p,2111b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,17n,29p,2111b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
@@ -590,7 +587,7 @@ amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Main_with_figures.pdf (11 pages, 873195 bytes).
+Output written on Main_with_figures.pdf (11 pages, 877548 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
