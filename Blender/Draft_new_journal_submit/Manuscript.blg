@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Manuscript.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ManuscriptNotes.bib
+Database file #2: Bib.bib
+I was expecting a `,' or a `}'---line 474 of file Bib.bib
+ : 
+ : %PBE citation
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in Hframe_Wang_Landau
+Warning--empty year in XMGRACE
+You've used 46 entries,
+            5847 wiz_defined-function locations,
+            1982 strings with 25866 characters,
+and the built_in function-call counts, 45376 in all, are:
+= -- 2977
+> -- 1159
+< -- 302
++ -- 372
+- -- 270
+* -- 7017
+:= -- 4472
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 188
+chr.to.int$ -- 50
+cite$ -- 50
+duplicate$ -- 4184
+empty$ -- 3382
+format.name$ -- 703
+if$ -- 9055
+int.to.chr$ -- 3
+int.to.str$ -- 54
+missing$ -- 537
+newline$ -- 190
+num.names$ -- 135
+pop$ -- 1742
+preamble$ -- 1
+purify$ -- 229
+quote$ -- 0
+skip$ -- 1676
+stack$ -- 0
+substring$ -- 1218
+swap$ -- 3979
+text.length$ -- 135
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 638
+warning$ -- 2
+while$ -- 133
+width$ -- 0
+write$ -- 423
+(There was 1 error message)
