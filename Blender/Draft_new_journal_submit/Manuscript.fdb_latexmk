@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex Manuscript"] 1580421861 "Manuscript.aux" "Manuscript.bbl" "Manuscript" 1583939552
+["bibtex Manuscript"] 1580421861 "Manuscript.aux" "Manuscript.bbl" "Manuscript" 1589395736
   "/usr/share/texlive/texmf-dist/bibtex/bst/revtex/apsrev4-1.bst" 1480098436 71518 fec93f06df0c073f83d2330456bd19c2 ""
   "Manuscript.aux" 1581693961 11757 a147a81d8bc8796b7d38634fd5c449b8 ""
   "Manuscript.bcf" 0 -1 0 ""
@@ -8,7 +8,7 @@
   (generated)
   "Manuscript.blg"
   "Manuscript.bbl"
-["pdflatex"] 1581693959 "Manuscript.tex" "Manuscript.pdf" "Manuscript" 1583939552
+["pdflatex"] 1581693959 "Manuscript.tex" "Manuscript.pdf" "Manuscript" 1589395736
   "/etc/texmf/web2c/texmf.cnf" 1537203857 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -106,7 +106,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540316973 946996 0df2ff670e2d66c6eb193e4f54f904b3 ""
   "Manuscript.aux" 1581693961 11757 a147a81d8bc8796b7d38634fd5c449b8 ""
   "Manuscript.bbl" 1580421358 30044 e00d44bbebc476cb4df0b97241457a4f "bibtex Manuscript"
-  "Manuscript.tex" 1583939544 57983 bd14270ebcd8a4b69a2978f132dfacc6 ""
+  "Manuscript.tex" 1589395736 57983 bd14270ebcd8a4b69a2978f132dfacc6 ""
   "fig10a.eps" 1580413834 599930 7ecef6814a0f0155dfeccf9fffaf306d ""
   "fig10b.eps" 1580413851 503108 bfdcc523964fdcee680ad89724b4624c ""
   "fig11.eps" 1580413955 23904 61c15f3b896e103117d35071ef2d0272 ""
@@ -128,8 +128,8 @@
   "fig8b.eps" 1580413621 25440 4c3b7ed3cfd4ae450f0bc8d84e4a456a ""
   "fig9.eps" 1580413794 245095 4e572ce585596cff99164616dbabac79 ""
   (generated)
-  "ManuscriptNotes.bib"
-  "Manuscript.log"
   "BIB.bib"
-  "Manuscript.aux"
+  "Manuscript.log"
+  "ManuscriptNotes.bib"
   "Manuscript.pdf"
+  "Manuscript.aux"

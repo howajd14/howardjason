@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Fri Jan 24 13:56:07 2020"
+@timestamp def "Mon May 18 11:43:36 2020"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -379,7 +379,7 @@
 @    s1 errorbar riser clip off
 @    s1 errorbar riser clip length 0.100000
 @    s1 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft_new_journal_2/figures/32X32_S100_I1e7_vary_Co.dat"
-@    s1 legend  "32X32 (1/N) = 0.1, I=1e8"
+@    s1 legend  "32X32 (1/N) = 0.1, I=1e7"
 @target G0.S0
 @type xydy
 1e-12 0.453707 6.37074e-05
