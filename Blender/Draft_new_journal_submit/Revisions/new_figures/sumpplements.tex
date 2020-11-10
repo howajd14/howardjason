@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+
+\title{Supplements}
+
+\begin{document}
+\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+\section{Movies of B$_L$ENDER and Wang and Landau algorithm convergence for the 32$\times$32 and 256$\times$256 Ising model Convergence}
+In the supplemental movies  SM1a,SM1b through SM5a,SM5b are shown examples of the convergence behavior of $G_r(E_j)$ for the 32$\times$32 Ising model as discussed in Section \RNum{2} of the main text for the B$_L$ENDER algorithm. The movies SM1,SM2,SM3,SM4,SM5 correspond to the value of the number of walkers $\mathcal{S}=1,10,100,1000,1e4$ respectively. The ``a'' movies are of $G_r(E_j)^t$ renormalized to $\Omega$ compared to the exact solution and the ``b'' movies show the difference between the renormalized $G_r(E_j)t$ in the ``a'' movies and the exact solution. The supplemental movies SM6 and SM7 show the convergence of $G_r^t(E_j)$ renormalized to $\Omega$ for $\mathcal{S}=1$ and $100$ as discusssed in Section \RNum{3} of the main text.
+
+ In this work a prelimary test of the B$_L$ENDER algorithm was done for the 256$\times$256 Ising model and compared to performance of the Wang and Landau algorithm. The simulations used $\mathcal{S}=1000$. The B$_L$ENDER algorithm used $1/N=0.01$, $C_o = \Omega^{1/N}$, and the initial density of states was normalized as discussed in Section \RNum{2} of the main text. The Wang and Landau algorithm utilized the same flatness critera and update schedule for the modification factor as found in Section \RNum{3} of the main text. A movie of the convergence $G_r(E_j)^t$ of the B$_L$ENDER and Wang and Landau algorithm renormalized to $\Omega$ are shown in the supplemental movies SM8 and SM9 respectively.  Since the exact result for the density of states is not avaliable for the 256$\times$256 Ising model movies of the convergence of the free energy per lattice are also shown in supplemental movie SM10. In SM10 the free energies are only calculated with $J=1$ using the ``discovered'' energies of the density of states at that iteration and they are compared to exact free energy per lattice site in the $n\rightarrow$ $\infty$ limit. 
+ 
+ The time $t(MC)$ used in the movies is the Monte-Carlo time defined by, 
+\begin{equation}
+t = \frac{\mathcal{S}I}{\Pi}\;,
+\end{equation}
+that is the number of walkers times the number of iterations dividied by the number of energies in the model. 
+\section{Movies of the Convergence of the B$_L$ENDER algorithm for LLTO}
+In supplemental movie SM11 is shown the convergence of $G_r^I(E_j)/min(G_r^I(E_j))$ for the studied LLTO model. The results are plotted such that the lowest energy configuration found at a particular iteration is set to the zero of energy and the  time is displayed using simply the iteration number of the calculation. In supplemental movie SM12 is shown the convergence of the ensemble average of the $La1$ order parameter as a function of iteration. The movies SM11 and SM12 go along with the results from Section \RNum{5} of the main text. 
+
+\bibliography{Bib}
+\bibliographystyle{unsrt}
+\end{document}

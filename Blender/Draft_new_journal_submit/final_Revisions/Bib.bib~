@@ -1,0 +1,955 @@
+@article{Vesta,
+author = "Momma, Koichi and Izumi, Fujio",
+title = "{{\it VESTA3} for three-dimensional visualization of crystal, volumetric and morphology data}",
+journal = "Journal of Applied Crystallography",
+year = "2011",
+volume = "44",
+number = "6",
+pages = "1272--1276",
+month = "Dec",
+doi = {10.1107/S0021889811038970},
+url = {https://doi.org/10.1107/S0021889811038970},
+abstract = {{\it VESTA} is a three-dimensional visualization system for crystallographic studies and electronic state calculations. It has been upgraded to the latest version, {\it VESTA3}, implementing new features including drawing the external mor{\-}phology of crystals; superimposing multiple structural models, volumetric data and crystal faces; calculation of electron and nuclear densities from structure parameters; calculation of Patterson functions from structure parameters or volumetric data; integration of electron and nuclear densities by Voronoi tessellation; visualization of isosurfaces with multiple levels; determination of the best plane for selected atoms; an extended bond-search algorithm to enable more sophisticated searches in complex molecules and cage-like structures; undo and redo in graphical user interface operations; and significant performance improvements in rendering isosurfaces and calculating slices.},
+keywords = {VESTA 3, data visualization, electronic state calculations, Voronoi tessellation, computer programs},
+}
+
+
+@article{dfpt_phonons,
+  title = {Phonons and related crystal properties from density-functional perturbation theory},
+  author = {Baroni, Stefano and de Gironcoli, Stefano and Dal Corso, Andrea and Giannozzi, Paolo},
+  journal = {Rev. Mod. Phys.},
+  volume = {73},
+  issue = {2},
+  pages = {515--562},
+  numpages = {0},
+  year = {2001},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/RevModPhys.73.515},
+  url = {https://link.aps.org/doi/10.1103/RevModPhys.73.515}
+}
+
+
+@article{ion_disorder_replica,
+	doi = {10.1088/1361-648x/aaf75c},
+	url = {https://doi.org/10.1088%2F1361-648x%2Faaf75c},
+	year = 2019,
+	month = {jan},
+	publisher = {{IOP} Publishing},
+	volume = {31},
+	number = {8},
+	pages = {085901},
+	author = {Shusuke Kasamatsu and Osamu Sugino},
+	title = {Direct coupling of first-principles calculations with replica exchange Monte Carlo sampling of ion disorder in solids},
+	journal = {Journal of Physics: Condensed Matter},
+	abstract = {We demonstrate the feasibility of performing sufficient configurational sampling of disordered oxides directly from first-principles without resorting to the use of fitted models such as cluster expansion. This is achieved by harnessing the power of modern-day cluster supercomputers using the replica exchange Monte Carlo method coupled directly with structural relaxation and energy calculation performed by density functional codes. The idea is applied successfully to the calculation of the temperature-dependence of the degree of inversion in the cation sublattice of MgAl2O4 spinel oxide. The possibility of bypassing fitting models will lead to investigation of disordered systems where cluster expansion is known to perform badly, for example, systems with large lattice deformation due to defects, or systems where long-range interactions dominate such as electrochemical interfaces.}
+}
+
+@article{non_convergence_multiple_random_walkers,
+  title = {Nonconvergence of the Wang-Landau algorithms with multiple random walkers},
+  author = {Belardinelli, R. E. and Pereyra, V. D.},
+  journal = {Phys. Rev. E},
+  volume = {93},
+  issue = {5},
+  pages = {053306},
+  numpages = {9},
+  year = {2016},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.93.053306},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.93.053306}
+}
+
+@article{halting_wang_and_landau,
+  title = {Wang-Landau sampling: A criterion for halting the simulations},
+  author = {Caparica, A. A.},
+  journal = {Phys. Rev. E},
+  volume = {89},
+  issue = {4},
+  pages = {043301},
+  numpages = {7},
+  year = {2014},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.89.043301},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.89.043301}
+}
+
+
+@article{histogram_reweighting,
+  title = {New Monte Carlo technique for studying phase transitions},
+  author = {Ferrenberg, Alan M. and Swendsen, Robert H.},
+  journal = {Phys. Rev. Lett.},
+  volume = {61},
+  issue = {23},
+  pages = {2635--2638},
+  numpages = {0},
+  year = {1988},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.61.2635},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.61.2635}
+}
+
+@article{multi_canonical_two,
+  title = {New approach to spin-glass simulations},
+  author = {Berg, Bernd A. and Celik, Tarik},
+  journal = {Phys. Rev. Lett.},
+  volume = {69},
+  issue = {15},
+  pages = {2292--2295},
+  numpages = {0},
+  year = {1992},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.69.2292},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.69.2292}
+}
+
+
+@article{Non_convergent_WL_2,
+  title = {Fast algorithm to calculate density of states},
+  author = {Belardinelli, R. E. and Pereyra, V. D.},
+  journal = {Phys. Rev. E},
+  volume = {75},
+  issue = {4},
+  pages = {046701},
+  numpages = {5},
+  year = {2007},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.75.046701},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.75.046701}
+}
+
+@article{Non_convergent_WL,
+  title = {Fast Calculation of the Density of States of a Fluid by Monte Carlo Simulations},
+  author = {Yan, Qiliang and de Pablo, Juan J.},
+  journal = {Phys. Rev. Lett.},
+  volume = {90},
+  issue = {3},
+  pages = {035701},
+  numpages = {4},
+  year = {2003},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.90.035701},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.90.035701}
+}
+
+
+
+@article{Stochastic_approximation,
+  title = {Stochastic approximation Monte Carlo with a dynamic update factor},
+  author = {Pommerenck, Jordan K. and Simpson, Tanner T. and Perlin, Michael A. and Roundy, David},
+  journal = {Phys. Rev. E},
+  volume = {101},
+  issue = {1},
+  pages = {013301},
+  numpages = {9},
+  year = {2020},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.101.013301},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.101.013301}
+}
+
+
+
+@article{Scalable_replica_exchange,
+  title = {Scalable replica-exchange framework for Wang-Landau sampling},
+  author = {Vogel, Thomas and Li, Ying Wai and W\"ust, Thomas and Landau, David P.},
+  journal = {Phys. Rev. E},
+  volume = {90},
+  issue = {2},
+  pages = {023302},
+  numpages = {12},
+  year = {2014},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.90.023302},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.90.023302}
+}
+
+@article{Wang_Landau_phys_rev_E,
+  title = {Determining the density of states for classical statistical models: A random walk algorithm to produce a flat histogram},
+  author = {Wang, Fugao and Landau, D. P.},
+  journal = {Phys. Rev. E},
+  volume = {64},
+  issue = {5},
+  pages = {056101},
+  numpages = {16},
+  year = {2001},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.64.056101},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.64.056101}
+}
+
+
+
+
+%Article in American Journal of Physics about the Wang and Landau method
+@article{Wang_and_Landua_AAPT,
+author = {Landau,D. P.  and Tsai,S. H. and Exler,M. },
+title = {A new approach to Monte Carlo simulations in statistical physics: Wang-Landau sampling},
+journal = {Am. J.  Phys.},
+volume = {72},
+number = {10},
+pages = {1294-1302},
+year = {2004},
+doi = {10.1119/1.1707017},
+
+URL = { 
+        https://doi.org/10.1119/1.1707017
+    
+},
+eprint = { 
+        https://doi.org/10.1119/1.1707017
+    
+}
+
+}
+
+%Wang and Landau's article in physical review letters
+@article{WL_phys_rev_lett,
+  title = {Efficient, Multiple-Range Random Walk Algorithm to Calculate the Density of States},
+  author = {Wang, F. and Landau, D. P.},
+  journal = {Phys. Rev. Lett.},
+  volume = {86},
+  issue = {10},
+  pages = {2050--2053},
+  numpages = {0},
+  year = {2001},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.86.2050},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.86.2050}
+}
+
+
+ %exactly solved models in statistical mechanics
+ @book{exact_statistical,
+    title={Exactly Solved Models in Statistical Mechanics},
+    author={Baxter, R. J.},
+    year={2016},
+    publisher={Elsevier},
+    note = {ISBN  978-0-12-083180-7}
+ }
+
+
+%Onsagers solution to the 2-d ising model 
+@article{Onsager,
+  title = {Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition},
+  author = {Onsager, L.},
+  journal = {Phys. Rev.},
+  volume = {65},
+  issue = {3-4},
+  pages = {117--149},
+  year = {1944},
+  optmonth = {Feb},
+  optpublisher = {American Physical Society},
+  optdoi = {10.1103/PhysRev.65.117},
+  opturl = {https://link.aps.org/doi/10.1103/PhysRev.65.117}
+}
+
+%Harvard book on 2-d Ising model
+@book{Ising,
+    author={B. M. McCoy and T. T. Wu},
+    title={The {T}wo-{D}imensional {I}sing {M}odel},
+    publisher = {Harvard University Press},
+    year=1973}
+
+%Monte Carlo simulations book
+@book{landau_MC_simulations,
+  author={D. P. Landau and K. Binder},
+  title={A {G}uide to {M}onte {C}arlo {S}imulations in {P}hysics},
+  edition={Fourth Edition},
+  publisher={Cambridge University Press},
+  year=2015}
+  
+  @article{metropolis_equation_1953,
+	title = {Equation of State Calculations by Fast Computing Machines},
+	volume = {21},
+	issn = {0021-9606, 1089-7690},
+	url = {http://aip.scitation.org/doi/10.1063/1.1699114},
+	doi = {10.1063/1.1699114},
+	pages = {1087--1092},
+	number = {6},
+	journal = {J.  Chem. Phys.},
+	author = {Metropolis, N. and Rosenbluth, A. W. 
+         and Rosenbluth, M. N. and Teller, A. H. and 
+          Teller, E.},
+	urldate = {2017-12-31},
+	date = {1953-06},
+        year=1953}
+  
+  
+    
+    @misc{XMGRACE,
+   note={XMGRACE is a two-dimensional plotting software 
+package maintained at the webpage
+     \url{http://plasma-gate.weizmann.ac.il/Grace}.}}
+ 
+ %cluster expansion reference    
+    @incollection{fontaine_cluster_1994,
+	title = {Cluster {Approach} to {Order}-{Disorder} {Transformations} in {Alloys}},
+	volume = {47},
+	isbn = {978-0-12-607747-6},
+	url = {http://linkinghub.elsevier.com/retrieve/pii/S0081194708606396},
+	urldate = {2018-08-20},
+	booktitle = {{S}olid {S}tate {P}hysics},
+	publisher = {Elsevier},
+	author = {Fontaine, D. D.},
+	year = {1994},
+	doi = {10.1016/S0081-1947(08)60639-6},
+	pages = {33--176}}
+	
+	%Beale exact solution 2-D ising weights
+	@article{Beale_2d_ising,
+  title = {Exact Distribution of Energies in the Two-Dimensional Ising Model},
+  author = {Beale, P. D.},
+  journal = {Phys. Rev. Lett.},
+  volume = {76},
+  issue = {1},
+  pages = {78--81},
+  numpages = {0},
+  year = {1996},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.76.78},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.76.78}
+}
+
+
+%Massively parallel Wang and Landau
+@article{MP_Wang_Landau,
+title = "Massively parallel Wang–Landau sampling on multiple GPUs",
+journal = "Comput. Phys. Commun.",
+volume = "183",
+number = "8",
+pages = "1568 - 1573",
+year = "2012",
+issn = "0010-4655",
+doi = "https://doi.org/10.1016/j.cpc.2012.02.023",
+url = "http://www.sciencedirect.com/science/article/pii/S0010465512000859",
+author = "J. Yin and D. P. Landau",
+keywords = "Wang–Landau sampling, GPU computing, Water clusters, Phase transition"
+}
+
+%Parallel Wang and Landau
+@article{P_imp_Wang_Landau,
+title = "A parallel implementation of the Wang–Landau algorithm",
+journal = "Comput. Phys. Commun.",
+volume = "179",
+number = "5",
+pages = "339 - 344",
+year = "2008",
+issn = "0010-4655",
+doi = "https://doi.org/10.1016/j.cpc.2008.04.002",
+url = "http://www.sciencedirect.com/science/article/pii/S0010465508001392",
+author = "L. Zhan",
+keywords = "Wang–Landau, Monte Carlo, OpenMP, Distributed computing"
+}
+
+%Hierachical frame work for Wang and Landau parallel
+@article{Hframe_Wang_Landau,
+author = {Vogel, T. and Li, Y. W. and W\"{u}st, T. and Landau, D.},
+year = {2013},
+month = {05},
+pages = {210603},
+title = {Generic, Hierarchical Framework for Massively Parallel Wang-Landau Sampling},
+volume = {110},
+booktitle = {Phys. Rev. Lett.}
+}
+
+
+%Zachs reference 
+@article{Hood,
+author = {Hood, Z. D. and Wang, H. and S. Pandian, A. and Keum, J. K. and Liang, C.},
+title = {$\mathrm{Li}_2\mathrm{O}\mathrm{H}\mathrm{Cl}$ Crystalline Electrolyte for Stable Metallic Lithium Anodes},
+journal = {J.  Am. Chem. Soc.},
+volume = {138},
+number = {6},
+pages = {1768-1771},
+year = {2016},
+moddoi = {10.1021/jacs.5b11851},
+modnote ={PMID: 26794604},
+modURL = { http://dx.doi.org/10.1021/jacs.5b11851 },
+modeprint = { http://dx.doi.org/10.1021/jacs.5b11851 } }
+
+%schwerings reference
+@article {Schwering,
+author = {Schwering, G. and H\"{o}nnerscheid, A. and v. 
+W\"{u}llen, L. and Jansen, M.},
+title = {High Lithium Ionic Conductivity in the Lithium Halide Hydrates  $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Cl}$ $(0.83\leq n\leq 2)$ and $\mathrm{Li}_{3-n}(\mathrm{OH}_{n})\mathrm{Br}$ $(1\leq n\leq 2)$ at Ambient Temperatures},
+journal = {ChemPhysChem},
+volume = {4},
+number = {4},
+publisher = {WILEY-VCH Verlag},
+issn = {1439-7641},
+url = {http://dx.doi.org/10.1002/cphc.200390060},
+doi = {10.1002/cphc.200390060},
+pages = {343--348},
+keywords = {halides, hydrates, ionic conductivity, lithium, NMR spectroscopy},
+year = {2003},
+}
+
+%our reference 
+@article{Holzwarth_group ,
+  title = { Fundamental aspects of the structural and electrolyte properties of $  \mathrm{Li}_{2} \mathrm{OHCl}$ from simulations and experiment} ,
+  author = {Howard, J. D. and Hood, Z. D. and Holzwarth, N. A. W.},
+  journal = {Phys. Rev. Materials},
+  volume = {1},
+  issue = {7},
+  pages = {075406},
+  numpages = {13},
+  year = {2017},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevMaterials.1.075406},
+  url = {https://link.aps.org/doi/10.1103/PhysRevMaterials.1.075406}
+}
+
+%Songs paper (Borodin)
+﻿@article {Song_Borodin,
+author = {Song, A. Y. and Xiao, Y. and Turcheniuk, K. and Upadhya, P. and Ramanujapuram, A. and Benson, J. and Magasinski, A. and Olguin, M. and Meda, L. and Borodin, O. and Yushin, G.},
+title = {Protons Enhance Conductivities in Lithium Halide Hydroxide/Lithium Oxyhalide Solid Electrolytes by Forming Rotating Hydroxy Groups},
+journal = {Adv. Energy Mater.},
+issn = {1614-6840},
+url = {http://dx.doi.org/10.1002/aenm.201700971},
+doi = {10.1002/aenm.201700971},
+pages = {1700971},
+keywords = {antiperovskite, Li-ion conductivity, molecular dynamics simulations, solid state electrolyte, X-ray diffraction},
+year = {2018},
+}
+
+%Goodenoughs reference 
+@article {Goodenough,
+author = {Li, Y. and Zhou, W. and Xin, S. and Li, S. and Zhu, J.and Lü, X. and Cui, Z. and Jia, Q. and Zhou, J. and Zhao, Y. and Goodenough, J. B.},
+title = {Fluorine-Doped Antiperovskite Electrolyte for All-Solid-State Lithium-Ion Batteries},
+journal = {Angewandte Chemie International Edition},
+volume = {55},
+number = {34},
+issn = {1521-3773},
+url = {http://dx.doi.org/10.1002/anie.201604554},
+doi = {10.1002/anie.201604554},
+pages = {9965--9968},
+keywords = {all-solid-state battery, antiperovskite, lithium-ion battery, solid electrolyte},
+year = {2016},
+}
+
+%Quantum Espresso Citation
+
+@article{PWscf:2009,
+   author={P. Giannozzi and S. Baroni and  N. Bonini and
+         M. Calandra and R. Car and C. Cavazzoni and
+         D. Ceresoli and G.L Chiarotti and M. Cococcioni and
+         I. Dabo  and A. D. Corso and S. d. Gironcoli and
+         S. Fabris and G. Fratesi and R. Gebauer and
+         U. Gerstmann and C. Gougoussis and A. Kokalj and
+         M.Lazzeri and L. M. Samos and . Marzari and
+         F. Mauri and R. Mazzarello and S. Paolini and
+         A. Pasquarello and L. Paulatto and C. Sbraccia and
+         S.Scandolo and G. Sclauzero and A. P. Seitsonen and
+         A. Smogunov and P. Umari and R. M. Wentzcovitch},
+   title={QUANTUM ESPRESSO: a modular and open-source software project 
+        for quantum simulations of materials},
+   journal={J. Phys.: Condens. Matter},
+   volume=21,
+   number=39,
+   pages={394402 (19pp)},
+   year=2009,
+   note={Available from the website \url{http://www.quantum-espresso.org.}}
+   
+   
+%PBE citation
+@article{PBE,
+  title = {Generalized Gradient Approximation Made Simple},
+  author = {Perdew, J. P. and Burke, K. and Ernzerhof, M.},
+  journal = {Phys. Rev. Lett.},
+  volume = {77},
+  issue = {18},
+  pages = {3865--3868},
+  numpages = {0},
+  year = {1996},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.77.3865},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.77.3865}
+}
+
+%DFT citation
+ @article{kohn:1965,
+ author ={W. Kohn and L. J. Sham},
+ title  ={Self-consistent equations including exchange and correlation effects},
+ journal    ={Phys. Rev.},
+ volume =140,
+ pages  ={A1133--A1138},
+year =1965}
+
+%partion manuscript
+@article{partition,
+  title = {First-principles estimation of partition functions representing disordered lattices such as the cubic phases of $\mathrm{Li}_{2}\mathrm{OHCl}$ and $\mathrm{Li}_{2}\mathrm{OHBr}$},
+  author = {Howard, J. D. and Holzwarth, N. A. W.},
+  journal = {Phys. Rev. B},
+  volume = {99},
+  issue = {1},
+  pages = {014109},
+  numpages = {15},
+  year = {2019},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.99.014109},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.99.014109}
+}
+
+%PAW vasp citation
+@article{pawVasp,
+  title = {From ultrasoft pseudopotentials to the projector augmented-wave method},
+  author = {Kresse, G. and Joubert, D.},
+  journal = {Phys. Rev. B},
+  volume = {59},
+  issue = {3},
+  pages = {1758--1775},
+  numpages = {0},
+  year = {1999},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.59.1758},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.59.1758}
+}
+
+%projector augmented wave blochl
+@article{Blochl,
+  title = {Projector augmented-wave method},
+  author = {Bl\"ochl, P. E.},
+  journal = {Phys. Rev. B},
+  volume = {50},
+  issue = {24},
+  pages = {17953--17979},
+  numpages = {0},
+  year = {1994},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.50.17953},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.50.17953}
+}
+
+%Vasp citation 1
+@article{Vasp1,
+  title = {Ab initio molecular dynamics for liquid metals},
+  author = {Kresse, G. and Hafner, J.},
+  journal = {Phys. Rev. B},
+  volume = {47},
+  issue = {1},
+  pages = {558--561},
+  numpages = {0},
+  year = {1993},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.47.558},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.47.558}
+}
+
+%Vasp citation 2
+@article{Vasp2,
+  title = {Ab initio molecular-dynamics simulation of the liquid-metal--amorphous-semiconductor transition in germanium},
+  author = {Kresse, G. and Hafner, J.},
+  journal = {Phys. Rev. B},
+  volume = {49},
+  issue = {20},
+  pages = {14251--14269},
+  numpages = {0},
+  year = {1994},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.49.14251},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.49.14251}
+}
+
+%Vasp citation 3
+@article{Vasp3,
+title = "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+journal = "Computational Materials Science",
+volume = "6",
+number = "1",
+pages = "15 - 50",
+year = "1996",
+issn = "0927-0256",
+doi = "https://doi.org/10.1016/0927-0256(96)00008-0",
+url = "http://www.sciencedirect.com/science/article/pii/0927025696000080",
+author = "G. Kresse and J. Furthmüller",
+abstract = "We present a detailed description and comparison of algorithms for performing ab-initio quantum-mechanical calculations using pseudopotentials and a plane-wave basis set. We will discuss: (a) partial occupancies within the framework of the linear tetrahedron method and the finite temperature density-functional theory, (b) iterative methods for the diagonalization of the Kohn-Sham Hamiltonian and a discussion of an efficient iterative method based on the ideas of Pulay's residual minimization, which is close to an order Natoms2 scaling even for relatively large systems, (c) efficient Broyden-like and Pulay-like mixing methods for the charge density including a new special ‘preconditioning’ optimized for a plane-wave basis set, (d) conjugate gradient methods for minimizing the electronic free energy with respect to all degrees of freedom simultaneously. We have implemented these algorithms within a powerful package called VAMP (Vienna ab-initio molecular-dynamics package). The program and the techniques have been used successfully for a large number of different systems (liquid and amorphous semiconductors, liquid simple and transition metals, metallic and semi-conducting surfaces, phonons in simple metals, transition metals and semiconductors) and turned out to be very reliable."
+}
+
+%Vasp citation 4
+@article{Vasp4,
+  title = {Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set},
+  author = {Kresse, G. and Furthm\"uller, J.},
+  journal = {Phys. Rev. B},
+  volume = {54},
+  issue = {16},
+  pages = {11169--11186},
+  numpages = {0},
+  year = {1996},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.54.11169},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.54.11169}
+}
+
+%PBEerratum
+@article{PBEerratum,
+  title = {Generalized Gradient Approximation Made Simple },
+  author = {Perdew, J. P. and Burke, K.and Ernzerhof, M.},
+  journal = {Phys. Rev. Lett.},
+  volume = {78},
+  issue = {7},
+  pages = {1396--1396},
+  numpages = {0},
+  year = {1997},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.78.1396},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.78.1396}
+}
+
+
+
+
+
+
+
+
+
+@article{understand_improve,
+  title = {Understanding and improving the Wang-Landau algorithm},
+  author = {Zhou, Chenggang and Bhatt, R. N.},
+  journal = {Phys. Rev. E},
+  volume = {72},
+  issue = {2},
+  pages = {025701},
+  numpages = {4},
+  year = {2005},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.72.025701},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.72.025701}
+}
+
+
+
+@article{saturation,
+author = {Belardinelli,R. E.  and Pereyra,V. D. },
+title = {Wang-Landau algorithm: A theoretical analysis of the saturation of the error},
+journal = {The Journal of Chemical Physics},
+volume = {127},
+number = {18},
+pages = {184105},
+year = {2007},
+doi = {10.1063/1.2803061},
+
+URL = { 
+        https://doi.org/10.1063/1.2803061
+    
+},
+eprint = { 
+        https://doi.org/10.1063/1.2803061
+    
+}
+
+}
+
+
+
+
+
+
+
+%calculation with multi scattering locally self consistent magnetism
+@article{Eisenbach,
+author = {Eisenbach,M.  and Nicholson,D. M.  and Rusanu,A.  and Brown,G. },
+title = {First principles calculation of finite temperature magnetism in \mathrm{Fe} and \mathrm{Fe}3\mathrm{C}},
+journal = {Journal of Applied Physics},
+volume = {109},
+number = {7},
+pages = {07E138},
+year = {2011},
+doi = {10.1063/1.3562218},
+
+URL = { 
+        https://doi.org/10.1063/1.3562218
+    
+},
+eprint = { 
+        https://doi.org/10.1063/1.3562218
+    
+}
+
+}
+
+
+%convergence of wang and Landau algorithm
+@article{Convergence_of_WL,
+  title = {Convergence for the Wang-Landau density of states},
+  author = {Brown, G. and Odbadrakh, Kh. and Nicholson, D. M. and Eisenbach, M.},
+  journal = {Phys. Rev. E},
+  volume = {84},
+  issue = {6},
+  pages = {065702},
+  numpages = {4},
+  year = {2011},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.84.065702},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.84.065702}
+}
+
+@article{FP_Wang_Landau_CuZn,
+  title = {Density-functional Monte-Carlo simulation of \mathrm{CuZn} order-disorder transition},
+  author = {Khan, S. N. and Eisenbach, Markus},
+  journal = {Phys. Rev. B},
+  volume = {93},
+  issue = {2},
+  pages = {024203},
+  numpages = {5},
+  year = {2016},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.93.024203},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.93.024203}
+}
+
+@article{Optimal_modification,
+  title = {Optimal modification factor and convergence of the Wang-Landau algorithm},
+  author = {Zhou, Chenggang and Su, Jia},
+  journal = {Phys. Rev. E},
+  volume = {78},
+  issue = {4},
+  pages = {046705},
+  numpages = {8},
+  year = {2008},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.78.046705},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.78.046705}
+}
+
+
+@article{Multi_Canonical,
+  title = {Multicanonical ensemble: A new approach to simulate first-order phase transitions},
+  author = {Berg, Bernd A. and Neuhaus, Thomas},
+  journal = {Phys. Rev. Lett.},
+  volume = {68},
+  issue = {1},
+  pages = {9--12},
+  numpages = {0},
+  year = {1992},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.68.9},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.68.9}
+}
+
+@article{Entropic_Sampling,
+  title = {New Monte Carlo algorithm: Entropic sampling},
+  author = {Lee, Jooyoung},
+  journal = {Phys. Rev. Lett.},
+  volume = {71},
+  issue = {2},
+  pages = {211--214},
+  numpages = {0},
+  year = {1993},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.71.211},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.71.211}
+}
+
+
+%Li La ordering compuational
+@article{Li_La_ordering_computational,
+author = {Catti, Michele},
+title = {First-Principles Modeling of Lithium Ordering in the \mathrm{LLTO} (\mathrm{Li}x\mathrm{La}2/3-x/3\mathrm{TiO}3) Superionic Conductor},
+journal = {Chemistry of Materials},
+volume = {19},
+number = {16},
+pages = {3963-3972},
+year = {2007},
+doi = {10.1021/cm0709469},
+
+URL = { 
+        https://doi.org/10.1021/cm0709469
+    
+},
+eprint = { 
+        https://doi.org/10.1021/cm0709469
+    
+}
+
+}
+
+%LLTO review 
+
+@article{LLTOreview,
+author = {Stramare, S. and Thangadurai, V. and Weppner, W.},
+title = {Lithium Lanthanum Titanates:  A Review},
+journal = {Chemistry of Materials},
+volume = {15},
+number = {21},
+pages = {3974-3990},
+year = {2003},
+doi = {10.1021/cm0300516},
+
+URL = { 
+        https://doi.org/10.1021/cm0300516
+    
+},
+eprint = { 
+        https://doi.org/10.1021/cm0300516
+    
+}
+
+}
+
+@article{GENG2009555,
+title = "Investigation of structure and electrical properties of \mathrm{Li}0.5\mathrm{La}0.5\mathrm{TiO}3 ceramics via microwave sintering",
+journal = "Journal of Alloys and Compounds",
+volume = "481",
+number = "1",
+pages = "555 - 558",
+year = "2009",
+issn = "0925-8388",
+doi = "https://doi.org/10.1016/j.jallcom.2009.03.038",
+url = "http://www.sciencedirect.com/science/article/pii/S0925838809004873",
+author = "H.X. Geng and A. Mei and C. Dong and Y.H. Lin and C.W. Nan",
+keywords = "LiLaTiO, Microwave sintering method, Lattice structure, Ionic conductivity",
+abstract = "Electrolyte ceramic of lithium lanthanum titanate [Li0.5La0.5TiO3 (LLTO)] was prepared by microwave sintering method. The lattice structure, microstructure and transport properties were studied and compared with those of the LLTO ceramics prepared via conventional sintering method. Though the sintering methods both led to pure perovskite LLTO phase, they produced different crystallites. The LLTO prepared via microwave technique presented cubic perovskite-type crystallite, while the LLTO via conventional method offered tetragonal crystallite. In addition, the microwave sintering resulted in the formation of better-grained LLTO ceramics but lower conductivity than the conventional one did. This was explained by considering the different microstructures and conduction mechanisms of lithium ions in the two cases."
+}
+
+
+@article{peculiarities,
+author = {Belous, Anatolii and Yanchevskiy, Oleg and V'yunov, Oleg and Bohnke, Odile and Bohnke, Claude and Le Berre, Françoise and Fourquet, Jean-Louis},
+title = {Peculiarities of \mathrm{Li}0.5\mathrm{La}0.5\mathrm{TiO}3 Formation during the Synthesis by Solid-State Reaction or Precipitation from Solutions},
+journal = {Chemistry of Materials},
+volume = {16},
+number = {3},
+pages = {407-417},
+year = {2004},
+doi = {10.1021/cm034820x},
+
+URL = { 
+        https://doi.org/10.1021/cm034820x
+    
+},
+eprint = { 
+        https://doi.org/10.1021/cm034820x
+    
+}
+
+}
+
+@Article{domainboundaries,
+author ="Gao, Xiang and Fisher, Craig A. J. and Kimura, Teiichi and Ikuhara, Yumi H. and Kuwabara, Akihide and Moriwake, Hiroki and Oki, Hideki and Tojigamori, Takeshi and Kohama, Keiichi and Ikuhara, Yuichi",
+title  ="Domain boundary structures in lanthanum lithium titanates",
+journal  ="J. Mater. Chem. A",
+year  ="2014",
+volume  ="2",
+issue  ="3",
+pages  ="843-852",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/C3TA13726K",
+url  ="http://dx.doi.org/10.1039/C3TA13726K",
+abstract  ="Perovskite-type lanthanum lithium titanate (LLTO) is attracting extensive interest because of its high intrinsic ionic conductivity. The material exhibits a complex microstructure with domains of various sizes and orientations that vary with the lithium content. Based on a systematic examination of both Li-poor and Li-rich LLTO compounds using state-of-the-art scanning transmission electron microscopy (STEM){,} we reveal the structures and composition of the domain boundaries (DBs) and consider their effect on Li-ion mobility and ionic conductivity{,} in the process positing the origin of the microstructural variations. DBs in this material are shown to consist essentially of two types: frequently occurring 90° rotation DBs and a much less common antiphase-type boundary. It is found that the 90° DBs are coherent interfaces consisting of interconnected steps that share La sites{,} with occupancies of La sites higher than in the domain interiors. The origin of microstructural variations in the two compounds is associated with different degrees of lattice mismatch strain at DBs in Li-poor and Li-rich materials. The lattice strain and associated O vacancies{,} as well as the high La occupancies{,} at DBs are expected to result in lower interdomain Li-ion mobility{,} which will have a deleterious effect on the overall ion conductivity."}
+
+%Influence on conducitivty on strucuture of Li0.5La0.5TiO3
+@article{P4mmmstrucuture,
+title = "Influence of composition on the structure and conductivity of the fast ionic conductors \mathrm{La}2/3−x\mathrm{Li}3x\mathrm{TiO}3 (0.03≤x≤0.167)",
+journal = "Solid State Ionics",
+volume = "134",
+number = "3",
+pages = "219 - 228",
+year = "2000",
+issn = "0167-2738",
+doi = "https://doi.org/10.1016/S0167-2738(00)00761-X",
+url = "http://www.sciencedirect.com/science/article/pii/S016727380000761X",
+author = "J Ibarra and A Várez and C León and J Santamarı́a and L.M Torres-Martı́nez and J Sanz",
+keywords = "Li NMR, Ionic conductivity, Perovskite structure, Lithium mobility",
+abstract = "The solid solution La2/3−xLi3xTiO3 (0.03<x<0.167) has been investigated by powder X-ray diffraction (XRD), impedance spectroscopy (IS) and 7Li nuclear magnetic resonance (NMR) techniques. In these samples, a change of symmetry from tetragonal to orthorhombic is observed when the lithium content is decreased below x=0.06. Structural modifications produced are mainly due to cation vacancies ordering along the c-axis, which disappear gradually when the Li content increases. Two Li signals with different quadrupole constants are detected in 7Li NMR spectra of orthorhombic/tetragonal perovskites, which have been associated with two crystallographic sites. In La0.5Li0.5TiO3 perovskite, prepared by quenching from 1300°C into liquid nitrogen, an important mobility for Li was detected in 7Li NMR spectra. In perovskites analysed, the dependence of electrical conductivity on Li content departs from that expected on the basis of a random distribution of La and Li in A sites. Dc conductivity increases quickly with the Li content in orthorhombic samples, but changes much more smoothly in tetragonal ones, where vacancies distribution becomes progressively disordered. In all perovskites analysed, the dependence of dc-conductivity with temperature displays a non-Arrhenius behaviour, with activation energies of 0.39±0.02 and 0.29±0.02 eV in 160–250 and 250–360 K temperature ranges respectively."
+}
+
+@article{imaginaryphonons,
+title = "Domain boundaries and their influence on Li migration in solid-state electrolyte (\mathrm{La},\mathrm{Li})\mathrm{TiO}3",
+journal = "Journal of Power Sources",
+volume = "276",
+pages = "203 - 207",
+year = "2015",
+issn = "0378-7753",
+doi = "https://doi.org/10.1016/j.jpowsour.2014.11.139",
+url = "http://www.sciencedirect.com/science/article/pii/S0378775314020060",
+author = "Hiroki Moriwake and Xiang Gao and Akihide Kuwabara and Craig A.J. Fisher and Teiichi Kimura and Yumi H. Ikuhara and Keiichi Kohama and Takeshi Tojigamori and Yuichi Ikuhara",
+keywords = "First-principles calculations, Lithium-ion battery, Solid electrolyte, Lanthanum lithium titanate, Scanning transmission electron microscopy, Domain boundary",
+abstract = "The influence of 90° domain boundaries in (La,Li)TiO3 (LLTO) on the Li conduction mechanism has been examined by a combination of state-of-the-art electron microscopy techniques and first-principles calculations. The atomistic structure of 90° domain boundaries in LLTO was determined from aberration-corrected scanning transmission electron microscopy images. At 90° domain boundaries, each perovskite unit of one domain is connected by an La-rich layer to units of the neighboring domain. First-principles calculations of a model domain boundary show that Li migration through the La layer has a very high activation energy, Ea, of 3.58 eV, indicating that La layers serve to block Li migration. However, if La vacancies are present within La layers, the migration energy decreases significantly to 0.58 eV, a value more in line with experimental observation. The results show that Li conduction in LLTO is strongly influenced by 90° domain boundaries. The activation energy in a single crystal (Ea = 0.19 eV) is much lower, suggesting that if 90° domain boundaries could be eliminated, an increase in conductivity of approximately three orders of magnitude compared with conventional LLTO could be achieved."
+}
+
+@article{Asitedistribution,
+author = {Gao, Xiang and Fisher, Craig A. J. and Kimura, Teiichi and Ikuhara, Yumi H. and Moriwake, Hiroki and Kuwabara, Akihide and Oki, Hideki and Tojigamori, Takeshi and Huang, Rong and Ikuhara, Yuichi},
+title = {Lithium Atom and A-Site Vacancy Distributions in Lanthanum Lithium Titanate},
+journal = {Chemistry of Materials},
+volume = {25},
+number = {9},
+pages = {1607-1614},
+year = {2013},
+doi = {10.1021/cm3041357},
+
+URL = { 
+        https://doi.org/10.1021/cm3041357
+    
+},
+eprint = { 
+        https://doi.org/10.1021/cm3041357
+    
+}
+
+}
+
+@article{lithiumpos,
+author = {Alonso, José A. and Sanz, Jesús and Santamaría, Jacobo and León, Carlos and Várez, Alejandro and Fernández-Díaz, Maria T.},
+title = {On the Location of \mathrm{Li}+ Cations in the Fast \mathrm{Li}-Cation Conductor \mathrm{La}0.5\mathrm{Li}0.5\mathrm{TiO}3 Perovskite},
+journal = {Angewandte Chemie International Edition},
+
+volume = {39},
+number = {3},
+pages = {619-621},
+keywords = {lithium, neutron diffraction, perovskite phases, solid-state structures},
+doi = {10.1002/(SICI)1521-3773(20000204)39:3<619::AID-ANIE619>3.0.CO;2-O},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/\%28SICI\%291521-3773\%2820000204\%2939\%3A3\%3C619\%3A\%3AAID-ANIE619\%3E3.0.CO\%3B2-O},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/\%28SICI\%291521-3773\%2820000204\%2939\%3A3\%3C619\%3A\%3AAID-ANIE619\%3E3.0.CO\%3B2-O},
+abstract = {Abstract Lithium cations sit in the center of the oxygen “windows” defined by the vertex-sharing TiO6 octahedra of the title compound (see picture), as shown from neutron diffraction data. The octahedra are tilted to optimize the bond distances between the atoms. The unusual coordination and the partially unoccupied sublattice (occupancy factors 1/6 and ½ for Li and La, respectively) account for the high mobility of the Li+ cations.},
+year = {2000}
+}
+
+
+@article{LDA,
+  title = {Accurate and simple analytic representation of the electron-gas correlation energy},
+  author = {Perdew, John P. and Wang, Yue},
+  journal = {Phys. Rev. B},
+  volume = {45},
+  issue = {23},
+  pages = {13244--13249},
+  numpages = {0},
+  year = {1992},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.45.13244},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.45.13244}
+}
+
+@book{MATLAB:2018,
+year = {2018},
+author = {MATLAB},
+title = {9.7.0.1190202 (R2019b)},
+publisher = {The MathWorks Inc.},
+address = {Natick, Massachusetts}
+} 

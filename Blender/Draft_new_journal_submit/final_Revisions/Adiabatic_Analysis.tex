@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+\title{Adiabatic long iteration analysis of Algorithm}
+
+\begin{document}
+\textbf{Adiabatic convergence of algorithm}
+
+To better understand the nature of the algorithm we will consider the adiabatic properties of the histogram $\mathcal{H}^I\equiv \mathcal{H}(E_j, \{e_s\}_\mathcal{S}^I)$. Considering that during a simulation the configurations are generated with probability proportional to $G(E_j)/\Omega$ and accepted inversely proportional to $G_{r}(E_j)^I/A^I$ the probability distribution, which we will write as $\Phi^I(E_j)$, of the $\mathcal{H}^I$ will be proportional to $[G(E_j)A^I]/[G_r^I(E_j)\Omega]$. For short we will write $G_r^I(E_j) \rightarrow G_r^I$, $G(E_j)\rightarrow G$, and $\Phi^I(E_j)\rightarrow \Phi^I$.  Considering that the sum over $\mathcal{H}^I$ is constrained to $\mathcal{S}$ if we normalize $\Phi^I$ to $\mathcal{S}$ we get
+\begin{equation}
+\Phi^I = \mathcal{S}(\sum_{j}\frac{G}{G_r^I})^{-1}\frac{G}{G_r^I} \;.
+\label{adiabatic_distribution}
+\end{equation}
+Now an adiabatic analysis will be considered by inserting this expression for the adiabatic distribution of the histogram $\mathcal{H}^I$ into density of states update of the algorithm (step four).  Doing this gives, 
+\begin{equation}
+\begin{split}
+G_r^{I+1} = G_r^I  +   \mathcal{S}(\sum_{j}\frac{G}{G_r^I})^{-1}\frac{G}{G_r^I}\frac{C_oG_r^I}{(A^I)^{1/N}} =\\
+ G_r^I  +   C_o\mathcal{S}(\sum_{j}\frac{G}{G_r^I})^{-1}\frac{G}{(A^I)^{1/N}} & \;,
+\end{split}
+\label{adiabatic_update}
+\end{equation}
+which will be the basis for the adiabatic analysis of the algorithm. One point to clarify is what is meant by adiabatic. A rigorous definition of adiabaticity for the algorithm can be defined that for any $\epsilon$ an  $I$ and $n$ can be found such that, 
+\begin{equation}
+  \langle \sum_j |\frac{1}{n+1}{\sum_{i=I}^{I+n}\mathcal{H}^i -  \Phi^I}| \rangle_o < \epsilon \;,
+\end{equation}
+where $\langle \rangle_o$ means average over trajectories of simulation. This is a statement that the algorithm will progressively scan the energy range more and more thoroughly before a significant change to the density of states is made.   From here the analysis will be continued assuming the algorithm is adiabatic. 
+
+To continued the analysis we will first determine if and under what circumstances the algorithm will converge assuming adiabacitiy. The first step is to note that, 
+\begin{equation}
+\mathcal{S}{C_o}(\sum_{j}\frac{G}{G_r^I})^{-1}\frac{1}{(A^I)^{1/N}} \;,
+\end{equation}
+is an iteration dependent constant(same  for each bin $j$ in the density of states), we will call this constant $B^I$. In this manner we will look at the progression of changes to the relative density of states, 
+\begin{equation}
+\begin{split}
+G_r^{I+1} = G_r^{I} + GB^I\\
+G_r^{I+2} = G_r^{I} + GB^I + GB^{I+1} &\\
+...&\\
+...&\\
+G_r^{I+n} = G_r^{I} + G\sum_{i=0}^{n-1}  B^{I+i} &
+\end{split}
+\label{Gr_IplusN}
+\end{equation}
+For short $\sum_{i=0}^{n-1}  B^{I+i}$ will be referred to as $W^n$
+The condition for convergence can be defined such that for two bins of the density of states $l$ and $k$, 
+\begin{equation}
+\lim_{n\rightarrow \infty} \frac{G_r^{I}(E_k) + G(E_k)W^n}{G_r^{I}(E_l) + G(E_l)W^n} \rightarrow \frac{G(E_k)}{G(E_l)}\;.
+\end{equation}
+For this to occur $W^n$ must increase unbounded as $n\rightarrow \infty$ and not limit to zero or a constant. To make further progress we will first rewrite $B^I$ as , 
+\begin{equation}
+\begin{split}
+\mathcal{S}{C_o}(\sum_{j}\frac{G}{G_r^{I}})^{-1}\frac{1}{(A^I)^{1/N}} = \\
+\mathcal{S}{C_o}(\sum_{j}\frac{G}{G_r^{I}})^{-1}\frac{1}{A^I(A^I)^{1/N - 1}} = & \\
+\mathcal{S}{C_o}(\sum_{j}\frac{G}{G_r^{I}})^{-1}\frac{(A^I)^{x}}{A^I} & \;,
+\end{split}
+\end{equation}
+where $x = 1 - 1/N$. A sufficient condition to show convergence would be to show that the terms $B^{I+i}$ do not go to zero as $\lim_{n \rightarrow \infty}$. In this context the lower bound of $B^I$ will be studied. Considering that $ \frac{min(G_r^{I})}{\Omega} \le (\sum_{j}\frac{G}{G_r^{I}})^{-1}$ and that $\frac{min(G_r^{I})}{\Pi max(G_r^{I})} \le \frac{min(G_r^{I})}{A^I}$ we can bound $B^I$ as, 
+\begin{equation}
+ \frac{\mathcal{S}C_o}{\Pi\Omega} \frac{min(G_r^{I})}{ max(G_r^{I})}(A^I)^x \le B^I  \le  \frac{\mathcal{S}C_o}{\Pi}(A^I)^x
+ \label{B_bound}
+\end{equation}
+%\le  \frac{\mathcal{S}C_o}{\Pi}(A^I)^x
+For the case of $0\le x < 1 $ convergence is clear because $\frac{min(G_r^{I})}{ max(G_r^{I})}$ can not limit to zero and $(A^I)^x \ge 1$. For the case of $x < 0$ convergence is not so clear although in theory the algorithm may still be convergent based on contradiction. In Eq \ref{B_bound} the upper bound on $B^I$ tells us that for $x<0$ if the algorithm does converge the $B^I$ will tend towards zero since $A^I$ must grow unbounded if the algorithm converges. This means that if the algorithm does converge for $x<0$ that the sum of the $B^I$ terms must increase unbounded although they tend towards zero. On the other hand if the algorithm does not converge, i.e. the sum of the $B^I$ terms tends towards zero, then $A^I$ will not grow unbounded. This is a contradiction because if $A^I$ does not grow unbounded then the $B^I$ terms can't tend towards zero and the sum of them should grow unbounded and the algorithm should converge. This suggests that in theory the algorithm is convergent for $x<0$ but it is dependent on the sum of terms that tend towards zero, which is essentially predicting slow convergence. In practice tests with the 8$\times$8 Ising model reasonable convergence could only be achieved for ``small'' negative values of $x$. 
+
+   So now considering the algorithm does converge within the adiabatic assumption for $0\le x < 1 $ we can derive the time dependence of $F(I)=\ln[f(I)]$ where $f(I) = (1 + \frac{G}{G_r^I}B^I)$ within this analysis. First rewriting $\frac{G}{G_r^I}B^I$ as $\frac{C_o\mathcal{H}^I}{(A^I)^{1/N}}$ it is clear that $\frac{G}{G_r^I}B^I$ becomes arbitrarily small for $I \rightarrow \infty$. With  $\ln(1+a) \approx a$ for small $a$ we now have for large $I$, 
+\begin{equation}
+\ln[F(I)] \approx  \frac{GB^I}{G_r^I} \;.
+\end{equation}
+Also because the algorithm is converging $G_r^I$ is approaching $W^IG$ and $\sum_j G_r^I = A^I$ is approaching $W^I\Omega$ such that $(\sum_{j}\frac{G}{G_r^{I}})^{-1} \frac{1}{A^I}\approx \frac{W^I}{\Pi\Omega}$. With this we write  in the large iteration limit $B^I \approx  \frac{C_o\mathcal{S}}{\Pi\Omega}(A^I)^x$ and $G_r^I \approx G \frac{C_o\mathcal{S}}{\Pi\Omega}\sum_{i=0}^{I-1}(A^i)^x$ such that, 
+\begin{equation}
+\ln[F(I)] \approx \frac{(A^I)^x}{\sum_{i=0}^{I-1}(A^i)^x} \;.
+\label{derived_time_dependence}
+\end{equation}
+In this form it is clear that the time dependence for the case of $x=0$ is of $1/I$ form which is what was found in comparison with the $1/t$ algorithm in the previous section. For  $ 0 < x < 1$ the time dependence is not as clear analytically but it can be simulated by using a boot strapping procedure. Assuming we start with $G_r^0=cG$ so that $A^0=c\Omega$ then, 
+\begin{equation}
+\begin{split}
+&A^0=c\Omega\\
+&A^1 = A^0     +  C_o\mathcal{S}(A^0)^x\\
+&A^2 = A^1     +  C_o\mathcal{S}(A^1)^x\\
+&......\\
+&A^I = A^{I-1} +  C_o\mathcal{S}(A^{I-1})^x\\\;.
+\end{split}
+\end{equation} 
+In this way a numerical simulation can be done to predict the value of $\ln[F(I)]$ in Eq. \ref{derived_time_dependence}.
+\end{document}

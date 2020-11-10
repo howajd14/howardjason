@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Manuscript.aux
+The style file: unsrt.bst
+Database file #1: ManuscriptNotes.bib
+Database file #2: Bib.bib
+I was expecting a `,' or a `}'---line 474 of file Bib.bib
+ : 
+ : %PBE citation
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in Hframe_Wang_Landau
+You've used 47 entries,
+            1791 wiz_defined-function locations,
+            763 strings with 11870 characters,
+and the built_in function-call counts, 11247 in all, are:
+= -- 994
+> -- 492
+< -- 0
++ -- 183
+- -- 136
+* -- 896
+:= -- 1810
+add.period$ -- 140
+call.type$ -- 47
+change.case$ -- 43
+chr.to.int$ -- 0
+cite$ -- 48
+duplicate$ -- 423
+empty$ -- 1103
+format.name$ -- 136
+if$ -- 2437
+int.to.chr$ -- 0
+int.to.str$ -- 47
+missing$ -- 50
+newline$ -- 237
+num.names$ -- 46
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 161
+stack$ -- 0
+substring$ -- 1027
+swap$ -- 46
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 104
+width$ -- 49
+write$ -- 512
+(There was 1 error message)

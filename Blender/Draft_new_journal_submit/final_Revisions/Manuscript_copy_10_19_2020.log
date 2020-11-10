@@ -1,0 +1,1365 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  19 OCT 2020 09:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Manuscript_copy_10_19_2020.tex
+(./Manuscript_copy_10_19_2020.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/re
+vtex/ for documentation)
+ Copyright (c) 2019 American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>Version (4.2c)
+: Modified by Mark Doyle
+ .
+ltxutil[2019/01/18/14:29:48 4.2c utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 315.
+Class revtex4-2 Info: Repairing broken LaTeX eqnarray on input line 365.
+\eqncolsep=\skip47
+Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 440.
+Class revtex4-2 Info: Repairing broken LateX \@sect on input line 762.
+\intertabularlinepenalty=\count167
+\@tbpen=\count168
+\@arstrutbox@hline=\box45
+Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1793.
+Class revtex4-2 Info: Making \typeout \long on input line 2053.
+ltxfront[2019/01/18/14:29:48 4.2c frontmatter package (AO,DPC,MD)]
+\c@affil=\count169
+\c@collab=\count170
+\absbox=\box46
+ltxgrid[2019/01/18/14:29:48 4.2c page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count171
+\output@latex=\toks14
+\box@size@1=\box47
+\box@size@2=\box48
+\@protection@box=\box49
+\@topmark@saved=\toks15
+\footins@saved=\box50
+\footins@recovered=\box51
+\column@recovered=\box52
+\pagesofar=\box53
+\footsofar=\box54
+\pagegrid@col=\count172
+
+Class revtex4-2 Warning: Failed to recognize \@vspace, \@vspacer, \@no@pgbk, \@
+newline, and \\; no patches applied. Please get a more up-to-date class, .
+
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count179
+\fbox@1=\box55
+\c@table=\count180
+\fbox@2=\box56
+\c@video=\count181
+\fbox@4=\box57
+\@bibdataout=\write3
+\widetext@top=\box58
+\widetext@bot=\box59
+Class revtex4-2 Info: Selecting society aps on input line 7581.
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-2.rtx
+File: aps4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/revtex/ for doc
+umentation)
+Class revtex4-2 Info: RevTeX society APS selected on input line 37.
+)
+Class revtex4-2 Info: Selecting journal pre on input line 7583.
+Class revtex4-2 Info: APS journal PRE selected on input line 7584.
+
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx
+File: aps10pt4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/revtex/ for
+ documentation)
+Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 36.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count182
+)
+Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7588.
+
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-2.sty
+Package: revsymb4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/revtex/ 
+for documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 125.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen134
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
+\dotsspace@=\muskip17
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks17
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks18
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box62
+\extrarowheight=\dimen146
+\NC@list=\toks22
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box63
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+))
+Class revtex4-2 Info: Unrecognized array package. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 47.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 47.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 47.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count195
+\l__pdf_internal_box=\box64
+)
+No file Manuscript_copy_10_19_2020.aux.
+\openout1 = `Manuscript_copy_10_19_2020.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count196
+\scratchdimen=\dimen147
+\scratchbox=\box65
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen148
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
+\everyMPtoPDFconversion=\toks28
+)
+\openout3 = `Manuscript_copy_10_19_2020Notes.bib'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package natbib Warning: Citation `kohn:1965' on page 1 undefined on input line 
+66.
+
+
+LaTeX Warning: Reference `partition' on page 1 undefined on input line 73.
+
+
+Package natbib Warning: Citation `partition' on page 1 undefined on input line 
+73.
+
+
+Package natbib Warning: Citation `metropolis_equation_1953' on page 1 undefined
+ on input line 74.
+
+
+Package natbib Warning: Citation `histogram_reweighting' on page 1 undefined on
+ input line 74.
+
+
+Package natbib Warning: Citation `landau_MC_simulations' on page 1 undefined on
+ input line 74.
+
+
+Package natbib Warning: Citation `Multi_Canonical' on page 1 undefined on input
+ line 74.
+
+
+Package natbib Warning: Citation `multi_canonical_two' on page 1 undefined on i
+nput line 74.
+
+
+Package natbib Warning: Citation `Entropic_Sampling' on page 1 undefined on inp
+ut line 74.
+
+
+Package natbib Warning: Citation `WL_phys_rev_lett' on page 1 undefined on inpu
+t line 75.
+
+
+Package natbib Warning: Citation `Wang_Landau_phys_rev_E' on page 1 undefined o
+n input line 75.
+
+
+Package natbib Warning: Citation `MP_Wang_Landau' on page 1 undefined on input 
+line 76.
+
+
+Package natbib Warning: Citation `P_imp_Wang_Landau' on page 1 undefined on inp
+ut line 76.
+
+
+Package natbib Warning: Citation `Hframe_Wang_Landau' on page 1 undefined on in
+put line 76.
+
+
+Package natbib Warning: Citation `Scalable_replica_exchange' on page 1 undefine
+d on input line 76.
+
+
+Package natbib Warning: Citation `Non_convergent_WL' on page 1 undefined on inp
+ut line 76.
+
+
+Package natbib Warning: Citation `Non_convergent_WL_2' on page 1 undefined on i
+nput line 76.
+
+
+Package natbib Warning: Citation `non_convergence_multiple_random_walkers' on p
+age 1 undefined on input line 76.
+
+
+Package natbib Warning: Citation `Optimal_modification' on page 1 undefined on 
+input line 76.
+
+
+Package natbib Warning: Citation `saturation' on page 1 undefined on input line
+ 76.
+
+
+Package natbib Warning: Citation `Optimal_modification' on page 1 undefined on 
+input line 76.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Eisenbach' on page 2 undefined on input line 
+78.
+
+
+Package natbib Warning: Citation `FP_Wang_Landau_CuZn' on page 2 undefined on i
+nput line 78.
+
+
+Package natbib Warning: Citation `ion_disorder_replica' on page 2 undefined on 
+input line 78.
+
+
+Package natbib Warning: Citation `domainboundaries' on page 2 undefined on inpu
+t line 78.
+
+
+Package natbib Warning: Citation `P4mmmstrucuture' on page 2 undefined on input
+ line 78.
+
+
+Package natbib Warning: Citation `imaginaryphonons' on page 2 undefined on inpu
+t line 78.
+
+
+Package natbib Warning: Citation `GENG2009555' on page 2 undefined on input lin
+e 78.
+
+
+Package natbib Warning: Citation `peculiarities' on page 2 undefined on input l
+ine 78.
+
+
+Package natbib Warning: Citation `LLTOreview' on page 2 undefined on input line
+ 78.
+
+
+Package natbib Warning: Citation `Li_La_ordering_computational' on page 2 undef
+ined on input line 78.
+
+
+LaTeX Warning: Reference `sec1' on page 2 undefined on input line 80.
+
+
+LaTeX Warning: Reference `sec2' on page 2 undefined on input line 80.
+
+
+LaTeX Warning: Reference `sec3' on page 2 undefined on input line 80.
+
+
+LaTeX Warning: Reference `sec4' on page 2 undefined on input line 80.
+
+
+LaTeX Warning: Reference `sec5' on page 2 undefined on input line 80.
+
+
+Package natbib Warning: Citation `XMGRACE' on page 2 undefined on input line 82
+.
+
+
+Package natbib Warning: Citation `Vesta' on page 2 undefined on input line 82.
+
+
+LaTeX Warning: Reference `sec4' on page 2 undefined on input line 101.
+
+
+LaTeX Warning: Reference `sec4' on page 2 undefined on input line 101.
+
+[2]
+
+LaTeX Warning: Reference `blender' on page 3 undefined on input line 114.
+
+
+LaTeX Warning: Reference `blender' on page 3 undefined on input line 115.
+
+
+LaTeX Warning: Reference `Hls' on page 3 undefined on input line 123.
+
+
+LaTeX Warning: Reference `blender' on page 3 undefined on input line 123.
+
+
+Package natbib Warning: Citation `exact_statistical' on page 3 undefined on inp
+ut line 141.
+
+
+Package natbib Warning: Citation `Onsager' on page 3 undefined on input line 14
+1.
+
+
+Package natbib Warning: Citation `Ising' on page 3 undefined on input line 141.
+
+
+
+Package natbib Warning: Citation `Beale_2d_ising' on page 3 undefined on input 
+line 147.
+
+[3]
+
+LaTeX Warning: Reference `renormalize' on page 4 undefined on input line 156.
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 156--157
+[]\OT1/cmr/m/n/10 Where $\OML/cmm/m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+E[]\OT1/cmr/m/n/10 )$ is the ex-act den-sity of states,
+ []
+
+
+LaTeX Warning: Reference `thirtytwo_Stest' on page 4 undefined on input line 15
+8.
+
+
+LaTeX Warning: Reference `avg_error' on page 4 undefined on input line 158.
+
+
+LaTeX Warning: Reference `thirtytwo_Stest' on page 4 undefined on input line 15
+8.
+
+
+LaTeX Warning: Reference `thirtytwo_Stest' on page 4 undefined on input line 16
+0.
+
+
+Package natbib Warning: Citation `FP_Wang_Landau_CuZn' on page 4 undefined on i
+nput line 160.
+
+Package epstopdf Info: Source file: <fig1a.eps>
+(epstopdf)                    date: 2020-05-13 13:53:17
+(epstopdf)                    size: 822359 bytes
+(epstopdf)             Output file: <fig1a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 13:53:57
+(epstopdf)                    size: 160144 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig1a-eps-converted-to.pdf
+ fig1a.eps>
+(epstopdf)             \includegraphics on input line 163.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig1a-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig1a-eps-converted-to.pdf, id=32, 760.8425pt x 534.99875pt>
+File: fig1a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1a-eps-converted-to.pdf>
+Package pdftex.def Info: fig1a-eps-converted-to.pdf  used on input line 163.
+(pdftex.def)             Requested size: 244.69386pt x 172.06024pt.
+Package epstopdf Info: Source file: <fig1b.eps>
+(epstopdf)                    date: 2020-05-13 13:53:17
+(epstopdf)                    size: 182263 bytes
+(epstopdf)             Output file: <fig1b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 13:53:57
+(epstopdf)                    size: 61641 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig1b-eps-converted-to.pdf
+ fig1b.eps>
+(epstopdf)             \includegraphics on input line 165.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig1b-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig1b-eps-converted-to.pdf, id=33, 779.91376pt x 510.90875pt>
+File: fig1b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1b-eps-converted-to.pdf>
+Package pdftex.def Info: fig1b-eps-converted-to.pdf  used on input line 165.
+(pdftex.def)             Requested size: 244.69386pt x 160.29005pt.
+
+LaTeX Warning: Reference `avg_error' on page 4 undefined on input line 166.
+
+
+LaTeX Warning: Reference `avg_error' on page 4 undefined on input line 166.
+
+
+LaTeX Warning: Reference `N_dependence' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Reference `N_dependence' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Reference `N_dependence' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Reference `optimalCo' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Reference `optimalCo' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Reference `optimalCo' on page 4 undefined on input line 169.
+
+[4 <./fig1a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig2a.eps>
+(epstopdf)                    date: 2020-05-13 13:53:17
+(epstopdf)                    size: 16463 bytes
+(epstopdf)             Output file: <fig2a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 13:53:57
+(epstopdf)                    size: 8309 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig2a-eps-converted-to.pdf
+ fig2a.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig2a-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig2a-eps-converted-to.pdf, id=49, 722.7pt x 509.905pt>
+File: fig2a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig2a-eps-converted-to.pdf>
+Package pdftex.def Info: fig2a-eps-converted-to.pdf  used on input line 173.
+(pdftex.def)             Requested size: 241.84842pt x 170.63445pt.
+Package epstopdf Info: Source file: <fig2b.eps>
+(epstopdf)                    date: 2020-05-13 13:53:17
+(epstopdf)                    size: 17002 bytes
+(epstopdf)             Output file: <fig2b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 13:53:57
+(epstopdf)                    size: 8545 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig2b-eps-converted-to.pdf
+ fig2b.eps>
+(epstopdf)             \includegraphics on input line 175.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig2b-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig2b-eps-converted-to.pdf, id=50, 722.7pt x 509.905pt>
+File: fig2b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig2b-eps-converted-to.pdf>
+Package pdftex.def Info: fig2b-eps-converted-to.pdf  used on input line 175.
+(pdftex.def)             Requested size: 241.84842pt x 170.63445pt.
+
+LaTeX Warning: Reference `avg_error' on page 5 undefined on input line 177.
+
+
+LaTeX Warning: Reference `avg_error' on page 5 undefined on input line 177.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <fig3a.eps>
+(epstopdf)                    date: 2020-05-13 13:53:17
+(epstopdf)                    size: 29891 bytes
+(epstopdf)             Output file: <fig3a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 13:53:57
+(epstopdf)                    size: 13377 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig3a-eps-converted-to.pdf
+ fig3a.eps>
+(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig3a-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig3a-eps-converted-to.pdf, id=51, 714.67pt x 533.995pt>
+File: fig3a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig3a-eps-converted-to.pdf>
+Package pdftex.def Info: fig3a-eps-converted-to.pdf  used on input line 182.
+(pdftex.def)             Requested size: 244.69386pt x 182.83514pt.
+Package epstopdf Info: Source file: <fig3b.eps>
+(epstopdf)                    date: 2020-05-18 11:50:40
+(epstopdf)                    size: 27655 bytes
+(epstopdf)             Output file: <fig3b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-18 11:50:58
+(epstopdf)                    size: 12445 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig3b-eps-converted-to.pdf
+ fig3b.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig3b-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig3b-eps-converted-to.pdf, id=52, 714.67pt x 533.995pt>
+File: fig3b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig3b-eps-converted-to.pdf>
+Package pdftex.def Info: fig3b-eps-converted-to.pdf  used on input line 184.
+(pdftex.def)             Requested size: 244.69386pt x 182.83514pt.
+
+LaTeX Warning: Reference `avg_error' on page 5 undefined on input line 185.
+
+
+LaTeX Warning: Reference `avg_error' on page 5 undefined on input line 185.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `WL_phys_rev_lett' on page 5 undefined on inpu
+t line 189.
+
+
+Package natbib Warning: Citation `saturation' on page 5 undefined on input line
+ 189.
+
+
+LaTeX Warning: Reference `compare_blender_wl' on page 5 undefined on input line
+ 189.
+
+
+LaTeX Warning: Reference `blender' on page 5 undefined on input line 196.
+
+
+LaTeX Warning: Reference `compare_blender_wl' on page 5 undefined on input line
+ 196.
+
+[5 <./fig2a-eps-converted-to.pdf> <./fig2b-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 197.
+
+
+Package natbib Warning: Citation `WL_phys_rev_lett' on page 6 undefined on inpu
+t line 198.
+
+Package epstopdf Info: Source file: <fig4a.eps>
+(epstopdf)                    date: 2020-05-29 11:09:31
+(epstopdf)                    size: 48474 bytes
+(epstopdf)             Output file: <fig4a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-29 11:09:55
+(epstopdf)                    size: 20463 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig4a-eps-converted-to.pdf
+ fig4a.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig4a-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig4a-eps-converted-to.pdf, id=66, 750.805pt x 506.89375pt>
+File: fig4a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig4a-eps-converted-to.pdf>
+Package pdftex.def Info: fig4a-eps-converted-to.pdf  used on input line 203.
+(pdftex.def)             Requested size: 244.69386pt x 165.19485pt.
+Package epstopdf Info: Source file: <fig4b.eps>
+(epstopdf)                    date: 2020-05-29 11:09:31
+(epstopdf)                    size: 45021 bytes
+(epstopdf)             Output file: <fig4b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-29 11:09:55
+(epstopdf)                    size: 19417 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig4b-eps-converted-to.pdf
+ fig4b.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig4b-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<fig4b-eps-converted-to.pdf, id=67, 751.80875pt x 509.905pt>
+File: fig4b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig4b-eps-converted-to.pdf>
+Package pdftex.def Info: fig4b-eps-converted-to.pdf  used on input line 205.
+(pdftex.def)             Requested size: 244.69386pt x 165.95834pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `blender' on page 6 undefined on input line 250.
+
+[6 <./fig3a-eps-converted-to.pdf> <./fig3b-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 251.
+
+[7 <./fig4a-eps-converted-to.pdf> <./fig4b-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `B_bound' on page 8 undefined on input line 299.
+
+
+LaTeX Warning: Reference `derived_time_dependence' on page 8 undefined on input
+ line 311.
+
+
+LaTeX Warning: Reference `derived_time_dependence' on page 8 undefined on input
+ line 323.
+
+
+LaTeX Warning: Reference `fcalcs' on page 8 undefined on input line 336.
+
+
+LaTeX Warning: Reference `fcalcs' on page 8 undefined on input line 336.
+
+
+LaTeX Warning: Reference `bootstrap' on page 8 undefined on input line 336.
+
+Package epstopdf Info: Source file: <Fcalcs.eps>
+(epstopdf)                    date: 2020-06-09 12:09:52
+(epstopdf)                    size: 340298 bytes
+(epstopdf)             Output file: <Fcalcs-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-09 12:10:00
+(epstopdf)                    size: 55585 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fcalcs-eps-converted-to.pd
+f Fcalcs.eps>
+(epstopdf)             \includegraphics on input line 338.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Fcalcs-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<Fcalcs-eps-converted-to.pdf, id=103, 758.835pt x 514.92375pt>
+File: Fcalcs-eps-converted-to.pdf Graphic file (type pdf)
+<use Fcalcs-eps-converted-to.pdf>
+Package pdftex.def Info: Fcalcs-eps-converted-to.pdf  used on input line 338.
+(pdftex.def)             Requested size: 244.69386pt x 166.03609pt.
+
+LaTeX Warning: Reference `bootstrap' on page 8 undefined on input line 339.
+
+
+LaTeX Warning: Reference `F_avg' on page 8 undefined on input line 339.
+
+
+LaTeX Warning: Reference `bootstrap' on page 8 undefined on input line 339.
+
+
+LaTeX Warning: Reference `F_avg' on page 8 undefined on input line 339.
+
+[8]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 345.
+
+
+Package natbib Warning: Citation `LLTOreview' on page 9 undefined on input line
+ 349.
+
+
+Package natbib Warning: Citation `P4mmmstrucuture' on page 9 undefined on input
+ line 349.
+
+
+LaTeX Warning: Reference `LLTO_unit_cell' on page 9 undefined on input line 349
+.
+
+
+Package natbib Warning: Citation `P4mmmstrucuture' on page 9 undefined on input
+ line 349.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 349.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 349.
+
+
+LaTeX Warning: Reference `LLTO_unit_cell' on page 9 undefined on input line 349
+.
+
+
+LaTeX Warning: Reference `LLTO_unit_cell' on page 9 undefined on input line 349
+.
+
+
+Package natbib Warning: Citation `imaginaryphonons' on page 9 undefined on inpu
+t line 349.
+
+
+Package natbib Warning: Citation `P4mmmstrucuture' on page 9 undefined on input
+ line 351.
+
+Package epstopdf Info: Source file: <fig6.eps>
+(epstopdf)                    date: 2020-05-13 13:53:17
+(epstopdf)                    size: 214950 bytes
+(epstopdf)             Output file: <fig6-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-05-13 13:53:59
+(epstopdf)                    size: 52797 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig6-eps-converted-to.pdf 
+fig6.eps>
+(epstopdf)             \includegraphics on input line 353.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig6-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<fig6-eps-converted-to.pdf, id=107, 476.78125pt x 498.86375pt>
+File: fig6-eps-converted-to.pdf Graphic file (type pdf)
+<use fig6-eps-converted-to.pdf>
+Package pdftex.def Info: fig6-eps-converted-to.pdf  used on input line 353.
+(pdftex.def)             Requested size: 244.69386pt x 256.0309pt.
+
+LaTeX Warning: Reference `LLTO_unit_cell' on page 9 undefined on input line 357
+.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 359.
+
+[9 <./Fcalcs-eps-converted-to.pdf> <./fig6-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Vasp1' on page 10 undefined on input line 361
+.
+
+
+Package natbib Warning: Citation `Vasp2' on page 10 undefined on input line 361
+.
+
+
+Package natbib Warning: Citation `Vasp3' on page 10 undefined on input line 361
+.
+
+
+Package natbib Warning: Citation `Vasp4' on page 10 undefined on input line 361
+.
+
+
+Package natbib Warning: Citation `Blochl' on page 10 undefined on input line 36
+1.
+
+
+Package natbib Warning: Citation `PBE' on page 10 undefined on input line 361.
+
+
+Package natbib Warning: Citation `Holzwarth_group' on page 10 undefined on inpu
+t line 363.
+
+
+Package natbib Warning: Citation `partition' on page 10 undefined on input line
+ 363.
+
+
+LaTeX Warning: Reference `basicpartition' on page 10 undefined on input line 37
+2.
+
+
+Package natbib Warning: Citation `dfpt_phonons' on page 10 undefined on input l
+ine 376.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 382.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 382.
+
+[10]
+
+Package natbib Warning: Citation `Asitedistribution' on page 11 undefined on in
+put line 387.
+
+
+Package natbib Warning: Citation `imaginaryphonons' on page 11 undefined on inp
+ut line 387.
+
+
+Package natbib Warning: Citation `Li_La_ordering_computational' on page 11 unde
+fined on input line 387.
+
+
+Package natbib Warning: Citation `lithiumpos' on page 11 undefined on input lin
+e 387.
+
+
+LaTeX Warning: Reference `omegaguess' on page 11 undefined on input line 387.
+
+
+Package natbib Warning: Citation `halting_wang_and_landau' on page 11 undefined
+ on input line 389.
+
+
+Package natbib Warning: Citation `P4mmmstrucuture' on page 11 undefined on inpu
+t line 392.
+
+
+LaTeX Warning: Reference `LLTO_unit_cell' on page 11 undefined on input line 39
+2.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 398--401
+\OT1/cmr/m/n/10 that nor-mal-iza-tion of the rel-a-tive den-sity of states
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 398--401
+\OT1/cmr/m/n/10 to the ap-pro-pri-ate num-ber of con-fig-u-ra-tions is not
+ []
+
+Package epstopdf Info: Source file: <fig7a.eps>
+(epstopdf)                    date: 2020-10-06 10:55:54
+(epstopdf)                    size: 24647 bytes
+(epstopdf)             Output file: <fig7a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 11:02:46
+(epstopdf)                    size: 9372 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig7a-eps-converted-to.pdf
+ fig7a.eps>
+(epstopdf)             \includegraphics on input line 404.
+Package epstopdf Info: Output file is already uptodate.
+<fig7a-eps-converted-to.pdf, id=122, 744.7825pt x 513.92pt>
+File: fig7a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig7a-eps-converted-to.pdf>
+Package pdftex.def Info: fig7a-eps-converted-to.pdf  used on input line 404.
+(pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
+Package epstopdf Info: Source file: <fig7b.eps>
+(epstopdf)                    date: 2020-10-06 10:56:25
+(epstopdf)                    size: 26862 bytes
+(epstopdf)             Output file: <fig7b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 11:02:46
+(epstopdf)                    size: 9653 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig7b-eps-converted-to.pdf
+ fig7b.eps>
+(epstopdf)             \includegraphics on input line 406.
+Package epstopdf Info: Output file is already uptodate.
+<fig7b-eps-converted-to.pdf, id=123, 744.7825pt x 513.92pt>
+File: fig7b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig7b-eps-converted-to.pdf>
+Package pdftex.def Info: fig7b-eps-converted-to.pdf  used on input line 406.
+(pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
+Package epstopdf Info: Source file: <fig7c.eps>
+(epstopdf)                    date: 2020-10-06 11:02:18
+(epstopdf)                    size: 26399 bytes
+(epstopdf)             Output file: <fig7c-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 11:02:46
+(epstopdf)                    size: 9428 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig7c-eps-converted-to.pdf
+ fig7c.eps>
+(epstopdf)             \includegraphics on input line 408.
+Package epstopdf Info: Output file is already uptodate.
+<fig7c-eps-converted-to.pdf, id=124, 744.7825pt x 513.92pt>
+File: fig7c-eps-converted-to.pdf Graphic file (type pdf)
+<use fig7c-eps-converted-to.pdf>
+Package pdftex.def Info: fig7c-eps-converted-to.pdf  used on input line 408.
+(pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `converge_GE' on page 11 undefined on input line 412.
+
+
+LaTeX Warning: Reference `converge_GE' on page 11 undefined on input line 412.
+
+
+LaTeX Warning: Reference `LLTO_unit_cell' on page 11 undefined on input line 41
+2.
+
+
+LaTeX Warning: Reference `arithemetic_avg' on page 11 undefined on input line 4
+15.
+
+
+LaTeX Warning: Reference `arithemetic_avg' on page 11 undefined on input line 4
+15.
+
+
+LaTeX Warning: Reference `arithemetic_avg' on page 11 undefined on input line 4
+15.
+
+
+LaTeX Warning: Reference `ensembleOP' on page 11 undefined on input line 415.
+
+
+LaTeX Warning: Reference `ensembleOP' on page 11 undefined on input line 415.
+
+
+Package natbib Warning: Citation `P4mmmstrucuture' on page 11 undefined on inpu
+t line 415.
+
+[11]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 416.
+
+Package epstopdf Info: Source file: <fig8a.eps>
+(epstopdf)                    date: 2020-10-06 11:21:59
+(epstopdf)                    size: 19422 bytes
+(epstopdf)             Output file: <fig8a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 11:22:28
+(epstopdf)                    size: 10694 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig8a-eps-converted-to.pdf
+ fig8a.eps>
+(epstopdf)             \includegraphics on input line 419.
+Package epstopdf Info: Output file is already uptodate.
+<fig8a-eps-converted-to.pdf, id=129, 709.65125pt x 517.935pt>
+File: fig8a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig8a-eps-converted-to.pdf>
+Package pdftex.def Info: fig8a-eps-converted-to.pdf  used on input line 419.
+(pdftex.def)             Requested size: 244.69386pt x 178.58502pt.
+Package epstopdf Info: Source file: <fig8b.eps>
+(epstopdf)                    date: 2020-10-06 11:22:19
+(epstopdf)                    size: 21193 bytes
+(epstopdf)             Output file: <fig8b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 11:22:28
+(epstopdf)                    size: 10932 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig8b-eps-converted-to.pdf
+ fig8b.eps>
+(epstopdf)             \includegraphics on input line 421.
+Package epstopdf Info: Output file is already uptodate.
+<fig8b-eps-converted-to.pdf, id=130, 703.62875pt x 497.86pt>
+File: fig8b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig8b-eps-converted-to.pdf>
+Package pdftex.def Info: fig8b-eps-converted-to.pdf  used on input line 421.
+(pdftex.def)             Requested size: 244.69386pt x 173.12929pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <fig9.eps>
+(epstopdf)                    date: 2020-10-06 11:39:51
+(epstopdf)                    size: 76202 bytes
+(epstopdf)             Output file: <fig9-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 11:40:04
+(epstopdf)                    size: 26247 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig9-eps-converted-to.pdf 
+fig9.eps>
+(epstopdf)             \includegraphics on input line 426.
+Package epstopdf Info: Output file is already uptodate.
+<fig9-eps-converted-to.pdf, id=131, 744.7825pt x 513.92pt>
+File: fig9-eps-converted-to.pdf Graphic file (type pdf)
+<use fig9-eps-converted-to.pdf>
+Package pdftex.def Info: fig9-eps-converted-to.pdf  used on input line 426.
+(pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
+
+LaTeX Warning: Reference `ensembleaverage' on page 12 undefined on input line 4
+27.
+
+
+LaTeX Warning: Reference `ensembleaverage' on page 12 undefined on input line 4
+27.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `adiabatic_distribution' on page 12 undefined on input
+ line 430.
+
+
+LaTeX Warning: Reference `Htot' on page 12 undefined on input line 430.
+
+
+LaTeX Warning: Reference `arithemetic_avg' on page 12 undefined on input line 4
+30.
+
+
+LaTeX Warning: Reference `arithemetic_avg' on page 12 undefined on input line 4
+30.
+
+
+LaTeX Warning: Reference `ensembleOP' on page 12 undefined on input line 430.
+
+
+LaTeX Warning: Reference `ensembleOP' on page 12 undefined on input line 430.
+
+
+LaTeX Warning: Reference `lowen_structures' on page 12 undefined on input line 
+432.
+
+
+LaTeX Warning: Reference `lowen_structures' on page 12 undefined on input line 
+432.
+
+
+LaTeX Warning: Reference `lowen_structures' on page 12 undefined on input line 
+432.
+
+
+LaTeX Warning: Reference `lowen_structures' on page 12 undefined on input line 
+432.
+
+
+LaTeX Warning: Reference `arithemetic_avg' on page 12 undefined on input line 4
+32.
+
+
+Package natbib Warning: Citation `imaginaryphonons' on page 12 undefined on inp
+ut line 432.
+
+
+Package natbib Warning: Citation `domainboundaries' on page 12 undefined on inp
+ut line 432.
+
+
+LaTeX Warning: Reference `lowen_structures' on page 12 undefined on input line 
+432.
+
+
+LaTeX Warning: Reference `lowen_structures' on page 12 undefined on input line 
+432.
+
+
+Package natbib Warning: Citation `Asitedistribution' on page 12 undefined on in
+put line 432.
+
+
+Package natbib Warning: Citation `imaginaryphonons' on page 12 undefined on inp
+ut line 432.
+
+
+Package natbib Warning: Citation `Li_La_ordering_computational' on page 12 unde
+fined on input line 432.
+
+
+Package natbib Warning: Citation `lithiumpos' on page 12 undefined on input lin
+e 432.
+
+[12 <./fig7a-eps-converted-to.pdf> <./fig7b-eps-converted-to.pdf> <./fig7c-eps-
+converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 433.
+
+
+LaTeX Warning: Reference `modfactor_LLTO' on page 13 undefined on input line 43
+4.
+
+! Undefined control sequence.
+l.434 ...e predictions previously made in Sec \rom
+                                                  {4} the a linear fit of th...
+
+? 
+
+Underfull \hbox (badness 1565) in paragraph at lines 436--438
+\OT1/cmr/m/n/10 in-clud-ing lat-tice re-lax-ation us-ing den-sity func-tional
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 436--438
+\OT1/cmr/m/n/10 up-per rep-re-sents the num-ber of it-er-a-tions re-quired
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
+
+ []
+
+[13 <./fig8a-eps-converted-to.pdf> <./fig8b-eps-converted-to.pdf> <./fig9-eps-c
+onverted-to.pdf>]
+Package epstopdf Info: Source file: <fig10a.eps>
+(epstopdf)                    date: 2020-10-06 15:03:24
+(epstopdf)                    size: 9452180 bytes
+(epstopdf)             Output file: <fig10a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 15:04:21
+(epstopdf)                    size: 573739 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig10a-eps-converted-to.pd
+f fig10a.eps>
+(epstopdf)             \includegraphics on input line 442.
+Package epstopdf Info: Output file is already uptodate.
+<fig10a-eps-converted-to.pdf, id=173, 1584.92125pt x 987.69pt>
+File: fig10a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig10a-eps-converted-to.pdf>
+Package pdftex.def Info: fig10a-eps-converted-to.pdf  used on input line 442.
+(pdftex.def)             Requested size: 244.69386pt x 152.48753pt.
+Package epstopdf Info: Source file: <fig10b.eps>
+(epstopdf)                    date: 2020-10-06 15:03:54
+(epstopdf)                    size: 9452180 bytes
+(epstopdf)             Output file: <fig10b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 15:04:26
+(epstopdf)                    size: 504227 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig10b-eps-converted-to.pd
+f fig10b.eps>
+(epstopdf)             \includegraphics on input line 444.
+Package epstopdf Info: Output file is already uptodate.
+<fig10b-eps-converted-to.pdf, id=174, 1584.92125pt x 987.69pt>
+File: fig10b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig10b-eps-converted-to.pdf>
+Package pdftex.def Info: fig10b-eps-converted-to.pdf  used on input line 444.
+(pdftex.def)             Requested size: 244.69386pt x 152.48753pt.
+Package epstopdf Info: Source file: <fig11.eps>
+(epstopdf)                    date: 2020-10-06 14:55:41
+(epstopdf)                    size: 21195 bytes
+(epstopdf)             Output file: <fig11-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 14:56:13
+(epstopdf)                    size: 10758 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig11-eps-converted-to.pdf
+ fig11.eps>
+(epstopdf)             \includegraphics on input line 449.
+Package epstopdf Info: Output file is already uptodate.
+<fig11-eps-converted-to.pdf, id=175, 702.625pt x 524.96124pt>
+File: fig11-eps-converted-to.pdf Graphic file (type pdf)
+<use fig11-eps-converted-to.pdf>
+Package pdftex.def Info: fig11-eps-converted-to.pdf  used on input line 449.
+(pdftex.def)             Requested size: 244.69386pt x 182.81801pt.
+
+
+LaTeX Warning: Reference `blender' on page 14 undefined on input line 450.
+
+
+LaTeX Warning: Reference `blender' on page 14 undefined on input line 450.
+
+[14 <./fig10a-eps-converted-to.pdf> <./fig10b-eps-converted-to.pdf> <./fig11-ep
+s-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig12.eps>
+(epstopdf)                    date: 2020-10-06 16:00:27
+(epstopdf)                    size: 175079 bytes
+(epstopdf)             Output file: <fig12-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 16:07:23
+(epstopdf)                    size: 32599 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig12-eps-converted-to.pdf
+ fig12.eps>
+(epstopdf)             \includegraphics on input line 460.
+Package epstopdf Info: Output file is already uptodate.
+<fig12-eps-converted-to.pdf, id=191, 769.87625pt x 489.83pt>
+File: fig12-eps-converted-to.pdf Graphic file (type pdf)
+<use fig12-eps-converted-to.pdf>
+Package pdftex.def Info: fig12-eps-converted-to.pdf  used on input line 460.
+(pdftex.def)             Requested size: 244.69386pt x 155.68745pt.
+
+
+LaTeX Warning: Reference `calcmodfactor' on page 15 undefined on input line 461
+.
+
+
+LaTeX Warning: Reference `calcmodfactor' on page 15 undefined on input line 461
+.
+
+No file Manuscript_copy_10_19_2020.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[15 <./fig12-eps-converted-to.pdf>] (./Manuscript_copy_10_19_2020.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5084 strings out of 483065
+ 69896 string characters out of 5963550
+ 329288 words of memory out of 5000000
+ 20020 multiletter control sequences out of 15000+600000
+ 540594 words of font info for 56 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 30i,17n,31p,3709b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on Manuscript_copy_10_19_2020.pdf (15 pages, 1886113 bytes).
+PDF statistics:
+ 272 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+

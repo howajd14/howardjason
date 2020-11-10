@@ -90,7 +90,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Fri May 29 12:52:05 2020"
+@timestamp def "Tue Jun  9 11:57:52 2020"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -260,7 +260,7 @@
 @    altyaxis  off
 @    legend on
 @    legend loctype world
-@    legend 11000, 2e-07
+@    legend 11000, 3.5e-07
 @    legend box color 1
 @    legend box pattern 1
 @    legend box linewidth 1.0
@@ -268,7 +268,7 @@
 @    legend box fill color 0
 @    legend box fill pattern 1
 @    legend font 2
-@    legend char size 1.220000
+@    legend char size 1.170000
 @    legend color 1
 @    legend length 4
 @    legend vgap 1
@@ -329,7 +329,7 @@
 @    s0 errorbar riser clip off
 @    s0 errorbar riser clip length 0.100000
 @    s0 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft_new_journal_submit/Revisions/new_figures/Avg_F_0.1.dat"
-@    s0 legend  "F( I ) 1/N = 0.1 BLENDER  calc"
+@    s0 legend  "F\savg\N( I ) 1/N = 0.1 BLENDER  calc"
 @    s1 hidden false
 @    s1 type xy
 @    s1 symbol 1
@@ -378,7 +378,7 @@
 @    s1 errorbar riser clip off
 @    s1 errorbar riser clip length 0.100000
 @    s1 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft_new_journal_submit/Revisions/new_figures/calcF_0.1.dat"
-@    s1 legend  "F( I ) 1/N = 0.1  adiabatic analysis calc"
+@    s1 legend  "F\sab\N( I ) 1/N = 0.1  adiabatic analysis calc"
 @    s2 hidden false
 @    s2 type xy
 @    s2 symbol 0
@@ -427,7 +427,7 @@
 @    s2 errorbar riser clip off
 @    s2 errorbar riser clip length 0.100000
 @    s2 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft_new_journal_submit/Revisions/new_figures/Avg_F_0.5.dat"
-@    s2 legend  "F( I ) 1/N = 0.5 BLENDER calc"
+@    s2 legend  "F\savg\N( I ) 1/N = 0.5 BLENDER calc"
 @    s3 hidden false
 @    s3 type xy
 @    s3 symbol 2
@@ -476,7 +476,7 @@
 @    s3 errorbar riser clip off
 @    s3 errorbar riser clip length 0.100000
 @    s3 comment "/home/jhoward/Git_Hub/howardjason/howardjason/Blender/Draft_new_journal_submit/Revisions/new_figures/calcF_0.5.dat"
-@    s3 legend  "F( I ) 1/N = 0.5 adiabatic analysis calc"
+@    s3 legend  "F\sab\N( I ) 1/N = 0.5 adiabatic analysis calc"
 @target G0.S0
 @type xy
 10000 0.00159327

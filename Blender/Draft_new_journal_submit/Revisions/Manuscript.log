@@ -1,108 +1,112 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.23)  8 JUN 2020 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  20 OCT 2020 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Manuscript.tex
 (./Manuscript.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 9 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
-Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
-ex4/ for documentation)
- Copyright (c) 2009 The American Physical Society.
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/re
+vtex/ for documentation)
+ Copyright (c) 2019 American Physical Society.
  mailto:revtex@aps.org
  Licensed under the LPPL:
 http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
  Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
- Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
-ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>Version (4.2c)
+: Modified by Mark Doyle
+ .
+ltxutil[2019/01/18/14:29:48 4.2c utilities package (portions licensed from W. E
 . Baxter web at superscript.com)]
-LaTeX Info: Redefining \@centercr on input line 308.
-Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
-\eqncolsep=\skip41
-Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
-note on input line 433.
-Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
-\intertabularlinepenalty=\count79
-\@tbpen=\count80
-\@arstrutbox@hline=\box26
-Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
-Class revtex4-1 Info: Making \typeout \long on input line 2046.
-ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
-\c@affil=\count81
-\c@collab=\count82
-\absbox=\box27
-ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+LaTeX Info: Redefining \@centercr on input line 315.
+Class revtex4-2 Info: Repairing broken LaTeX eqnarray on input line 365.
+\eqncolsep=\skip47
+Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 440.
+Class revtex4-2 Info: Repairing broken LateX \@sect on input line 762.
+\intertabularlinepenalty=\count167
+\@tbpen=\count168
+\@arstrutbox@hline=\box45
+Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1793.
+Class revtex4-2 Info: Making \typeout \long on input line 2053.
+ltxfront[2019/01/18/14:29:48 4.2c frontmatter package (AO,DPC,MD)]
+\c@affil=\count169
+\c@collab=\count170
+\absbox=\box46
+ltxgrid[2019/01/18/14:29:48 4.2c page grid package (portions licensed from W. E
 . Baxter web at superscript.com)]
-\c@linecount=\count83
+\c@linecount=\count171
 \output@latex=\toks14
-\box@size@1=\box28
-\box@size@2=\box29
-\@protection@box=\box30
+\box@size@1=\box47
+\box@size@2=\box48
+\@protection@box=\box49
 \@topmark@saved=\toks15
-\footins@saved=\box31
-\footins@recovered=\box32
-\column@recovered=\box33
-\pagesofar=\box34
-\footsofar=\box35
-\pagegrid@col=\count84
-Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
- \\  on input line 5578.
-\c@part=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\c@figure=\count91
-\fbox@1=\box36
-\c@table=\count92
-\fbox@2=\box37
-\c@video=\count93
-\fbox@4=\box38
-\@bibdataout=\write3
-\widetext@top=\box39
-\widetext@bot=\box40
-Class revtex4-1 Info: Selecting society aps on input line 7542.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-1.rtx
-File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
-mentation)
-Class revtex4-1 Info: RevTeX society APS selected on input line 31.
-)
-Class revtex4-1 Info: Selecting journal pre on input line 7544.
-Class revtex4-1 Info: APS journal PRE selected on input line 7545.
+\footins@saved=\box50
+\footins@recovered=\box51
+\column@recovered=\box52
+\pagesofar=\box53
+\footsofar=\box54
+\pagegrid@col=\count172
 
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
-documentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+Class revtex4-2 Warning: Failed to recognize \@vspace, \@vspacer, \@no@pgbk, \@
+newline, and \\; no patches applied. Please get a more up-to-date class, .
+
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count179
+\fbox@1=\box55
+\c@table=\count180
+\fbox@2=\box56
+\c@video=\count181
+\fbox@4=\box57
+\@bibdataout=\write3
+\widetext@top=\box58
+\widetext@bot=\box59
+Class revtex4-2 Info: Selecting society aps on input line 7581.
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-2.rtx
+File: aps4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/revtex/ for doc
+umentation)
+Class revtex4-2 Info: RevTeX society APS selected on input line 37.
+)
+Class revtex4-2 Info: Selecting journal pre on input line 7583.
+Class revtex4-2 Info: APS journal PRE selected on input line 7584.
+
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx
+File: aps10pt4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/revtex/ for
+ documentation)
+Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 36.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip44
-\bibsep=\skip45
+\bibhang=\skip50
+\bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count94
+\c@NAT@ctr=\count182
 )
-Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7588.
 
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-1.sty
-Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
-or documentation)
-LaTeX Info: Redefining \REV@mathfrak on input line 119.
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-2.sty
+Package: revsymb4-2 2019/01/18/14:29:48 4.2c (https://journals.aps.org/revtex/ 
+for documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 125.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip46
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -111,57 +115,57 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen102
+\ex@=\dimen134
 )
 LaTeX Info: Redefining \text on input line 28.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen103
+\pmbraise@=\dimen135
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count96
-\leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count98
-\DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box41
-\strutbox@=\box42
-\big@size=\dimen104
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
-\dotsspace@=\muskip11
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\inf@bad=\count183
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count184
+\leftroot@=\count185
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count186
+\DOTSCASE@=\count187
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
+\dotsspace@=\muskip17
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
 \tag@help=\toks17
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
 \andhelp@=\toks18
-\eqnshift@=\dimen105
-\alignsep@=\dimen106
-\tagshift@=\dimen107
-\tagwidth@=\dimen108
-\totwidth@=\dimen109
-\lineht@=\dimen110
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
 \@envbody=\toks19
-\multlinegap=\skip47
-\multlinetaggap=\skip48
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -172,14 +176,14 @@ Package color Info: Driver file: pdftex.def on input line 147.
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -187,89 +191,77 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen113
-\extrarowheight=\dimen114
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box62
+\extrarowheight=\dimen146
 \NC@list=\toks22
-\extratabsurround=\skip49
-\backup@length=\skip50
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box63
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks23
 \verbatim@line=\toks24
-\verbatim@in@stream=\read1
+\verbatim@in@stream=\read2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
-Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+85.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
 )
@@ -280,66 +272,76 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 ))
-Class revtex4-1 Info: Unrecognized array package. Please update this document c
+Class revtex4-2 Info: Unrecognized array package. Please update this document c
 lass! (Proceeding with fingers crossed.) on input line 47.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 47.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 47.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 47.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 47.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 47.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 47.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 47.
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count195
+\l__pdf_internal_box=\box64
+)
+(./Manuscript.aux
 
-(./Manuscript.aux)
+LaTeX Warning: Label `modfactor_LLTO' multiply defined.
+
+)
 \openout1 = `Manuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen115
-\scratchbox=\box43
-\nofMPsegments=\count108
-\nofMParguments=\count109
+\scratchcounter=\count196
+\scratchdimen=\dimen147
+\scratchbox=\box65
+\nofMPsegments=\count197
+\nofMParguments=\count198
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen116
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen148
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
 \everyMPtoPDFconversion=\toks28
 )
 \openout3 = `ManuscriptNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 3229) in paragraph at lines 157--158
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Underfull \hbox (badness 3229) in paragraph at lines 158--159
 []\OT1/cmr/m/n/10 Where $\OML/cmm/m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
 E[]\OT1/cmr/m/n/10 )$ is the ex-act den-sity of states,
  []
 
-[3]
 Package epstopdf Info: Source file: <fig1a.eps>
 (epstopdf)                    date: 2020-05-13 13:53:17
 (epstopdf)                    size: 822359 bytes
@@ -348,7 +350,7 @@ Package epstopdf Info: Source file: <fig1a.eps>
 (epstopdf)                    size: 160144 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig1a-eps-converted-to.pdf
  fig1a.eps>
-(epstopdf)             \includegraphics on input line 162.
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -357,7 +359,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <fig1a-eps-converted-to.pdf, id=31, 760.8425pt x 534.99875pt>
 File: fig1a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1a-eps-converted-to.pdf>
-Package pdftex.def Info: fig1a-eps-converted-to.pdf  used on input line 162.
+Package pdftex.def Info: fig1a-eps-converted-to.pdf  used on input line 165.
 (pdftex.def)             Requested size: 244.69386pt x 172.06024pt.
 Package epstopdf Info: Source file: <fig1b.eps>
 (epstopdf)                    date: 2020-05-13 13:53:17
@@ -367,7 +369,7 @@ Package epstopdf Info: Source file: <fig1b.eps>
 (epstopdf)                    size: 61641 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig1b-eps-converted-to.pdf
  fig1b.eps>
-(epstopdf)             \includegraphics on input line 164.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -376,12 +378,16 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <fig1b-eps-converted-to.pdf, id=32, 779.91376pt x 510.90875pt>
 File: fig1b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig1b-eps-converted-to.pdf>
-Package pdftex.def Info: fig1b-eps-converted-to.pdf  used on input line 164.
+Package pdftex.def Info: fig1b-eps-converted-to.pdf  used on input line 167.
 (pdftex.def)             Requested size: 244.69386pt x 160.29005pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./fig1a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf>]
+[4]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 172.
+
 Package epstopdf Info: Source file: <fig2a.eps>
 (epstopdf)                    date: 2020-05-13 13:53:17
 (epstopdf)                    size: 16463 bytes
@@ -390,16 +396,16 @@ Package epstopdf Info: Source file: <fig2a.eps>
 (epstopdf)                    size: 8309 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig2a-eps-converted-to.pdf
  fig2a.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig2a-eps-converted-to.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<fig2a-eps-converted-to.pdf, id=48, 722.7pt x 509.905pt>
+<fig2a-eps-converted-to.pdf, id=36, 722.7pt x 509.905pt>
 File: fig2a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2a-eps-converted-to.pdf>
-Package pdftex.def Info: fig2a-eps-converted-to.pdf  used on input line 172.
+Package pdftex.def Info: fig2a-eps-converted-to.pdf  used on input line 175.
 (pdftex.def)             Requested size: 241.84842pt x 170.63445pt.
 Package epstopdf Info: Source file: <fig2b.eps>
 (epstopdf)                    date: 2020-05-13 13:53:17
@@ -409,17 +415,20 @@ Package epstopdf Info: Source file: <fig2b.eps>
 (epstopdf)                    size: 8545 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig2b-eps-converted-to.pdf
  fig2b.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig2b-eps-converted-to.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<fig2b-eps-converted-to.pdf, id=49, 722.7pt x 509.905pt>
+<fig2b-eps-converted-to.pdf, id=37, 722.7pt x 509.905pt>
 File: fig2b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig2b-eps-converted-to.pdf>
-Package pdftex.def Info: fig2b-eps-converted-to.pdf  used on input line 174.
+Package pdftex.def Info: fig2b-eps-converted-to.pdf  used on input line 177.
 (pdftex.def)             Requested size: 241.84842pt x 170.63445pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <fig3a.eps>
 (epstopdf)                    date: 2020-05-13 13:53:17
 (epstopdf)                    size: 29891 bytes
@@ -428,16 +437,16 @@ Package epstopdf Info: Source file: <fig3a.eps>
 (epstopdf)                    size: 13377 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig3a-eps-converted-to.pdf
  fig3a.eps>
-(epstopdf)             \includegraphics on input line 181.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig3a-eps-converted-to.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<fig3a-eps-converted-to.pdf, id=50, 714.67pt x 533.995pt>
+<fig3a-eps-converted-to.pdf, id=38, 714.67pt x 533.995pt>
 File: fig3a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3a-eps-converted-to.pdf>
-Package pdftex.def Info: fig3a-eps-converted-to.pdf  used on input line 181.
+Package pdftex.def Info: fig3a-eps-converted-to.pdf  used on input line 184.
 (pdftex.def)             Requested size: 244.69386pt x 182.83514pt.
 Package epstopdf Info: Source file: <fig3b.eps>
 (epstopdf)                    date: 2020-05-18 11:50:40
@@ -447,127 +456,80 @@ Package epstopdf Info: Source file: <fig3b.eps>
 (epstopdf)                    size: 12445 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig3b-eps-converted-to.pdf
  fig3b.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig3b-eps-converted-to.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<fig3b-eps-converted-to.pdf, id=51, 714.67pt x 533.995pt>
+<fig3b-eps-converted-to.pdf, id=39, 714.67pt x 533.995pt>
 File: fig3b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig3b-eps-converted-to.pdf>
-Package pdftex.def Info: fig3b-eps-converted-to.pdf  used on input line 183.
+Package pdftex.def Info: fig3b-eps-converted-to.pdf  used on input line 186.
 (pdftex.def)             Requested size: 244.69386pt x 182.83514pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./fig2a-eps-converted-to.pdf> <./fig2b-eps-converted-to.pdf> <./fig3a-eps-c
-onverted-to.pdf> <./fig3b-eps-converted-to.pdf>]
+[5 <./fig1a-eps-converted-to.pdf> <./fig1b-eps-converted-to.pdf> <./fig2a-eps-c
+onverted-to.pdf> <./fig2b-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 192.
+
 Package epstopdf Info: Source file: <fig4a.eps>
-(epstopdf)                    date: 2020-05-29 11:09:31
-(epstopdf)                    size: 48474 bytes
+(epstopdf)                    date: 2020-10-19 10:02:50
+(epstopdf)                    size: 64451 bytes
 (epstopdf)             Output file: <fig4a-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-29 11:09:55
-(epstopdf)                    size: 20463 bytes
+(epstopdf)                    date: 2020-10-19 10:03:38
+(epstopdf)                    size: 25493 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig4a-eps-converted-to.pdf
  fig4a.eps>
-(epstopdf)             \includegraphics on input line 198.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig4a-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig4a-eps-converted-to.pdf, id=83, 750.805pt x 506.89375pt>
+<fig4a-eps-converted-to.pdf, id=65, 750.805pt x 506.89375pt>
 File: fig4a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig4a-eps-converted-to.pdf>
-Package pdftex.def Info: fig4a-eps-converted-to.pdf  used on input line 198.
+Package pdftex.def Info: fig4a-eps-converted-to.pdf  used on input line 205.
 (pdftex.def)             Requested size: 244.69386pt x 165.19485pt.
 Package epstopdf Info: Source file: <fig4b.eps>
-(epstopdf)                    date: 2020-05-29 11:09:31
-(epstopdf)                    size: 45021 bytes
+(epstopdf)                    date: 2020-10-19 10:03:21
+(epstopdf)                    size: 58444 bytes
 (epstopdf)             Output file: <fig4b-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-29 11:09:55
-(epstopdf)                    size: 19417 bytes
+(epstopdf)                    date: 2020-10-19 10:03:38
+(epstopdf)                    size: 23870 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig4b-eps-converted-to.pdf
  fig4b.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig4b-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig4b-eps-converted-to.pdf, id=84, 751.80875pt x 509.905pt>
+<fig4b-eps-converted-to.pdf, id=66, 751.80875pt x 509.905pt>
 File: fig4b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig4b-eps-converted-to.pdf>
-Package pdftex.def Info: fig4b-eps-converted-to.pdf  used on input line 200.
+Package pdftex.def Info: fig4b-eps-converted-to.pdf  used on input line 207.
 (pdftex.def)             Requested size: 244.69386pt x 165.95834pt.
+[6 <./fig3a-eps-converted-to.pdf> <./fig3b-eps-converted-to.pdf>] [7 <./fig4a-e
+ps-converted-to.pdf> <./fig4b-eps-converted-to.pdf>]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: File `fig5.eps' not found on input line 310.
 
-[6 <./fig4a-eps-converted-to.pdf> <./fig4b-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig5a.eps>
-(epstopdf)                    date: 2020-05-13 13:53:17
-(epstopdf)                    size: 141611 bytes
-(epstopdf)             Output file: <fig5a-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-13 13:53:59
-(epstopdf)                    size: 36689 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig5a-eps-converted-to.pdf
- fig5a.eps>
-(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Source file: <fig5.eps>
+(epstopdf)             Output file: <fig5-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-20 15:48:12
+(epstopdf)                    size: 55796 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig5-eps-converted-to.pdf 
+fig5.eps>
+(epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig5a-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig5a-eps-converted-to.pdf, id=98, 763.85374pt x 516.93124pt>
-File: fig5a-eps-converted-to.pdf Graphic file (type pdf)
-<use fig5a-eps-converted-to.pdf>
-Package pdftex.def Info: fig5a-eps-converted-to.pdf  used on input line 228.
-(pdftex.def)             Requested size: 244.69386pt x 165.5949pt.
-Package epstopdf Info: Source file: <fig5b.eps>
-(epstopdf)                    date: 2020-05-13 13:53:17
-(epstopdf)                    size: 28347 bytes
-(epstopdf)             Output file: <fig5b-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-13 13:53:59
-(epstopdf)                    size: 13048 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig5b-eps-converted-to.pdf
- fig5b.eps>
-(epstopdf)             \includegraphics on input line 230.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig5b-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig5b-eps-converted-to.pdf, id=99, 770.88pt x 518.93875pt>
-File: fig5b-eps-converted-to.pdf Graphic file (type pdf)
-<use fig5b-eps-converted-to.pdf>
-Package pdftex.def Info: fig5b-eps-converted-to.pdf  used on input line 230.
-(pdftex.def)             Requested size: 244.69386pt x 164.71767pt.
-[7 <./fig5a-eps-converted-to.pdf> <./fig5b-eps-converted-to.pdf>] [8]
-Package epstopdf Info: Source file: <Fcalcs.eps>
-(epstopdf)                    date: 2020-05-29 12:55:22
-(epstopdf)                    size: 339648 bytes
-(epstopdf)             Output file: <Fcalcs-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-02 14:08:21
-(epstopdf)                    size: 55270 bytes
-(epstopdf)             Command: <repstopdf --outfile=Fcalcs-eps-converted-to.pd
-f Fcalcs.eps>
-(epstopdf)             \includegraphics on input line 317.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./Fcalcs-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<Fcalcs-eps-converted-to.pdf, id=120, 758.835pt x 514.92375pt>
-File: Fcalcs-eps-converted-to.pdf Graphic file (type pdf)
-<use Fcalcs-eps-converted-to.pdf>
-Package pdftex.def Info: Fcalcs-eps-converted-to.pdf  used on input line 317.
+<fig5-eps-converted-to.pdf, id=102, 758.835pt x 514.92375pt>
+File: fig5-eps-converted-to.pdf Graphic file (type pdf)
+<use fig5-eps-converted-to.pdf>
+Package pdftex.def Info: fig5-eps-converted-to.pdf  used on input line 310.
 (pdftex.def)             Requested size: 244.69386pt x 166.03609pt.
+[8]
 
-LaTeX Warning: Command \r invalid in math mode on input line 328.
+LaTeX Warning: Command \r invalid in math mode on input line 321.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 328.
+LaTeX Warning: Command \r invalid in math mode on input line 321.
 
 Package epstopdf Info: Source file: <fig6.eps>
 (epstopdf)                    date: 2020-05-13 13:53:17
@@ -577,165 +539,145 @@ Package epstopdf Info: Source file: <fig6.eps>
 (epstopdf)                    size: 52797 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig6-eps-converted-to.pdf 
 fig6.eps>
-(epstopdf)             \includegraphics on input line 332.
+(epstopdf)             \includegraphics on input line 325.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig6-eps-converted-to.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<fig6-eps-converted-to.pdf, id=121, 476.78125pt x 498.86375pt>
+<fig6-eps-converted-to.pdf, id=106, 476.78125pt x 498.86375pt>
 File: fig6-eps-converted-to.pdf Graphic file (type pdf)
 <use fig6-eps-converted-to.pdf>
-Package pdftex.def Info: fig6-eps-converted-to.pdf  used on input line 332.
+Package pdftex.def Info: fig6-eps-converted-to.pdf  used on input line 325.
 (pdftex.def)             Requested size: 244.69386pt x 256.0309pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 338.
+LaTeX Warning: Command \r invalid in math mode on input line 331.
 
-[9 <./Fcalcs-eps-converted-to.pdf>]
+[9 <./fig5-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 339.
+ on input line 332.
 
 [10 <./fig6-eps-converted-to.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 361.
+LaTeX Warning: Command \r invalid in math mode on input line 354.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 361.
+LaTeX Warning: Command \r invalid in math mode on input line 354.
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 377--380
+Underfull \hbox (badness 1077) in paragraph at lines 370--373
 \OT1/cmr/m/n/10 that nor-mal-iza-tion of the rel-a-tive den-sity of states
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 377--380
+Underfull \hbox (badness 1077) in paragraph at lines 370--373
 \OT1/cmr/m/n/10 to the ap-pro-pri-ate num-ber of con-fig-u-ra-tions is not
  []
 
-[11]
 Package epstopdf Info: Source file: <fig7a.eps>
-(epstopdf)                    date: 2020-06-08 14:58:17
-(epstopdf)                    size: 27997 bytes
+(epstopdf)                    date: 2020-10-06 10:55:54
+(epstopdf)                    size: 24647 bytes
 (epstopdf)             Output file: <fig7a-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 14:59:08
-(epstopdf)                    size: 9386 bytes
+(epstopdf)                    date: 2020-10-06 11:02:46
+(epstopdf)                    size: 9372 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig7a-eps-converted-to.pdf
  fig7a.eps>
-(epstopdf)             \includegraphics on input line 383.
+(epstopdf)             \includegraphics on input line 376.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig7a-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig7a-eps-converted-to.pdf, id=140, 738.76pt x 513.92pt>
+<fig7a-eps-converted-to.pdf, id=121, 744.7825pt x 513.92pt>
 File: fig7a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig7a-eps-converted-to.pdf>
-Package pdftex.def Info: fig7a-eps-converted-to.pdf  used on input line 383.
-(pdftex.def)             Requested size: 244.69386pt x 170.22145pt.
+Package pdftex.def Info: fig7a-eps-converted-to.pdf  used on input line 376.
+(pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
 Package epstopdf Info: Source file: <fig7b.eps>
-(epstopdf)                    date: 2020-06-08 14:58:32
-(epstopdf)                    size: 29367 bytes
+(epstopdf)                    date: 2020-10-06 10:56:25
+(epstopdf)                    size: 26862 bytes
 (epstopdf)             Output file: <fig7b-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 14:59:08
-(epstopdf)                    size: 9615 bytes
+(epstopdf)                    date: 2020-10-06 11:02:46
+(epstopdf)                    size: 9653 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig7b-eps-converted-to.pdf
  fig7b.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig7b-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig7b-eps-converted-to.pdf, id=141, 744.7825pt x 513.92pt>
+<fig7b-eps-converted-to.pdf, id=122, 744.7825pt x 513.92pt>
 File: fig7b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig7b-eps-converted-to.pdf>
-Package pdftex.def Info: fig7b-eps-converted-to.pdf  used on input line 385.
+Package pdftex.def Info: fig7b-eps-converted-to.pdf  used on input line 378.
 (pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
 Package epstopdf Info: Source file: <fig7c.eps>
-(epstopdf)                    date: 2020-06-08 14:58:57
-(epstopdf)                    size: 30948 bytes
+(epstopdf)                    date: 2020-10-06 11:02:18
+(epstopdf)                    size: 26399 bytes
 (epstopdf)             Output file: <fig7c-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 14:59:08
-(epstopdf)                    size: 10261 bytes
+(epstopdf)                    date: 2020-10-06 11:02:46
+(epstopdf)                    size: 9428 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig7c-eps-converted-to.pdf
  fig7c.eps>
-(epstopdf)             \includegraphics on input line 387.
+(epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig7c-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig7c-eps-converted-to.pdf, id=142, 750.805pt x 513.92pt>
+<fig7c-eps-converted-to.pdf, id=123, 744.7825pt x 513.92pt>
 File: fig7c-eps-converted-to.pdf Graphic file (type pdf)
 <use fig7c-eps-converted-to.pdf>
-Package pdftex.def Info: fig7c-eps-converted-to.pdf  used on input line 387.
-(pdftex.def)             Requested size: 244.69386pt x 167.48468pt.
+Package pdftex.def Info: fig7c-eps-converted-to.pdf  used on input line 380.
+(pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[11]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 385.
+
 Package epstopdf Info: Source file: <fig8a.eps>
-(epstopdf)                    date: 2020-06-08 14:36:14
-(epstopdf)                    size: 36809 bytes
+(epstopdf)                    date: 2020-10-06 11:21:59
+(epstopdf)                    size: 19422 bytes
 (epstopdf)             Output file: <fig8a-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 15:15:40
-(epstopdf)                    size: 16103 bytes
+(epstopdf)                    date: 2020-10-06 11:22:28
+(epstopdf)                    size: 10694 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig8a-eps-converted-to.pdf
  fig8a.eps>
-(epstopdf)             \includegraphics on input line 398.
+(epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig8a-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig8a-eps-converted-to.pdf, id=143, 709.65125pt x 517.935pt>
+<fig8a-eps-converted-to.pdf, id=128, 709.65125pt x 517.935pt>
 File: fig8a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig8a-eps-converted-to.pdf>
-Package pdftex.def Info: fig8a-eps-converted-to.pdf  used on input line 398.
+Package pdftex.def Info: fig8a-eps-converted-to.pdf  used on input line 391.
 (pdftex.def)             Requested size: 244.69386pt x 178.58502pt.
 Package epstopdf Info: Source file: <fig8b.eps>
-(epstopdf)                    date: 2020-06-08 15:15:30
-(epstopdf)                    size: 26150 bytes
+(epstopdf)                    date: 2020-10-06 11:22:19
+(epstopdf)                    size: 21193 bytes
 (epstopdf)             Output file: <fig8b-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 15:15:40
-(epstopdf)                    size: 12983 bytes
+(epstopdf)                    date: 2020-10-06 11:22:28
+(epstopdf)                    size: 10932 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig8b-eps-converted-to.pdf
  fig8b.eps>
-(epstopdf)             \includegraphics on input line 400.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig8b-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig8b-eps-converted-to.pdf, id=144, 703.62875pt x 497.86pt>
+<fig8b-eps-converted-to.pdf, id=129, 703.62875pt x 497.86pt>
 File: fig8b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig8b-eps-converted-to.pdf>
-Package pdftex.def Info: fig8b-eps-converted-to.pdf  used on input line 400.
+Package pdftex.def Info: fig8b-eps-converted-to.pdf  used on input line 393.
 (pdftex.def)             Requested size: 244.69386pt x 173.12929pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <fig9.eps>
-(epstopdf)                    date: 2020-06-08 15:20:14
-(epstopdf)                    size: 323872 bytes
+(epstopdf)                    date: 2020-10-06 11:39:51
+(epstopdf)                    size: 76202 bytes
 (epstopdf)             Output file: <fig9-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 15:20:21
-(epstopdf)                    size: 54662 bytes
+(epstopdf)                    date: 2020-10-06 11:40:04
+(epstopdf)                    size: 26247 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig9-eps-converted-to.pdf 
 fig9.eps>
-(epstopdf)             \includegraphics on input line 405.
+(epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig9-eps-converted-to.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<fig9-eps-converted-to.pdf, id=145, 744.7825pt x 513.92pt>
+<fig9-eps-converted-to.pdf, id=130, 744.7825pt x 513.92pt>
 File: fig9-eps-converted-to.pdf Graphic file (type pdf)
 <use fig9-eps-converted-to.pdf>
-Package pdftex.def Info: fig9-eps-converted-to.pdf  used on input line 405.
+Package pdftex.def Info: fig9-eps-converted-to.pdf  used on input line 398.
 (pdftex.def)             Requested size: 244.69386pt x 168.84131pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -744,207 +686,460 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 410.
+ on input line 403.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
-
- []
-
-Package epstopdf Info: Source file: <fig10a.eps>
-(epstopdf)                    date: 2020-05-13 13:53:17
-(epstopdf)                    size: 599930 bytes
-(epstopdf)             Output file: <fig10a-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-13 13:54:01
-(epstopdf)                    size: 264427 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig10a-eps-converted-to.pd
-f fig10a.eps>
-(epstopdf)             \includegraphics on input line 417.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig10a-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<fig10a-eps-converted-to.pdf, id=164, 769.87625pt x 473.77pt>
-File: fig10a-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10a-eps-converted-to.pdf>
-Package pdftex.def Info: fig10a-eps-converted-to.pdf  used on input line 417.
-(pdftex.def)             Requested size: 244.69386pt x 150.58296pt.
-Package epstopdf Info: Source file: <fig10b.eps>
-(epstopdf)                    date: 2020-05-13 13:53:17
-(epstopdf)                    size: 503108 bytes
-(epstopdf)             Output file: <fig10b-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-05-13 13:54:01
-(epstopdf)                    size: 189884 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig10b-eps-converted-to.pd
-f fig10b.eps>
-(epstopdf)             \includegraphics on input line 419.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig10b-eps-converted-to.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<fig10b-eps-converted-to.pdf, id=165, 714.67pt x 468.75125pt>
-File: fig10b-eps-converted-to.pdf Graphic file (type pdf)
-<use fig10b-eps-converted-to.pdf>
-Package pdftex.def Info: fig10b-eps-converted-to.pdf  used on input line 419.
-(pdftex.def)             Requested size: 244.69386pt x 160.49626pt.
-Package epstopdf Info: Source file: <fig11.eps>
-(epstopdf)                    date: 2020-06-08 15:24:40
-(epstopdf)                    size: 25634 bytes
-(epstopdf)             Output file: <fig11-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-08 15:24:52
-(epstopdf)                    size: 12697 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig11-eps-converted-to.pdf
- fig11.eps>
-(epstopdf)             \includegraphics on input line 424.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig11-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<fig11-eps-converted-to.pdf, id=166, 708.6475pt x 517.935pt>
-File: fig11-eps-converted-to.pdf Graphic file (type pdf)
-<use fig11-eps-converted-to.pdf>
-Package pdftex.def Info: fig11-eps-converted-to.pdf  used on input line 424.
-(pdftex.def)             Requested size: 244.69386pt x 178.83792pt.
 [13 <./fig8a-eps-converted-to.pdf> <./fig8b-eps-converted-to.pdf> <./fig9-eps-c
 onverted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 431.
-
-(./Manuscript.bbl [14 <./fig10a-eps-converted-to.pdf> <./fig10b-eps-converted-t
-o.pdf> <./fig11-eps-converted-to.pdf>]
-Underfull \hbox (badness 2050) in paragraph at lines 218--226
- []\OT1/cmr/m/n/9 R. E. Be-lar-dinelli and V. D. Pereyra, The Jour-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--226
- \OT1/cmr/m/n/9 nal of Chem-i-cal Physics \OT1/cmr/bx/n/9 127\OT1/cmr/m/n/9 , 1
-84105 (2007),
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 231--238
- []\OT1/cmr/m/n/9 M. Eisen-bach, D. M. Nichol-son, A. Ru-sanu,  and
- []
-
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ° in font cmr9!
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ≥ in font cmr9!
-Missing character: There is no ƒ in font cmr9!
-Missing character: There is no ± in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-Missing character: There is no ƒ in font cmr9!
-Missing character: There is no ± in font cmr9!
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no Å in font cmr9!
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--339
- \OT1/cmr/m/n/9 C. Bohnke, F. Le Berre,  and J.-L. Four-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--339
- \OT1/cmr/m/n/9 quet, Chem-istry of Ma-te-ri-als \OT1/cmr/bx/n/9 16\OT1/cmr/m/n
-/9 , 407 (2004),
- []
-
-
-Underfull \hbox (badness 4621) in paragraph at lines 344--349
- []\OT1/cmr/m/n/9 S. Stra-mare, V. Thangadu-rai,  and W. Wepp-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--349
- \OT1/cmr/m/n/9 ner, Chem-istry of Ma-te-ri-als \OT1/cmr/bx/n/9 15\OT1/cmr/m/n/
-9 , 3974 (2003),
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 352--357
- []\OT1/cmr/m/n/9 M. Catti, Chem-istry of Ma-te-ri-als \OT1/cmr/bx/n/9 19\OT1/c
-mr/m/n/9 , 3963 (2007),
- []
-
-Missing character: There is no √ in font cmr9!
-Missing character: There is no º in font cmr9!
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ≠ in font cmr9!
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ≥ in font cmr9!
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ° in font cmr9!
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ° in font cmr9!
-Missing character: There is no √ in font cmr9!
-Missing character: There is no ≠ in font cmr9!
-
-Underfull \hbox (badness 4193) in paragraph at lines 494--502
- []\OT1/cmr/m/n/9 J. A. Alonso, J. Sanz, J. San-ta-mara, C. Len,
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 494--502
- \OT1/cmr/m/n/9 A. Vrez,  and M. T. Fernndez-Daz, Ange-wandte
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--502
- \OT1/cmr/m/n/9 Chemie In-ter-na-tional Edi-tion \OT1/cmr/bx/n/9 39\OT1/cmr/m/n
-/9 , 619 (2000),
- []
-
-
-Overfull \hbox (45.6161pt too wide) in paragraph at lines 494--502
- \OT1/cmr/m/n/9 https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291521-
+Package epstopdf Info: Source file: <fig10a.eps>
+(epstopdf)                    date: 2020-10-06 15:03:24
+(epstopdf)                    size: 9452180 bytes
+(epstopdf)             Output file: <fig10a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 15:04:21
+(epstopdf)                    size: 573739 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig10a-eps-converted-to.pd
+f fig10a.eps>
+(epstopdf)             \includegraphics on input line 413.
+Package epstopdf Info: Output file is already uptodate.
+<fig10a-eps-converted-to.pdf, id=172, 1584.92125pt x 987.69pt>
+File: fig10a-eps-converted-to.pdf Graphic file (type pdf)
+<use fig10a-eps-converted-to.pdf>
+Package pdftex.def Info: fig10a-eps-converted-to.pdf  used on input line 413.
+(pdftex.def)             Requested size: 244.69386pt x 152.48753pt.
+Package epstopdf Info: Source file: <fig10b.eps>
+(epstopdf)                    date: 2020-10-06 15:03:54
+(epstopdf)                    size: 9452180 bytes
+(epstopdf)             Output file: <fig10b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 15:04:26
+(epstopdf)                    size: 504227 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig10b-eps-converted-to.pd
+f fig10b.eps>
+(epstopdf)             \includegraphics on input line 415.
+Package epstopdf Info: Output file is already uptodate.
+<fig10b-eps-converted-to.pdf, id=173, 1584.92125pt x 987.69pt>
+File: fig10b-eps-converted-to.pdf Graphic file (type pdf)
+<use fig10b-eps-converted-to.pdf>
+Package pdftex.def Info: fig10b-eps-converted-to.pdf  used on input line 415.
+(pdftex.def)             Requested size: 244.69386pt x 152.48753pt.
+Package epstopdf Info: Source file: <fig11.eps>
+(epstopdf)                    date: 2020-10-06 14:55:41
+(epstopdf)                    size: 21195 bytes
+(epstopdf)             Output file: <fig11-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-06 14:56:13
+(epstopdf)                    size: 10758 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig11-eps-converted-to.pdf
+ fig11.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+<fig11-eps-converted-to.pdf, id=174, 702.625pt x 524.96124pt>
+File: fig11-eps-converted-to.pdf Graphic file (type pdf)
+<use fig11-eps-converted-to.pdf>
+Package pdftex.def Info: fig11-eps-converted-to.pdf  used on input line 420.
+(pdftex.def)             Requested size: 244.69386pt x 182.81801pt.
+ [14 <./fig10a-eps-converted-to.pdf> <./fig10b-eps-converted-to.pdf> <./fig11-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig12.eps>
+(epstopdf)                    date: 2020-10-20 12:59:25
+(epstopdf)                    size: 174828 bytes
+(epstopdf)             Output file: <fig12-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-20 13:02:51
+(epstopdf)                    size: 32377 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig12-eps-converted-to.pdf
+ fig12.eps>
+(epstopdf)             \includegraphics on input line 431.
+Package epstopdf Info: Output file is already uptodate.
+<fig12-eps-converted-to.pdf, id=190, 769.87625pt x 489.83pt>
+File: fig12-eps-converted-to.pdf Graphic file (type pdf)
+<use fig12-eps-converted-to.pdf>
+Package pdftex.def Info: fig12-eps-converted-to.pdf  used on input line 431.
+(pdftex.def)             Requested size: 244.69386pt x 155.68745pt.
+ (./Manuscript.bbl
+Underfull \hbox (badness 1360) in paragraph at lines 9--14
+ \OT1/cmr/m/n/9 es-ti-ma-tion of par-ti-tion func-tions rep-re-sent-ing dis-or-
 
  []
 
+[15 <./fig12-eps-converted-to.pdf>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--502
- \OT1/cmr/m/n/9 3773%2820000204%2939%3A3%3C619%3A%3AAID-
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111   \mathrm
+               {Fe} and \mathrm{Fe}3\mathrm{C}.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111   \mathrm{Fe} and \mathrm
+                               {Fe}3\mathrm{C}.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111   \mathrm{Fe} and \mathrm{Fe}3\mathrm
+                                           {C}.
+? 
+
+Underfull \hbox (badness 2020) in paragraph at lines 109--113
+ []\OT1/cmr/m/n/9 M. Eisen-bach, D. M. Nichol-son, A. Ru-sanu, and
  []
 
-) [15] (./Manuscript.aux) ) 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 ...ctional monte-carlo simulation of \mathrm
+                                                  {CuZn}
+? 
+
+! Package inputenc Error: Unicode character ÃÅ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 J~Ibarra, A~V√°rez, C~Le√≥n, J~Santamarƒ±ÃÅ
+                                                 a, L.M Torres-Martƒ±ÃÅnez, and
+
+? 
+
+! Package inputenc Error: Unicode character ÃÅ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...√≥n, J~Santamarƒ±ÃÅa, L.M Torres-Martƒ±ÃÅ
+                                                  nez, and
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137   fast ionic conductors \mathrm
+                                     {La}2/3‚àíx\mathrm{Li}3x\mathrm{TiO}3
+? 
+
+! Package inputenc Error: Unicode character ‚àí (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137   fast ionic conductors \mathrm{La}2/3‚àí
+                                               x\mathrm{Li}3x\mathrm{TiO}3
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...onic conductors \mathrm{La}2/3‚àíx\mathrm
+                                                  {Li}3x\mathrm{TiO}3
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...rs \mathrm{La}2/3‚àíx\mathrm{Li}3x\mathrm
+                                                  {TiO}3
+? 
+
+! Package inputenc Error: Unicode character ‚â§ (U+2264)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138   (0.03‚â§
+                x‚â§0.167).
+? 
+
+! Package inputenc Error: Unicode character ‚â§ (U+2264)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138   (0.03‚â§x‚â§
+                    0.167).
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146   electrolyte (\mathrm
+                            {La},\mathrm{Li})\mathrm{TiO}3.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146   electrolyte (\mathrm{La},\mathrm
+                                        {Li})\mathrm{TiO}3.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...ctrolyte (\mathrm{La},\mathrm{Li})\mathrm
+                                                  {TiO}3.
+? 
+
+Underfull \hbox (badness 3343) in paragraph at lines 142--148
+ []\OT1/cmr/m/n/9 Hiroki Mori-wake, Xi-ang Gao, Ak-i-hide Kuwabara,
+ []
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152   \mathrm
+               {Li}0.5\mathrm{La}0.5\mathrm{TiO}3 ceramics via microwave sin...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152   \mathrm{Li}0.5\mathrm
+                             {La}0.5\mathrm{TiO}3 ceramics via microwave sin...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152   \mathrm{Li}0.5\mathrm{La}0.5\mathrm
+                                           {TiO}3 ceramics via microwave sin...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \newblock Peculiarities of \mathrm
+                                        {Li}0.5\mathrm{La}0.5\mathrm{TiO}3 f...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...ck Peculiarities of \mathrm{Li}0.5\mathrm
+                                                  {La}0.5\mathrm{TiO}3 forma...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...es of \mathrm{Li}0.5\mathrm{La}0.5\mathrm
+                                                  {TiO}3 formation
+? 
+
+! Package inputenc Error: Unicode character ‚Äâ (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \newblock Lithium lanthanum titanates:‚Äâ
+                                                a review.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 ...deling of lithium ordering in the \mathrm
+                                                  {LLTO}
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170   (\mathrm
+                {Li}x\mathrm{La}2/3-x/3\mathrm{TiO}3) superionic conductor.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170   (\mathrm{Li}x\mathrm
+                            {La}2/3-x/3\mathrm{TiO}3) superionic conductor.
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170   (\mathrm{Li}x\mathrm{La}2/3-x/3\mathrm
+                                              {TiO}3) superionic conductor.
+? 
+
+Underfull \hbox (badness 1297) in paragraph at lines 178--182
+ \OT1/cmr/m/n/9 dimensional vi-su-al-iza-tion of crys-tal, vol-u-met-ric and
+ []
+
+[16]
+Underfull \hbox (badness 1210) in paragraph at lines 256--262
+ \OT1/cmr/m/n/9 Oki, Takeshi To-jig-amori, Rong Huang, and Yuichi
+ []
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266 \newblock On the location of \mathrm
+                                          {Li}+ cations in the fast
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267   \mathrm
+               {Li}-cation conductor \mathrm{La}0.5\mathrm{Li}0.5\mathrm{TiO}3
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267   \mathrm{Li}-cation conductor \mathrm
+                                            {La}0.5\mathrm{Li}0.5\mathrm{TiO}3
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 ...i}-cation conductor \mathrm{La}0.5\mathrm
+                                                  {Li}0.5\mathrm{TiO}3
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 ...uctor \mathrm{La}0.5\mathrm{Li}0.5\mathrm
+                                                  {TiO}3
+? 
+) [17] (./Manuscript.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4818 strings out of 494805
- 67126 string characters out of 6177999
- 168648 words of memory out of 5000000
- 8053 multiletter control sequences out of 15000+600000
- 11755 words of font info for 46 fonts, out of 8000000 for 9000
+ 5270 strings out of 483065
+ 73282 string characters out of 5963550
+ 339878 words of memory out of 5000000
+ 20190 multiletter control sequences out of 15000+600000
+ 540453 words of font info for 56 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 42i,17n,29p,2840b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msam10.pfb>
-Output written on Manuscript.pdf (15 pages, 1324438 bytes).
+ 30i,17n,31p,3753b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb>
+Output written on Manuscript.pdf (17 pages, 1914198 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
